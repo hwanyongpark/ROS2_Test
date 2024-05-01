@@ -1,0 +1,20 @@
+[0.112s] Invoking command in '/home/yong/ws_kari/build/cbba': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/cbba -- -j16 -l16
+[0.150s] Invoked command in '/home/yong/ws_kari/build/cbba' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/cbba -- -j16 -l16
+[0.179s] Invoking command in '/home/yong/ws_kari/build/cbba': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/build/cbba
+[0.186s] -- Install configuration: ""
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/package_run_dependencies/cbba
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/parent_prefix_path/cbba
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.sh
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.dsv
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.sh
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.dsv
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.bash
+[0.186s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.sh
+[0.187s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.zsh
+[0.187s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.dsv
+[0.187s] -- Installing: /home/yong/ws_kari/install/cbba/share/cbba/package.dsv
+[0.187s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/packages/cbba
+[0.187s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig.cmake
+[0.187s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig-version.cmake
+[0.187s] -- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/package.xml
+[0.188s] Invoked command in '/home/yong/ws_kari/build/cbba' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/build/cbba

@@ -1,0 +1,47 @@
+[0.059s] Invoking command in '/home/yong/ws_kari/build/multi_agent_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16
+[0.105s] [  3%] Built target multi_agent_comm__cpp
+[0.107s] [  6%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.c.o[0m
+[0.114s] [  6%] Built target ament_cmake_python_copy_multi_agent_comm
+[0.121s] In file included from [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.h:19[m[K,
+[0.121s]                  from [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.c:4[m[K:
+[0.121s] [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.h: No such file or directory
+[0.121s]    24 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.h"[m[K
+[0.121s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.121s] compilation terminated.
+[0.121s] gmake[2]: *** [CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/build.make:105: CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.c.o] Error 1
+[0.122s] gmake[1]: *** [CMakeFiles/Makefile2:215: CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/all] Error 2
+[0.122s] gmake[1]: *** Waiting for unfinished jobs....
+[0.125s] [ 12%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp.o[0m
+[0.125s] [ 12%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp.o[0m
+[0.125s] [ 15%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp.o[0m
+[0.175s] In file included from [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp:7[m[K:
+[0.175s] [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_generator_cpp/multi_agent_comm/msg/detail/agent_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[0.175s]    20 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.hpp"[m[K
+[0.175s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.176s] compilation terminated.
+[0.177s] In file included from [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[0.177s]                  from [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp:4[m[K:
+[0.177s] [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_generator_cpp/multi_agent_comm/msg/detail/agent_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[0.177s]    20 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.hpp"[m[K
+[0.177s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.177s] compilation terminated.
+[0.177s] gmake[2]: *** [CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/build.make:86: CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp.o] Error 1
+[0.177s] gmake[1]: *** [CMakeFiles/Makefile2:397: CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/all] Error 2
+[0.178s] gmake[2]: *** [CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/build.make:91: CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp.o] Error 1
+[0.178s] gmake[1]: *** [CMakeFiles/Makefile2:293: CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[0.179s] In file included from [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp:12[m[K:
+[0.180s] [01m[K/home/yong/ws_kari/build/multi_agent_comm/rosidl_generator_cpp/multi_agent_comm/msg/detail/agent_message__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Kbuiltin_interfaces/msg/detail/time__struct.hpp: No such file or directory
+[0.180s]    20 | #include [01;31m[K"builtin_interfaces/msg/detail/time__struct.hpp"[m[K
+[0.180s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.180s] compilation terminated.
+[0.181s] gmake[2]: *** [CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/build.make:91: CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp.o] Error 1
+[0.182s] gmake[1]: *** [CMakeFiles/Makefile2:371: CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[0.284s] running egg_info
+[0.298s] writing multi_agent_comm.egg-info/PKG-INFO
+[0.298s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[0.299s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[0.339s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.339s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.369s] [ 15%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[0.370s] gmake: *** [Makefile:146: all] Error 2
+[0.372s] Invoked command in '/home/yong/ws_kari/build/multi_agent_comm' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16

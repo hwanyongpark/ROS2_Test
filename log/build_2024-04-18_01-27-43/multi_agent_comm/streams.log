@@ -1,0 +1,47 @@
+[0.063s] Invoking command in '/home/yong/ws_kari/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16
+[0.111s] [ 12%] Built target multi_agent_comm__rosidl_generator_c
+[0.112s] [ 12%] Built target multi_agent_comm__cpp
+[0.122s] [ 12%] Built target ament_cmake_python_copy_multi_agent_comm
+[0.133s] [ 30%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[0.133s] [ 30%] Built target multi_agent_comm__rosidl_typesupport_c
+[0.134s] [ 48%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[0.134s] [ 48%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[0.144s] [ 57%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[0.145s] [ 66%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target comm[0m
+[0.167s] [ 66%] Built target multi_agent_comm
+[0.177s] [ 69%] [32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o[0m
+[0.188s] [ 72%] Built target multi_agent_comm__py
+[0.210s] [ 78%] Built target multi_agent_comm__rosidl_generator_py
+[0.233s] [ 90%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[0.233s] [ 90%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[0.235s] [ 96%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[0.308s] running egg_info
+[0.322s] writing multi_agent_comm.egg-info/PKG-INFO
+[0.322s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[0.322s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[0.365s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.366s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.395s] [ 96%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[2.105s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:[m[K In member function ‘[01m[Kvoid AgentNode::topic_callback(multi_agent_comm::msg::AgentMessage_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.105s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:40:42:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Clock, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Clock[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.105s]    40 |         auto now = [01;31m[Kthis->get_clock()->now()[m[K;  // Use of now() inside a const function
+[2.105s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.105s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.106s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.106s]                  from [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:1[m[K:
+[2.106s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:80:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’
+[2.106s]    80 |   [01;36m[Know[m[K();
+[2.106s]       |   [01;36m[K^~~[m[K
+[4.029s] gmake[2]: *** [CMakeFiles/comm.dir/build.make:76: CMakeFiles/comm.dir/src/comm.cpp.o] Error 1
+[4.029s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/comm.dir/all] Error 2
+[4.030s] gmake: *** [Makefile:146: all] Error 2
+[4.032s] Invoked command in '/home/yong/ws_kari/build/multi_agent_comm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16

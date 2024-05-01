@@ -1,0 +1,54 @@
+[0.061s] Invoking command in '/home/yong/ws_kari/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16
+[0.108s] [  3%] Built target multi_agent_comm__cpp
+[0.109s] [ 12%] Built target multi_agent_comm__rosidl_generator_c
+[0.119s] [ 12%] Built target ament_cmake_python_copy_multi_agent_comm
+[0.130s] [ 48%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[0.130s] [ 48%] Built target multi_agent_comm__rosidl_typesupport_c
+[0.130s] [ 48%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[0.130s] [ 48%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[0.131s] [ 57%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[0.132s] [ 66%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[0.153s] [ 66%] Built target multi_agent_comm
+[0.155s] [ 69%] [32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o[0m
+[0.174s] [ 72%] Built target multi_agent_comm__py
+[0.196s] [ 78%] Built target multi_agent_comm__rosidl_generator_py
+[0.218s] [ 96%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[0.218s] [ 96%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[0.218s] [ 96%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[0.289s] running egg_info
+[0.303s] writing multi_agent_comm.egg-info/PKG-INFO
+[0.303s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[0.303s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[0.343s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.343s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.374s] [ 96%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[2.091s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:[m[K In lambda function:
+[2.091s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:21:43:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krclcpp::Time rclcpp::Node::now() const[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[2.091s]    21 |             std::chrono::nanoseconds ns = [01;31m[Know[m[K.nanoseconds();
+[2.091s]       |                                           [01;31m[K^~~[m[K
+[2.091s]       |                                              [32m[K()[m[K
+[2.101s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:[m[K In member function ‘[01m[Kvoid AgentNode::topic_callback(multi_agent_comm::msg::AgentMessage_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.101s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:41:42:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Clock, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Clock[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.101s]    41 |         auto now = [01;31m[Kthis->get_clock()->now()[m[K;
+[2.101s]       |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.101s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+[2.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+[2.101s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.102s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.102s]                  from [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:1[m[K:
+[2.102s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:80:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’
+[2.102s]    80 |   [01;36m[Know[m[K();
+[2.102s]       |   [01;36m[K^~~[m[K
+[2.103s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:42:54:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Krcl_time_point_value_t[m[K’ {aka ‘[01m[Klong int[m[K’} to non-scalar type ‘[01m[Kstd::chrono::nanoseconds[m[K’ {aka ‘[01m[Kstd::chrono::duration<long int, std::ratio<1, 1000000000> >[m[K’} requested
+[2.103s]    42 |         std::chrono::nanoseconds ns = [01;31m[Know.nanoseconds()[m[K;
+[2.103s]       |                                       [01;31m[K~~~~~~~~~~~~~~~^~[m[K
+[4.034s] gmake[2]: *** [CMakeFiles/comm.dir/build.make:76: CMakeFiles/comm.dir/src/comm.cpp.o] Error 1
+[4.034s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/comm.dir/all] Error 2
+[4.034s] gmake: *** [Makefile:146: all] Error 2
+[4.036s] Invoked command in '/home/yong/ws_kari/build/multi_agent_comm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16

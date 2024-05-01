@@ -1,0 +1,6 @@
+{
+  "package_name": "multi_agent_comm",
+  "non_idl_tuples": [
+    "/home/yong/ws_kari/src/multi_agent_comm:msg/AgentMessage.msg"
+  ]
+}

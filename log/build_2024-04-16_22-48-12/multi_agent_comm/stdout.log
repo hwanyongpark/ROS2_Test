@@ -1,0 +1,13 @@
+[  3%] Built target multi_agent_comm__cpp
+[  6%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.c.o[0m
+[  6%] Built target ament_cmake_python_copy_multi_agent_comm
+[ 12%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp.o[0m
+running egg_info
+writing multi_agent_comm.egg-info/PKG-INFO
+writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+writing top-level names to multi_agent_comm.egg-info/top_level.txt
+reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[ 15%] Built target ament_cmake_python_build_multi_agent_comm_egg

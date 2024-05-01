@@ -1,0 +1,263 @@
+[0.000000] (-) TimerEvent: {}
+[0.000404] (cbba) JobQueued: {'identifier': 'cbba', 'dependencies': OrderedDict()}
+[0.000521] (multi_agent_comm) JobQueued: {'identifier': 'multi_agent_comm', 'dependencies': OrderedDict()}
+[0.000589] (cbba) JobStarted: {'identifier': 'cbba'}
+[0.054954] (multi_agent_comm) JobStarted: {'identifier': 'multi_agent_comm'}
+[0.099807] (-) TimerEvent: {}
+[0.107949] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'cmake'}
+[0.108410] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'build'}
+[0.108928] (cbba) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/build/cbba', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/build/cbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/cbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble')]), 'shell': False}
+[0.111889] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'cmake'}
+[0.112373] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'build'}
+[0.112685] (multi_agent_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/build/multi_agent_comm', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/build/multi_agent_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/multi_agent_comm'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble')]), 'shell': False}
+[0.147559] (cbba) CommandEnded: {'returncode': 0}
+[0.160495] (multi_agent_comm) StdoutLine: {'line': b'[  7%] Built target multi_agent_comm__cpp\n'}
+[0.160724] (multi_agent_comm) StdoutLine: {'line': b'[ 10%] Built target multi_agent_comm__rosidl_generator_c\n'}
+[0.169119] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'install'}
+[0.170582] (multi_agent_comm) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_multi_agent_comm\n'}
+[0.178730] (cbba) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/build/cbba'], 'cwd': '/home/yong/ws_kari/build/cbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/cbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble')]), 'shell': False}
+[0.181269] (multi_agent_comm) StdoutLine: {'line': b'[ 28%] Built target multi_agent_comm__rosidl_typesupport_introspection_c\n'}
+[0.181489] (multi_agent_comm) StdoutLine: {'line': b'[ 28%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c\n'}
+[0.181610] (multi_agent_comm) StdoutLine: {'line': b'[ 33%] Built target multi_agent_comm__rosidl_typesupport_c\n'}
+[0.182852] (multi_agent_comm) StdoutLine: {'line': b'[ 43%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp\n'}
+[0.183026] (multi_agent_comm) StdoutLine: {'line': b'[ 48%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp\n'}
+[0.186510] (cbba) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.186697] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/package_run_dependencies/cbba\n'}
+[0.186800] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/parent_prefix_path/cbba\n'}
+[0.186867] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.sh\n'}
+[0.186933] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.dsv\n'}
+[0.187008] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.sh\n'}
+[0.187074] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.dsv\n'}
+[0.187125] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.bash\n'}
+[0.187175] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.sh\n'}
+[0.187226] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.zsh\n'}
+[0.187277] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.dsv\n'}
+[0.187364] (cbba) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/cbba/share/cbba/package.dsv\n'}
+[0.187426] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/packages/cbba\n'}
+[0.187481] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig.cmake\n'}
+[0.187531] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig-version.cmake\n'}
+[0.187581] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/package.xml\n'}
+[0.189255] (cbba) CommandEnded: {'returncode': 0}
+[0.192100] (multi_agent_comm) StdoutLine: {'line': b'[ 56%] Built target multi_agent_comm__rosidl_typesupport_cpp\n'}
+[0.200085] (-) TimerEvent: {}
+[0.204289] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_thread\x1b[0m\n'}
+[0.213672] (multi_agent_comm) StdoutLine: {'line': b'[ 56%] Built target multi_agent_comm\n'}
+[0.216999] (multi_agent_comm) StdoutLine: {'line': b'[ 71%] Built target count\n'}
+[0.217318] (multi_agent_comm) StdoutLine: {'line': b'[ 71%] Built target comm_qos\n'}
+[0.217598] (multi_agent_comm) StdoutLine: {'line': b'[ 71%] Built target comm\n'}
+[0.226163] (multi_agent_comm) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/multi_thread.dir/src/multi_thread.cpp.o\x1b[0m\n'}
+[0.234476] (multi_agent_comm) StdoutLine: {'line': b'[ 76%] Built target multi_agent_comm__py\n'}
+[0.256351] (multi_agent_comm) StdoutLine: {'line': b'[ 82%] Built target multi_agent_comm__rosidl_generator_py\n'}
+[0.277946] (multi_agent_comm) StdoutLine: {'line': b'[ 92%] Built target multi_agent_comm__rosidl_typesupport_c__pyext\n'}
+[0.278281] (multi_agent_comm) StdoutLine: {'line': b'[ 92%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext\n'}
+[0.278540] (multi_agent_comm) StdoutLine: {'line': b'[ 97%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.300501] (-) TimerEvent: {}
+[0.331217] (cbba) JobEnded: {'identifier': 'cbba', 'rc': 0}
+[0.354366] (multi_agent_comm) StdoutLine: {'line': b'running egg_info\n'}
+[0.368175] (multi_agent_comm) StdoutLine: {'line': b'writing multi_agent_comm.egg-info/PKG-INFO\n'}
+[0.368560] (multi_agent_comm) StdoutLine: {'line': b'writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt\n'}
+[0.368775] (multi_agent_comm) StdoutLine: {'line': b'writing top-level names to multi_agent_comm.egg-info/top_level.txt\n'}
+[0.400589] (-) TimerEvent: {}
+[0.407617] (multi_agent_comm) StdoutLine: {'line': b"reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[0.408115] (multi_agent_comm) StdoutLine: {'line': b"writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[0.435869] (multi_agent_comm) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_multi_agent_comm_egg\n'}
+[0.500681] (-) TimerEvent: {}
+[0.600931] (-) TimerEvent: {}
+[0.701201] (-) TimerEvent: {}
+[0.801473] (-) TimerEvent: {}
+[0.901755] (-) TimerEvent: {}
+[1.002022] (-) TimerEvent: {}
+[1.102307] (-) TimerEvent: {}
+[1.202576] (-) TimerEvent: {}
+[1.302843] (-) TimerEvent: {}
+[1.403118] (-) TimerEvent: {}
+[1.503366] (-) TimerEvent: {}
+[1.603634] (-) TimerEvent: {}
+[1.703904] (-) TimerEvent: {}
+[1.804153] (-) TimerEvent: {}
+[1.904425] (-) TimerEvent: {}
+[2.004690] (-) TimerEvent: {}
+[2.104969] (-) TimerEvent: {}
+[2.205235] (-) TimerEvent: {}
+[2.305490] (-) TimerEvent: {}
+[2.405766] (-) TimerEvent: {}
+[2.506049] (-) TimerEvent: {}
+[2.606315] (-) TimerEvent: {}
+[2.706564] (-) TimerEvent: {}
+[2.806839] (-) TimerEvent: {}
+[2.907129] (-) TimerEvent: {}
+[3.007409] (-) TimerEvent: {}
+[3.107678] (-) TimerEvent: {}
+[3.207948] (-) TimerEvent: {}
+[3.308211] (-) TimerEvent: {}
+[3.408467] (-) TimerEvent: {}
+[3.508738] (-) TimerEvent: {}
+[3.609013] (-) TimerEvent: {}
+[3.709266] (-) TimerEvent: {}
+[3.809526] (-) TimerEvent: {}
+[3.909816] (-) TimerEvent: {}
+[4.010117] (-) TimerEvent: {}
+[4.110397] (-) TimerEvent: {}
+[4.210662] (-) TimerEvent: {}
+[4.310951] (-) TimerEvent: {}
+[4.411225] (-) TimerEvent: {}
+[4.511516] (-) TimerEvent: {}
+[4.611781] (-) TimerEvent: {}
+[4.712027] (-) TimerEvent: {}
+[4.812287] (-) TimerEvent: {}
+[4.912529] (-) TimerEvent: {}
+[5.012768] (-) TimerEvent: {}
+[5.113029] (-) TimerEvent: {}
+[5.213288] (-) TimerEvent: {}
+[5.313546] (-) TimerEvent: {}
+[5.413803] (-) TimerEvent: {}
+[5.514059] (-) TimerEvent: {}
+[5.614330] (-) TimerEvent: {}
+[5.714618] (-) TimerEvent: {}
+[5.814895] (-) TimerEvent: {}
+[5.915162] (-) TimerEvent: {}
+[6.015424] (-) TimerEvent: {}
+[6.115688] (-) TimerEvent: {}
+[6.215974] (-) TimerEvent: {}
+[6.316235] (-) TimerEvent: {}
+[6.416486] (-) TimerEvent: {}
+[6.516744] (-) TimerEvent: {}
+[6.617039] (-) TimerEvent: {}
+[6.717326] (-) TimerEvent: {}
+[6.817597] (-) TimerEvent: {}
+[6.892118] (multi_agent_comm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable multi_thread\x1b[0m\n'}
+[6.917663] (-) TimerEvent: {}
+[7.017889] (-) TimerEvent: {}
+[7.118158] (-) TimerEvent: {}
+[7.218407] (-) TimerEvent: {}
+[7.249309] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target multi_thread\n'}
+[7.260611] (multi_agent_comm) CommandEnded: {'returncode': 0}
+[7.318490] (-) TimerEvent: {}
+[7.326149] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'install'}
+[7.326361] (multi_agent_comm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/build/multi_agent_comm'], 'cwd': '/home/yong/ws_kari/build/multi_agent_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/multi_agent_comm'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/opt/ros/humble')]), 'shell': False}
+[7.334253] (multi_agent_comm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.334393] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/ament_index/resource_index/rosidl_interfaces/multi_agent_comm\n'}
+[7.334504] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[7.334617] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[7.334724] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/agent_message.h\n'}
+[7.334820] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[7.334889] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__functions.h\n'}
+[7.334979] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.h\n'}
+[7.335048] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__struct.h\n'}
+[7.335135] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__functions.c\n'}
+[7.335246] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.335339] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/library_path.sh\n'}
+[7.335425] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/library_path.dsv\n'}
+[7.335512] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_c.so\n'}
+[7.335599] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[7.335711] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[7.335811] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[7.335922] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_c.h\n'}
+[7.336011] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.336080] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so\n'}
+[7.336168] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[7.336253] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[7.336395] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/agent_message.hpp\n'}
+[7.336511] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[7.336580] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__struct.hpp\n'}
+[7.336649] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__traits.hpp\n'}
+[7.336717] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__builder.hpp\n'}
+[7.336826] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[7.336894] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[7.336963] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[7.337031] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.337131] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/dds_fastrtps\n'}
+[7.337199] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.337315] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.337413] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[7.337481] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[7.337577] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[7.337647] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.c\n'}
+[7.337715] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_introspection_c.h\n'}
+[7.337784] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.337877] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_c.so\n'}
+[7.337947] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_c.so\n'}
+[7.338052] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[7.338157] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[7.338234] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[7.338303] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.cpp\n'}
+[7.338409] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.338481] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so\n'}
+[7.338577] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_cpp.so\n'}
+[7.338647] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/pythonpath.sh\n'}
+[7.338743] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/pythonpath.dsv\n'}
+[7.338830] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info\n'}
+[7.338924] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[7.339042] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[7.339168] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[7.339299] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[7.339389] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm\n'}
+[7.339459] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so\n'}
+[7.339528] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c\n'}
+[7.339596] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.339665] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.339734] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.339803] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/__init__.py\n'}
+[7.339877] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg\n'}
+[7.339945] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message_s.c\n'}
+[7.340013] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message.py\n'}
+[7.340082] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/__init__.py\n'}
+[7.340150] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.340218] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.364510] (multi_agent_comm) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm'...\n"}
+[7.364668] (multi_agent_comm) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg'...\n"}
+[7.368301] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.368569] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.368848] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.369199] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_py.so\n'}
+[7.369369] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/msg/AgentMessage.idl\n'}
+[7.369467] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/msg/AgentMessage.msg\n'}
+[7.369598] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/multi_agent_comm/comm\n'}
+[7.369904] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/multi_agent_comm/comm_qos\n'}
+[7.370209] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/lib/multi_agent_comm/count\n'}
+[7.370515] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/multi_agent_comm/lib/multi_agent_comm/multi_thread\n'}
+[7.376352] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/install/multi_agent_comm/lib/multi_agent_comm/multi_thread" to ""\n'}
+[7.376476] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/ament_index/resource_index/package_run_dependencies/multi_agent_comm\n'}
+[7.376600] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/ament_index/resource_index/parent_prefix_path/multi_agent_comm\n'}
+[7.376735] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/ament_prefix_path.sh\n'}
+[7.376840] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/ament_prefix_path.dsv\n'}
+[7.376933] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/path.sh\n'}
+[7.377003] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/environment/path.dsv\n'}
+[7.377071] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/local_setup.bash\n'}
+[7.377168] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/local_setup.sh\n'}
+[7.377277] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/local_setup.zsh\n'}
+[7.377372] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/local_setup.dsv\n'}
+[7.377464] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/package.dsv\n'}
+[7.377556] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/ament_index/resource_index/packages/multi_agent_comm\n'}
+[7.377668] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cExport.cmake\n'}
+[7.377778] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.377873] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.377982] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.378076] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cppExport.cmake\n'}
+[7.378187] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.378292] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.378397] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.378505] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.378630] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cExport.cmake\n'}
+[7.378742] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.378824] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.378895] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.378971] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cppExport.cmake\n'}
+[7.379040] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.379110] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_pyExport.cmake\n'}
+[7.379178] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.379248] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake-extras.cmake\n'}
+[7.379317] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.379394] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.379475] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.379544] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.379612] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.379681] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.379749] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_commConfig.cmake\n'}
+[7.379818] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_commConfig-version.cmake\n'}
+[7.379887] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/multi_agent_comm/share/multi_agent_comm/package.xml\n'}
+[7.381090] (multi_agent_comm) CommandEnded: {'returncode': 0}
+[7.418573] (-) TimerEvent: {}
+[7.518852] (-) TimerEvent: {}
+[7.565559] (multi_agent_comm) JobEnded: {'identifier': 'multi_agent_comm', 'rc': 0}
+[7.566155] (-) EventReactorShutdown: {}

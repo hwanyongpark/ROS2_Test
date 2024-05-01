@@ -1,0 +1,231 @@
+[0.000000] (-) TimerEvent: {}
+[0.000434] (cbba) JobQueued: {'identifier': 'cbba', 'dependencies': OrderedDict()}
+[0.000563] (multi_agent_comm) JobQueued: {'identifier': 'multi_agent_comm', 'dependencies': OrderedDict()}
+[0.000637] (cbba) JobStarted: {'identifier': 'cbba'}
+[0.053001] (multi_agent_comm) JobStarted: {'identifier': 'multi_agent_comm'}
+[0.094272] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'cmake'}
+[0.094928] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'build'}
+[0.095476] (cbba) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/build/cbba', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/build/cbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2044'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1833,unix/yong-desktop:/tmp/.ICE-unix/1833'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/051a5552_f4b9_4fd5_a255_157e2c66cf2e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8JW5L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/cbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098542] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'cmake'}
+[0.099021] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'build'}
+[0.099343] (multi_agent_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/build/multi_agent_comm', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/build/multi_agent_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2044'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1833,unix/yong-desktop:/tmp/.ICE-unix/1833'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/051a5552_f4b9_4fd5_a255_157e2c66cf2e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8JW5L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/multi_agent_comm'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.101056] (-) TimerEvent: {}
+[0.122150] (multi_agent_comm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.136001] (cbba) CommandEnded: {'returncode': 0}
+[0.155307] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'install'}
+[0.163159] (cbba) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/build/cbba'], 'cwd': '/home/yong/ws_kari/build/cbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2044'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1833,unix/yong-desktop:/tmp/.ICE-unix/1833'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/051a5552_f4b9_4fd5_a255_157e2c66cf2e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8JW5L2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/cbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.170408] (cbba) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.170669] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/package_run_dependencies/cbba\n'}
+[0.170766] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/parent_prefix_path/cbba\n'}
+[0.170823] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.sh\n'}
+[0.170877] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.dsv\n'}
+[0.170930] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.sh\n'}
+[0.171007] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.dsv\n'}
+[0.171057] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.bash\n'}
+[0.171126] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.sh\n'}
+[0.171209] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.zsh\n'}
+[0.171260] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.dsv\n'}
+[0.171308] (cbba) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/cbba/share/cbba/package.dsv\n'}
+[0.171357] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/packages/cbba\n'}
+[0.171406] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig.cmake\n'}
+[0.171455] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig-version.cmake\n'}
+[0.171503] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/package.xml\n'}
+[0.172801] (cbba) CommandEnded: {'returncode': 0}
+[0.201191] (-) TimerEvent: {}
+[0.246444] (multi_agent_comm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.272145] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.274105] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.279241] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.288452] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.291767] (cbba) JobEnded: {'identifier': 'cbba', 'rc': 0}
+[0.301293] (-) TimerEvent: {}
+[0.301484] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.348336] (multi_agent_comm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.349266] (multi_agent_comm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.401376] (-) TimerEvent: {}
+[0.465745] (multi_agent_comm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.501469] (-) TimerEvent: {}
+[0.597112] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.601529] (-) TimerEvent: {}
+[0.701725] (-) TimerEvent: {}
+[0.800365] (multi_agent_comm) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.801778] (-) TimerEvent: {}
+[0.901952] (-) TimerEvent: {}
+[1.002190] (-) TimerEvent: {}
+[1.046559] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.102278] (-) TimerEvent: {}
+[1.143106] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.161354] (multi_agent_comm) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.179863] (multi_agent_comm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.179974] (multi_agent_comm) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.180028] (multi_agent_comm) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.194349] (multi_agent_comm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.202332] (-) TimerEvent: {}
+[1.225699] (multi_agent_comm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.229168] (multi_agent_comm) StdoutLine: {'line': b'-- Build files have been written to: /home/yong/ws_kari/build/multi_agent_comm\n'}
+[1.255467] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_generator_c\x1b[0m\n'}
+[1.264586] (multi_agent_comm) StdoutLine: {'line': b'[  3%] Built target multi_agent_comm__cpp\n'}
+[1.265812] (multi_agent_comm) StdoutLine: {'line': b'[ 12%] Built target multi_agent_comm__rosidl_generator_c\n'}
+[1.273744] (multi_agent_comm) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_multi_agent_comm\n'}
+[1.274014] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.274141] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.274224] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.274609] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.275785] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_c\x1b[0m\n'}
+[1.276096] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.284056] (multi_agent_comm) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o\x1b[0m\n'}
+[1.286813] (multi_agent_comm) StdoutLine: {'line': b'[ 24%] Built target multi_agent_comm__rosidl_typesupport_c\n'}
+[1.287906] (multi_agent_comm) StdoutLine: {'line': b'[ 33%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp\n'}
+[1.288171] (multi_agent_comm) StdoutLine: {'line': b'[ 60%] Built target multi_agent_comm__rosidl_typesupport_introspection_c\n'}
+[1.288282] (multi_agent_comm) StdoutLine: {'line': b'[ 60%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c\n'}
+[1.288355] (multi_agent_comm) StdoutLine: {'line': b'[ 60%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp\n'}
+[1.289418] (multi_agent_comm) StdoutLine: {'line': b'[ 69%] Built target multi_agent_comm__rosidl_typesupport_cpp\n'}
+[1.302451] (-) TimerEvent: {}
+[1.307973] (multi_agent_comm) StdoutLine: {'line': b'[ 69%] Built target multi_agent_comm\n'}
+[1.327050] (multi_agent_comm) StdoutLine: {'line': b'[ 72%] Built target multi_agent_comm__py\n'}
+[1.345884] (multi_agent_comm) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_py.dir/rosidl_generator_py/multi_agent_comm/msg/_agent_message_s.c.o\x1b[0m\n'}
+[1.402581] (-) TimerEvent: {}
+[1.435213] (multi_agent_comm) StdoutLine: {'line': b'running egg_info\n'}
+[1.448567] (multi_agent_comm) StdoutLine: {'line': b'writing multi_agent_comm.egg-info/PKG-INFO\n'}
+[1.449033] (multi_agent_comm) StdoutLine: {'line': b'writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt\n'}
+[1.449245] (multi_agent_comm) StdoutLine: {'line': b'writing top-level names to multi_agent_comm.egg-info/top_level.txt\n'}
+[1.461733] (multi_agent_comm) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so\x1b[0m\n'}
+[1.486933] (multi_agent_comm) StdoutLine: {'line': b"reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[1.487431] (multi_agent_comm) StdoutLine: {'line': b"writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[1.501875] (multi_agent_comm) StdoutLine: {'line': b'[ 78%] Built target multi_agent_comm__rosidl_generator_py\n'}
+[1.502643] (-) TimerEvent: {}
+[1.519618] (multi_agent_comm) StdoutLine: {'line': b'[ 78%] Built target ament_cmake_python_build_multi_agent_comm_egg\n'}
+[1.522621] (multi_agent_comm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.522780] (multi_agent_comm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.522861] (multi_agent_comm) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.602746] (-) TimerEvent: {}
+[1.612775] (multi_agent_comm) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.616854] (multi_agent_comm) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.617056] (multi_agent_comm) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.650070] (multi_agent_comm) StdoutLine: {'line': b'[ 96%] Built target multi_agent_comm__rosidl_typesupport_c__pyext\n'}
+[1.652238] (multi_agent_comm) StdoutLine: {'line': b'[ 96%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.652768] (multi_agent_comm) StdoutLine: {'line': b'[ 96%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext\n'}
+[1.702845] (-) TimerEvent: {}
+[1.803114] (-) TimerEvent: {}
+[1.903365] (-) TimerEvent: {}
+[2.003643] (-) TimerEvent: {}
+[2.103932] (-) TimerEvent: {}
+[2.204180] (-) TimerEvent: {}
+[2.304451] (-) TimerEvent: {}
+[2.404723] (-) TimerEvent: {}
+[2.504995] (-) TimerEvent: {}
+[2.605240] (-) TimerEvent: {}
+[2.705476] (-) TimerEvent: {}
+[2.805719] (-) TimerEvent: {}
+[2.905981] (-) TimerEvent: {}
+[3.006243] (-) TimerEvent: {}
+[3.106514] (-) TimerEvent: {}
+[3.206795] (-) TimerEvent: {}
+[3.252363] (multi_agent_comm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.252526] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.252580] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.252629] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.252677] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.252748] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.252799] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.252847] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.252895] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.252951] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.253003] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.253052] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:1\x1b[m\x1b[K:\n'}
+[3.253098] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[3.253146] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:21:45:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.253198] (multi_agent_comm) StderrLine: {'line': b'   21 |             RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Publishing: \'%d, %s, %ld\'"\x1b[m\x1b[K, message.agent_id, message.status.c_str(), \x1b[32m\x1b[Kmessage.timestamp.nanosec\x1b[m\x1b[K);\n'}
+[3.253248] (multi_agent_comm) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                            \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.253297] (multi_agent_comm) StderrLine: {'line': b'      |                                                                                                                                      \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.253351] (multi_agent_comm) StderrLine: {'line': b'      |                                                                                                                                      \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type {aka unsigned int}\x1b[m\x1b[K\n'}
+[3.253400] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:21:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.253449] (multi_agent_comm) StderrLine: {'line': b'   21 |             RCLCPP_INFO(this->get_logger(), "Publishing: \'%d, %s, \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K\'", message.agent_id, message.status.c_str(), message.timestamp.nanosec);\n'}
+[3.253498] (multi_agent_comm) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[3.253546] (multi_agent_comm) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.253594] (multi_agent_comm) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[3.253641] (multi_agent_comm) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[3.260375] (multi_agent_comm) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.260495] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.260544] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.260592] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.260652] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.260700] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.260748] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.260795] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.260842] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.260890] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.260944] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.260992] (multi_agent_comm) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:1\x1b[m\x1b[K:\n'}
+[3.261044] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AgentNode::topic_callback(multi_agent_comm::msg::AgentMessage_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.261094] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:34:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%ld\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.261145] (multi_agent_comm) StderrLine: {'line': b'   34 |         RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Heard: \'%d, %s, %ld\'"\x1b[m\x1b[K, msg->agent_id, msg->status.c_str(), \x1b[32m\x1b[Kmsg->timestamp.nanosec\x1b[m\x1b[K);\n'}
+[3.261194] (multi_agent_comm) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                      \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.261241] (multi_agent_comm) StderrLine: {'line': b'      |                                                                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[3.261289] (multi_agent_comm) StderrLine: {'line': b'      |                                                                                                                    \x1b[32m\x1b[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_nanosec_type {aka unsigned int}\x1b[m\x1b[K\n'}
+[3.261337] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:34:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.261386] (multi_agent_comm) StderrLine: {'line': b'   34 |         RCLCPP_INFO(this->get_logger(), "Heard: \'%d, %s, \x1b[01;36m\x1b[K%ld\x1b[m\x1b[K\'", msg->agent_id, msg->status.c_str(), msg->timestamp.nanosec);\n'}
+[3.261434] (multi_agent_comm) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[3.261482] (multi_agent_comm) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.261540] (multi_agent_comm) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[Klong int\x1b[m\x1b[K\n'}
+[3.261587] (multi_agent_comm) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K%d\x1b[m\x1b[K\n'}
+[3.306874] (-) TimerEvent: {}
+[3.407118] (-) TimerEvent: {}
+[3.507383] (-) TimerEvent: {}
+[3.607639] (-) TimerEvent: {}
+[3.707902] (-) TimerEvent: {}
+[3.808163] (-) TimerEvent: {}
+[3.908428] (-) TimerEvent: {}
+[4.008692] (-) TimerEvent: {}
+[4.108957] (-) TimerEvent: {}
+[4.209219] (-) TimerEvent: {}
+[4.309479] (-) TimerEvent: {}
+[4.409722] (-) TimerEvent: {}
+[4.509988] (-) TimerEvent: {}
+[4.610254] (-) TimerEvent: {}
+[4.710520] (-) TimerEvent: {}
+[4.810806] (-) TimerEvent: {}
+[4.911076] (-) TimerEvent: {}
+[5.011364] (-) TimerEvent: {}
+[5.111634] (-) TimerEvent: {}
+[5.211904] (-) TimerEvent: {}
+[5.312186] (-) TimerEvent: {}
+[5.412462] (-) TimerEvent: {}
+[5.512716] (-) TimerEvent: {}
+[5.612977] (-) TimerEvent: {}
+[5.713239] (-) TimerEvent: {}
+[5.813476] (-) TimerEvent: {}
+[5.913707] (-) TimerEvent: {}
+[6.013941] (-) TimerEvent: {}
+[6.114179] (-) TimerEvent: {}
+[6.214415] (-) TimerEvent: {}
+[6.314664] (-) TimerEvent: {}
+[6.414902] (-) TimerEvent: {}
+[6.515137] (-) TimerEvent: {}
+[6.615376] (-) TimerEvent: {}
+[6.715640] (-) TimerEvent: {}
+[6.815897] (-) TimerEvent: {}
+[6.916138] (-) TimerEvent: {}
+[7.016402] (-) TimerEvent: {}
+[7.116667] (-) TimerEvent: {}
+[7.216928] (-) TimerEvent: {}
+[7.317191] (-) TimerEvent: {}
+[7.417453] (-) TimerEvent: {}
+[7.517733] (-) TimerEvent: {}
+[7.618009] (-) TimerEvent: {}
+[7.718305] (-) TimerEvent: {}
+[7.818587] (-) TimerEvent: {}
+[7.824946] (multi_agent_comm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable comm\x1b[0m\n'}
+[7.918689] (-) TimerEvent: {}
+[8.018964] (-) TimerEvent: {}
+[8.119242] (-) TimerEvent: {}
+[8.147521] (multi_agent_comm) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/comm.dir/src/comm.cpp.o: in function `std::enable_if<rosidl_generator_traits::is_message<multi_agent_comm::msg::AgentMessage_<std::allocator<void> > >::value, rosidl_message_type_support_t const&>::type rclcpp::get_message_type_support_handle<multi_agent_comm::msg::AgentMessage_<std::allocator<void> > >()':\n"}
+[8.147671] (multi_agent_comm) StderrLine: {'line': b"comm.cpp:(.text._ZN6rclcpp31get_message_type_support_handleIN16multi_agent_comm3msg13AgentMessage_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv[_ZN6rclcpp31get_message_type_support_handleIN16multi_agent_comm3msg13AgentMessage_ISaIvEEEEENSt9enable_ifIXsrN23rosidl_generator_traits10is_messageIT_EE5valueERK29rosidl_message_type_support_tE4typeEv]+0x10): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<multi_agent_comm::msg::AgentMessage_<std::allocator<void> > >()'\n"}
+[8.188378] (multi_agent_comm) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[8.190256] (multi_agent_comm) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/comm.dir/build.make:151: comm] Error 1\n'}
+[8.190495] (multi_agent_comm) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/comm.dir/all] Error 2\n'}
+[8.190774] (multi_agent_comm) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.192812] (multi_agent_comm) CommandEnded: {'returncode': 2}
+[8.219333] (-) TimerEvent: {}
+[8.285687] (multi_agent_comm) JobEnded: {'identifier': 'multi_agent_comm', 'rc': 2}
+[8.296192] (-) EventReactorShutdown: {}

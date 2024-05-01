@@ -1,0 +1,28 @@
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:[m[K In member function ‘[01m[Kvoid AgentNode::topic_callback(multi_agent_comm::msg::AgentMessage_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:46:42:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kstd::__shared_ptr_access<const rclcpp::Clock, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kconst rclcpp::Clock[m[K’} as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   46 |         auto now = [01;31m[Kthis->get_clock()->now()[m[K; // 메시지를 받은 시점의 현재 시간
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:27[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:80:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krclcpp::Time rclcpp::Clock::now()[m[K’
+   80 |   [01;36m[Know[m[K();
+      |   [01;36m[K^~~[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:54:81:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%u[m[K’ expects argument of type ‘[01m[Kunsigned int[m[K’, but argument 3 has type ‘[01m[Klong int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   54 |         std::sprintf(formatted_time_now + std::strlen(formatted_time_now), ".[01;35m[K%03u[m[K", [32m[Kmilliseconds_now[m[K);
+      |                                                                              [01;35m[K~~~^[m[K   [32m[K~~~~~~~~~~~~~~~~[m[K
+      |                                                                                 [01;35m[K|[m[K   [32m[K|[m[K
+      |                                                                                 [01;35m[K|[m[K   [32m[Klong int[m[K
+      |                                                                                 [01;35m[Kunsigned int[m[K
+      |                                                                              [32m[K%03lu[m[K
+gmake[2]: *** [CMakeFiles/comm.dir/build.make:76: CMakeFiles/comm.dir/src/comm.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/comm.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

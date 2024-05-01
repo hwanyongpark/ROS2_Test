@@ -1,0 +1,49 @@
+[0.061s] Invoking command in '/home/yong/ws_kari/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16
+[0.107s] [  2%] Built target multi_agent_comm__cpp
+[0.108s] [  9%] Built target multi_agent_comm__rosidl_generator_c
+[0.117s] [  9%] Built target ament_cmake_python_copy_multi_agent_comm
+[0.129s] [ 17%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[0.130s] [ 24%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[0.132s] [ 31%] Built target multi_agent_comm__rosidl_typesupport_c
+[0.132s] [ 43%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[0.132s] [ 46%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[0.134s] [ 53%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[0.146s] [35m[1mConsolidate compiler generated dependencies of target self_loop[0m
+[0.156s] [ 53%] Built target multi_agent_comm
+[0.160s] [ 68%] Built target comm
+[0.160s] [ 68%] Built target comm_qos
+[0.160s] [ 68%] Built target multi_thread1
+[0.161s] [ 73%] Built target count
+[0.167s] [ 75%] [32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o[0m
+[0.177s] [ 78%] Built target multi_agent_comm__py
+[0.200s] [ 82%] Built target multi_agent_comm__rosidl_generator_py
+[0.222s] [ 92%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[0.222s] [ 92%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[0.223s] [ 97%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[0.302s] running egg_info
+[0.316s] writing multi_agent_comm.egg-info/PKG-INFO
+[0.316s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[0.316s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[0.355s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.356s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.383s] [ 97%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[2.219s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.220s]                  from [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/self_loop.cpp:1[m[K:
+[2.220s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/self_loop.cpp:[m[K In member function ‘[01m[Kvoid AgentNode::topic_callback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.220s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/self_loop.cpp:57:103:[m[K [01;31m[Kerror: [m[Kincrement of member ‘[01m[KAgentNode::count[m[K’ in read-only object
+[2.220s]    57 |         RCLCPP_INFO(this->get_logger(), "Heard: '%d at %s, %d'", msg->data, formatted_pre_sleep_time, [01;31m[Kcount[m[K++);
+[2.220s]       |                                                                                                       [01;31m[K^~~~~[m[K
+[4.134s] gmake[2]: *** [CMakeFiles/self_loop.dir/build.make:76: CMakeFiles/self_loop.dir/src/self_loop.cpp.o] Error 1
+[4.134s] gmake[1]: *** [CMakeFiles/Makefile2:709: CMakeFiles/self_loop.dir/all] Error 2
+[4.134s] gmake: *** [Makefile:146: all] Error 2
+[4.136s] Invoked command in '/home/yong/ws_kari/build/multi_agent_comm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16

@@ -1,0 +1,7 @@
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/self_loop.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/int8.hpp: No such file or directory
+    7 | #include [01;31m[K<std_msgs/int8.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/self_loop.dir/build.make:76: CMakeFiles/self_loop.dir/src/self_loop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:709: CMakeFiles/self_loop.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

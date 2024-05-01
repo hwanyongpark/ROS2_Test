@@ -1,0 +1,35 @@
+[  2%] Built target multi_agent_comm__cpp
+[  9%] Built target multi_agent_comm__rosidl_generator_c
+[  9%] Built target ament_cmake_python_copy_multi_agent_comm
+[ 24%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[ 24%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[ 31%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[ 53%] Built target multi_agent_comm__rosidl_typesupport_c
+[ 53%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[ 56%] [32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o[0m
+[ 56%] Built target multi_agent_comm
+[ 63%] Built target multi_thread1
+[ 65%] Built target comm
+[ 70%] Built target comm_qos
+[ 75%] Built target count
+[ 78%] Built target multi_agent_comm__py
+[ 82%] Built target multi_agent_comm__rosidl_generator_py
+[ 97%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+running egg_info
+writing multi_agent_comm.egg-info/PKG-INFO
+writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+writing top-level names to multi_agent_comm.egg-info/top_level.txt
+reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/self_loop.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/int8.hpp: No such file or directory
+    7 | #include [01;31m[K<std_msgs/msg/int8.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/self_loop.dir/build.make:76: CMakeFiles/self_loop.dir/src/self_loop.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:709: CMakeFiles/self_loop.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 97%] Built target ament_cmake_python_build_multi_agent_comm_egg
+gmake: *** [Makefile:146: all] Error 2

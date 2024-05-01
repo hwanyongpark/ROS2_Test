@@ -1,0 +1,35 @@
+[  9%] Built target multi_agent_comm__cpp
+[ 12%] Built target multi_agent_comm__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_multi_agent_comm
+[ 33%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[ 33%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[ 39%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[ 54%] Built target multi_agent_comm__rosidl_typesupport_c
+[ 66%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[ 66%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target comm[0m
+[ 66%] Built target multi_agent_comm
+[ 69%] [32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o[0m
+[ 72%] Built target multi_agent_comm__py
+[ 78%] Built target multi_agent_comm__rosidl_generator_py
+[ 96%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[ 96%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+running egg_info
+writing multi_agent_comm.egg-info/PKG-INFO
+writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+writing top-level names to multi_agent_comm.egg-info/top_level.txt
+reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:[m[K In lambda function:
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:22:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _timestamp_type = struct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kmillisec[m[K’
+   22 |             std::time_t raw_time = message.timestamp.[01;31m[Kmillisec[m[K;
+      |                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:23:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _timestamp_type = struct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knanoseconds[m[K’; did you mean ‘[01m[Knanosec[m[K’?
+   23 |             auto milliseconds = message.timestamp.[01;31m[Knanoseconds[m[K() % 1000000000 / 1000000;
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[Knanosec[m[K
+gmake[2]: *** [CMakeFiles/comm.dir/build.make:76: CMakeFiles/comm.dir/src/comm.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/comm.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

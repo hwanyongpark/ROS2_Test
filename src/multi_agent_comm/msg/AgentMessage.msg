@@ -1,0 +1,4 @@
+int32 agent_id
+string status
+builtin_interfaces/Time timestamp
+string formatted_time

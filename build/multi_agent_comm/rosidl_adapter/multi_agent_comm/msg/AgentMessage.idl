@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from multi_agent_comm/msg/AgentMessage.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module multi_agent_comm {
+  module msg {
+    struct AgentMessage {
+      int32 agent_id;
+
+      string status;
+
+      builtin_interfaces::msg::Time timestamp;
+
+      string formatted_time;
+    };
+  };
+};

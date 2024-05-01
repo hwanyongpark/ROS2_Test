@@ -1,0 +1,36 @@
+[0.061s] Invoking command in '/home/yong/ws_kari/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16
+[0.108s] [  2%] Built target multi_agent_comm__cpp
+[0.111s] [  9%] Built target multi_agent_comm__rosidl_generator_c
+[0.118s] [  9%] Built target ament_cmake_python_copy_multi_agent_comm
+[0.130s] [ 24%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[0.130s] [ 24%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[0.130s] [ 31%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[0.133s] [ 46%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[0.133s] [ 46%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[0.134s] [ 53%] Built target multi_agent_comm__rosidl_typesupport_c
+[0.154s] [ 56%] [32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o[0m
+[0.156s] [ 65%] Built target comm
+[0.156s] [ 65%] Built target comm_qos
+[0.156s] [ 68%] Built target multi_agent_comm
+[0.156s] [ 70%] Built target count
+[0.157s] [ 75%] Built target multi_thread1
+[0.178s] [ 78%] Built target multi_agent_comm__py
+[0.199s] [ 82%] Built target multi_agent_comm__rosidl_generator_py
+[0.221s] [ 97%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[0.221s] [ 97%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[0.222s] [ 97%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[0.291s] running egg_info
+[0.304s] writing multi_agent_comm.egg-info/PKG-INFO
+[0.304s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[0.305s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[0.343s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.343s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[0.372s] [ 97%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[0.383s] [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/self_loop.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/int8.hpp: No such file or directory
+[0.383s]     7 | #include [01;31m[K<std_msgs/int8.hpp>[m[K
+[0.383s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.383s] compilation terminated.
+[0.387s] gmake[2]: *** [CMakeFiles/self_loop.dir/build.make:76: CMakeFiles/self_loop.dir/src/self_loop.cpp.o] Error 1
+[0.387s] gmake[1]: *** [CMakeFiles/Makefile2:709: CMakeFiles/self_loop.dir/all] Error 2
+[0.387s] gmake: *** [Makefile:146: all] Error 2
+[0.389s] Invoked command in '/home/yong/ws_kari/build/multi_agent_comm' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/build/multi_agent_comm -- -j16 -l16

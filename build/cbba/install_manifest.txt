@@ -1,0 +1,15 @@
+/home/yong/ws_kari/install/cbba/share/ament_index/resource_index/package_run_dependencies/cbba
+/home/yong/ws_kari/install/cbba/share/ament_index/resource_index/parent_prefix_path/cbba
+/home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.sh
+/home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.dsv
+/home/yong/ws_kari/install/cbba/share/cbba/environment/path.sh
+/home/yong/ws_kari/install/cbba/share/cbba/environment/path.dsv
+/home/yong/ws_kari/install/cbba/share/cbba/local_setup.bash
+/home/yong/ws_kari/install/cbba/share/cbba/local_setup.sh
+/home/yong/ws_kari/install/cbba/share/cbba/local_setup.zsh
+/home/yong/ws_kari/install/cbba/share/cbba/local_setup.dsv
+/home/yong/ws_kari/install/cbba/share/cbba/package.dsv
+/home/yong/ws_kari/install/cbba/share/ament_index/resource_index/packages/cbba
+/home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig.cmake
+/home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig-version.cmake
+/home/yong/ws_kari/install/cbba/share/cbba/package.xml

@@ -1,0 +1,43 @@
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:[m[K In lambda function:
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ is not captured
+   39 |             [01;31m[Kcount[m[K = count + 1;
+      |             [01;31m[K^~~~~[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:38:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   38 |         auto timer_callback2= [this[01;36m[K][m[K() -> void {
+      |                                    [01;36m[K^[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:16:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint count[m[K’ declared here
+   16 |         int [01;36m[Kcount[m[K = 0;
+      |             [01;36m[K^~~~~[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:39:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ is not captured
+   39 |             count = [01;31m[Kcount[m[K + 1;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:38:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   38 |         auto timer_callback2= [this[01;36m[K][m[K() -> void {
+      |                                    [01;36m[K^[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:16:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint count[m[K’ declared here
+   16 |         int [01;36m[Kcount[m[K = 0;
+      |             [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:1[m[K:
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:41:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ is not captured
+   41 |             RCLCPP_INFO(this->get_logger(), "Counting: '%d'", [01;31m[Kcount[m[K);
+      |                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:38:36:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   38 |         auto timer_callback2= [this[01;36m[K][m[K() -> void {
+      |                                    [01;36m[K^[m[K
+[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:16:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint count[m[K’ declared here
+   16 |         int [01;36m[Kcount[m[K = 0;
+      |             [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/count.dir/build.make:76: CMakeFiles/count.dir/src/count.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/count.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

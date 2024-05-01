@@ -1,0 +1,27 @@
+[  2%] Built target multi_agent_comm__cpp
+[  9%] Built target multi_agent_comm__rosidl_generator_c
+[  9%] Built target ament_cmake_python_copy_multi_agent_comm
+[ 46%] Built target multi_agent_comm__rosidl_typesupport_c
+[ 46%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[ 46%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[ 46%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[ 46%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[ 53%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[ 56%] [32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o[0m
+[ 70%] Built target comm
+[ 70%] Built target comm_qos
+[ 70%] Built target count
+[ 75%] Built target multi_thread1
+[ 75%] Built target multi_agent_comm
+[ 78%] Built target multi_agent_comm__py
+[ 82%] Built target multi_agent_comm__rosidl_generator_py
+[ 92%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[ 92%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing multi_agent_comm.egg-info/PKG-INFO
+writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+writing top-level names to multi_agent_comm.egg-info/top_level.txt
+reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_multi_agent_comm_egg

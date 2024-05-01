@@ -1,0 +1,4 @@
+source;share/cbba/local_setup.bash
+source;share/cbba/local_setup.dsv
+source;share/cbba/local_setup.sh
+source;share/cbba/local_setup.zsh

@@ -1,0 +1,196 @@
+[0.000000] (-) TimerEvent: {}
+[0.000379] (cbba) JobQueued: {'identifier': 'cbba', 'dependencies': OrderedDict()}
+[0.000502] (multi_agent_comm) JobQueued: {'identifier': 'multi_agent_comm', 'dependencies': OrderedDict()}
+[0.000646] (cbba) JobStarted: {'identifier': 'cbba'}
+[0.056138] (multi_agent_comm) JobStarted: {'identifier': 'multi_agent_comm'}
+[0.097997] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'cmake'}
+[0.099765] (-) TimerEvent: {}
+[0.101266] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'build'}
+[0.101804] (cbba) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/build/cbba', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/build/cbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/cbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.106851] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'cmake'}
+[0.110544] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'build'}
+[0.110889] (multi_agent_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/build/multi_agent_comm', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/build/multi_agent_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/multi_agent_comm'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.161758] (multi_agent_comm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.169737] (cbba) CommandEnded: {'returncode': 0}
+[0.188805] (cbba) JobProgress: {'identifier': 'cbba', 'progress': 'install'}
+[0.196948] (cbba) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/build/cbba'], 'cwd': '/home/yong/ws_kari/build/cbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2047'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/1835,unix/yong-desktop:/tmp/.ICE-unix/1835'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a53ad495_34f8_45e9_aea7_af536ca5d8f7'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.2U95M2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.96'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/build/cbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199837] (-) TimerEvent: {}
+[0.204167] (cbba) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.204349] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/package_run_dependencies/cbba\n'}
+[0.204425] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/parent_prefix_path/cbba\n'}
+[0.204498] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.sh\n'}
+[0.204566] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/ament_prefix_path.dsv\n'}
+[0.204632] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.sh\n'}
+[0.204692] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/environment/path.dsv\n'}
+[0.204748] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.bash\n'}
+[0.204797] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.sh\n'}
+[0.204846] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.zsh\n'}
+[0.204894] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/local_setup.dsv\n'}
+[0.204943] (cbba) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/install/cbba/share/cbba/package.dsv\n'}
+[0.205037] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/ament_index/resource_index/packages/cbba\n'}
+[0.205100] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig.cmake\n'}
+[0.205168] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/cmake/cbbaConfig-version.cmake\n'}
+[0.205218] (cbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/install/cbba/share/cbba/package.xml\n'}
+[0.207276] (cbba) CommandEnded: {'returncode': 0}
+[0.299933] (-) TimerEvent: {}
+[0.314975] (multi_agent_comm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.348465] (cbba) JobEnded: {'identifier': 'cbba', 'rc': 0}
+[0.361666] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.365256] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.397231] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.399998] (-) TimerEvent: {}
+[0.411004] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.428858] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.495420] (multi_agent_comm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.498315] (multi_agent_comm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500060] (-) TimerEvent: {}
+[0.600239] (-) TimerEvent: {}
+[0.639425] (multi_agent_comm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700329] (-) TimerEvent: {}
+[0.791004] (multi_agent_comm) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800422] (-) TimerEvent: {}
+[0.900646] (-) TimerEvent: {}
+[1.000864] (-) TimerEvent: {}
+[1.010619] (multi_agent_comm) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.100958] (-) TimerEvent: {}
+[1.201193] (-) TimerEvent: {}
+[1.278169] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301283] (-) TimerEvent: {}
+[1.384132] (multi_agent_comm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.401363] (-) TimerEvent: {}
+[1.405495] (multi_agent_comm) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.425096] (multi_agent_comm) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.425237] (multi_agent_comm) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.425293] (multi_agent_comm) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.463668] (multi_agent_comm) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.501458] (-) TimerEvent: {}
+[1.591319] (multi_agent_comm) StdoutLine: {'line': b'-- Generating done\n'}
+[1.594954] (multi_agent_comm) StdoutLine: {'line': b'-- Build files have been written to: /home/yong/ws_kari/build/multi_agent_comm\n'}
+[1.601513] (-) TimerEvent: {}
+[1.620542] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_generator_c\x1b[0m\n'}
+[1.629847] (multi_agent_comm) StdoutLine: {'line': b'[  2%] Built target multi_agent_comm__cpp\n'}
+[1.635125] (multi_agent_comm) StdoutLine: {'line': b'[ 10%] Built target multi_agent_comm__rosidl_generator_c\n'}
+[1.640262] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.640538] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.640701] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.644617] (multi_agent_comm) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_multi_agent_comm\n'}
+[1.647140] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.647300] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.647363] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_c\x1b[0m\n'}
+[1.650206] (multi_agent_comm) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/count.dir/src/count.cpp.o\x1b[0m\n'}
+[1.656601] (multi_agent_comm) StdoutLine: {'line': b'[ 29%] Built target multi_agent_comm__rosidl_typesupport_cpp\n'}
+[1.656804] (multi_agent_comm) StdoutLine: {'line': b'[ 29%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp\n'}
+[1.658401] (multi_agent_comm) StdoutLine: {'line': b'[ 54%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp\n'}
+[1.658606] (multi_agent_comm) StdoutLine: {'line': b'[ 54%] Built target multi_agent_comm__rosidl_typesupport_c\n'}
+[1.658687] (multi_agent_comm) StdoutLine: {'line': b'[ 54%] Built target multi_agent_comm__rosidl_typesupport_introspection_c\n'}
+[1.663261] (multi_agent_comm) StdoutLine: {'line': b'[ 62%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c\n'}
+[1.667811] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comm\x1b[0m\n'}
+[1.668437] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target comm_qos\x1b[0m\n'}
+[1.682264] (multi_agent_comm) StdoutLine: {'line': b'[ 62%] Built target multi_agent_comm\n'}
+[1.697684] (multi_agent_comm) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/comm_qos.dir/src/comm_qos.cpp.o\x1b[0m\n'}
+[1.697877] (multi_agent_comm) StdoutLine: {'line': b'[ 70%] Built target comm\n'}
+[1.701609] (-) TimerEvent: {}
+[1.702043] (multi_agent_comm) StdoutLine: {'line': b'[ 72%] Built target multi_agent_comm__py\n'}
+[1.711918] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_generator_py\x1b[0m\n'}
+[1.725005] (multi_agent_comm) StdoutLine: {'line': b'[ 78%] Built target multi_agent_comm__rosidl_generator_py\n'}
+[1.736642] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.736863] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.736955] (multi_agent_comm) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.750399] (multi_agent_comm) StdoutLine: {'line': b'[ 94%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.750581] (multi_agent_comm) StdoutLine: {'line': b'[ 94%] Built target multi_agent_comm__rosidl_typesupport_c__pyext\n'}
+[1.750657] (multi_agent_comm) StdoutLine: {'line': b'[ 94%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext\n'}
+[1.801703] (-) TimerEvent: {}
+[1.827625] (multi_agent_comm) StdoutLine: {'line': b'running egg_info\n'}
+[1.842050] (multi_agent_comm) StdoutLine: {'line': b'writing multi_agent_comm.egg-info/PKG-INFO\n'}
+[1.842472] (multi_agent_comm) StdoutLine: {'line': b'writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt\n'}
+[1.842714] (multi_agent_comm) StdoutLine: {'line': b'writing top-level names to multi_agent_comm.egg-info/top_level.txt\n'}
+[1.884015] (multi_agent_comm) StdoutLine: {'line': b"reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[1.884883] (multi_agent_comm) StdoutLine: {'line': b"writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[1.901818] (-) TimerEvent: {}
+[1.913651] (multi_agent_comm) StdoutLine: {'line': b'[ 94%] Built target ament_cmake_python_build_multi_agent_comm_egg\n'}
+[1.982926] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/src/multi_agent_comm/src/count.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kmulti_agent_comm/msg/agent_message.hpp: No such file or directory\n'}
+[1.983092] (multi_agent_comm) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"multi_agent_comm/msg/agent_message.hpp"\x1b[m\x1b[K\n'}
+[1.983147] (multi_agent_comm) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.983198] (multi_agent_comm) StderrLine: {'line': b'compilation terminated.\n'}
+[1.987214] (multi_agent_comm) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/count.dir/build.make:76: CMakeFiles/count.dir/src/count.cpp.o] Error 1\n'}
+[1.987407] (multi_agent_comm) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/count.dir/all] Error 2\n'}
+[1.987483] (multi_agent_comm) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.001893] (-) TimerEvent: {}
+[2.102148] (-) TimerEvent: {}
+[2.202432] (-) TimerEvent: {}
+[2.302677] (-) TimerEvent: {}
+[2.402917] (-) TimerEvent: {}
+[2.503178] (-) TimerEvent: {}
+[2.603423] (-) TimerEvent: {}
+[2.703691] (-) TimerEvent: {}
+[2.803960] (-) TimerEvent: {}
+[2.904222] (-) TimerEvent: {}
+[3.004517] (-) TimerEvent: {}
+[3.104785] (-) TimerEvent: {}
+[3.205043] (-) TimerEvent: {}
+[3.305290] (-) TimerEvent: {}
+[3.405567] (-) TimerEvent: {}
+[3.505869] (-) TimerEvent: {}
+[3.606130] (-) TimerEvent: {}
+[3.706394] (-) TimerEvent: {}
+[3.806659] (-) TimerEvent: {}
+[3.906923] (-) TimerEvent: {}
+[4.007180] (-) TimerEvent: {}
+[4.107438] (-) TimerEvent: {}
+[4.207692] (-) TimerEvent: {}
+[4.307940] (-) TimerEvent: {}
+[4.408193] (-) TimerEvent: {}
+[4.508465] (-) TimerEvent: {}
+[4.608721] (-) TimerEvent: {}
+[4.708971] (-) TimerEvent: {}
+[4.809230] (-) TimerEvent: {}
+[4.909523] (-) TimerEvent: {}
+[5.009790] (-) TimerEvent: {}
+[5.110058] (-) TimerEvent: {}
+[5.210324] (-) TimerEvent: {}
+[5.310584] (-) TimerEvent: {}
+[5.410836] (-) TimerEvent: {}
+[5.511103] (-) TimerEvent: {}
+[5.611361] (-) TimerEvent: {}
+[5.711626] (-) TimerEvent: {}
+[5.811891] (-) TimerEvent: {}
+[5.912146] (-) TimerEvent: {}
+[6.012391] (-) TimerEvent: {}
+[6.112650] (-) TimerEvent: {}
+[6.212911] (-) TimerEvent: {}
+[6.313180] (-) TimerEvent: {}
+[6.413444] (-) TimerEvent: {}
+[6.513692] (-) TimerEvent: {}
+[6.613926] (-) TimerEvent: {}
+[6.714188] (-) TimerEvent: {}
+[6.814438] (-) TimerEvent: {}
+[6.914666] (-) TimerEvent: {}
+[7.014894] (-) TimerEvent: {}
+[7.115134] (-) TimerEvent: {}
+[7.215395] (-) TimerEvent: {}
+[7.315660] (-) TimerEvent: {}
+[7.415927] (-) TimerEvent: {}
+[7.516188] (-) TimerEvent: {}
+[7.616464] (-) TimerEvent: {}
+[7.716718] (-) TimerEvent: {}
+[7.816979] (-) TimerEvent: {}
+[7.917239] (-) TimerEvent: {}
+[8.017492] (-) TimerEvent: {}
+[8.117748] (-) TimerEvent: {}
+[8.218003] (-) TimerEvent: {}
+[8.318246] (-) TimerEvent: {}
+[8.418499] (-) TimerEvent: {}
+[8.518752] (-) TimerEvent: {}
+[8.618997] (-) TimerEvent: {}
+[8.719266] (-) TimerEvent: {}
+[8.727682] (multi_agent_comm) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable comm_qos\x1b[0m\n'}
+[8.819373] (-) TimerEvent: {}
+[8.919702] (-) TimerEvent: {}
+[9.020013] (-) TimerEvent: {}
+[9.120297] (-) TimerEvent: {}
+[9.137298] (multi_agent_comm) StdoutLine: {'line': b'[ 97%] Built target comm_qos\n'}
+[9.138683] (multi_agent_comm) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.140569] (multi_agent_comm) CommandEnded: {'returncode': 2}
+[9.220308] (-) TimerEvent: {}
+[9.266631] (multi_agent_comm) JobEnded: {'identifier': 'multi_agent_comm', 'rc': 2}
+[9.277077] (-) EventReactorShutdown: {}
