@@ -1,8 +1,0 @@
-[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kmulti_agent_comm/msg/agent_message.hpp: No such file or directory
-    2 | #include [01;31m[K"multi_agent_comm/msg/agent_message.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/comm.dir/build.make:76: CMakeFiles/comm.dir/src/comm.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/comm.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2

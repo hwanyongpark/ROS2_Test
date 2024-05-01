@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:117 (install):
-  install TARGETS given target "multi_thread" which does not exist.
-
-[0m
-gmake: *** [Makefile:911: cmake_check_build_system] Error 1

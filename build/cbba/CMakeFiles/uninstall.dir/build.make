@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yong/ws_kari/src/cbba
+CMAKE_SOURCE_DIR = /home/yong/ws_kari/ROS2_Test/src/cbba
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yong/ws_kari/build/cbba
+CMAKE_BINARY_DIR = /home/yong/ws_kari/ROS2_Test/build/cbba
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/yong/ws_kari/build/cbba && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yong/ws_kari/src/cbba /home/yong/ws_kari/src/cbba /home/yong/ws_kari/build/cbba /home/yong/ws_kari/build/cbba /home/yong/ws_kari/build/cbba/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yong/ws_kari/ROS2_Test/build/cbba && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yong/ws_kari/ROS2_Test/src/cbba /home/yong/ws_kari/ROS2_Test/src/cbba /home/yong/ws_kari/ROS2_Test/build/cbba /home/yong/ws_kari/ROS2_Test/build/cbba /home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

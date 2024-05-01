@@ -1,8 +1,8 @@
-# Install script for directory: /home/yong/ws_kari/build/multi_agent_comm/multi_agent_comm__py
+# Install script for directory: /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm/multi_agent_comm__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/yong/ws_kari/install/multi_agent_comm")
+  set(CMAKE_INSTALL_PREFIX "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

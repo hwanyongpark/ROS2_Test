@@ -1,7 +1,0 @@
-[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:[m[K In lambda function:
-[01m[K/home/yong/ws_kari/src/multi_agent_comm/src/comm.cpp:21:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct multi_agent_comm::msg::AgentMessage_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktimestamp[m[K’
-   21 |             std::time_t raw_time = message.[01;31m[Ktimestamp[m[K.sec;
-      |                                            [01;31m[K^~~~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/comm.dir/build.make:76: CMakeFiles/comm.dir/src/comm.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/comm.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,246 @@
+[0.061s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yong/ws_kari/ROS2_Test/src/multi_agent_comm -DCMAKE_INSTALL_PREFIX=/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm
+[0.072s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.222s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.223s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.255s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.304s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.305s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.423s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.557s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.764s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.113s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.132s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.151s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.151s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.152s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.170s] -- Configuring done
+[1.213s] -- Generating done
+[1.216s] -- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm
+[1.225s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yong/ws_kari/ROS2_Test/src/multi_agent_comm -DCMAKE_INSTALL_PREFIX=/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm
+[1.226s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm -- -j16 -l16
+[1.264s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.274s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.282s] [  4%] Built target ament_cmake_python_copy_multi_agent_comm
+[1.452s] running egg_info
+[1.453s] creating multi_agent_comm.egg-info
+[1.466s] writing multi_agent_comm.egg-info/PKG-INFO
+[1.467s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[1.467s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[1.467s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[1.498s] [  6%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.c.o[0m
+[1.498s] [  6%] Built target multi_agent_comm__cpp
+[1.506s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[1.507s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[1.508s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.508s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.508s] [ 13%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.539s] [ 13%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[1.561s] [ 16%] [32m[1mLinking C shared library libmulti_agent_comm__rosidl_generator_c.so[0m
+[1.597s] [ 16%] Built target multi_agent_comm__rosidl_generator_c
+[1.607s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.607s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.607s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.706s] [ 25%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp.o[0m
+[1.722s] [ 27%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp.o[0m
+[1.726s] [ 30%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp.o[0m
+[1.806s] [ 32%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_agent_comm/msg/agent_message__type_support.cpp.o[0m
+[1.826s] [ 37%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_agent_comm/msg/detail/agent_message__type_support.c.o[0m
+[1.826s] [ 37%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_agent_comm/msg/detail/agent_message__type_support_c.cpp.o[0m
+[1.839s] [ 39%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_c.so[0m
+[1.863s] [ 41%] [32m[1mLinking C shared library libmulti_agent_comm__rosidl_typesupport_introspection_c.so[0m
+[1.884s] [ 41%] Built target multi_agent_comm__rosidl_typesupport_c
+[1.895s] [ 41%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[1.943s] [ 44%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_cpp.so[0m
+[1.982s] [ 44%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[2.004s] [ 48%] [32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o[0m
+[2.004s] [ 48%] [32mBuilding CXX object CMakeFiles/comm_qos.dir/src/comm_qos.cpp.o[0m
+[2.004s] [ 51%] [32mBuilding CXX object CMakeFiles/multi_thread1.dir/src/multi_thread1.cpp.o[0m
+[2.005s] [ 53%] [32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o[0m
+[2.009s] [ 55%] [32mBuilding CXX object CMakeFiles/count.dir/src/count.cpp.o[0m
+[2.011s] [ 58%] [32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_thread_pub.cpp.o[0m
+[2.075s] [ 60%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so[0m
+[2.083s] [ 62%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.152s] [ 65%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so[0m
+[2.172s] [ 65%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[2.184s] [ 65%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[2.256s] [ 65%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[2.277s] [ 65%] Built target multi_agent_comm
+[2.296s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.572s] [ 67%] Built target multi_agent_comm__py
+[2.595s] [ 69%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_py.dir/rosidl_generator_py/multi_agent_comm/msg/_agent_message_s.c.o[0m
+[2.724s] [ 72%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so[0m
+[2.774s] [ 72%] Built target multi_agent_comm__rosidl_generator_py
+[2.797s] [ 76%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.797s] [ 76%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.806s] [ 79%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c.o[0m
+[2.898s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.898s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.938s] [ 83%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[2.938s] [ 83%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[2.947s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[2.987s] [ 86%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[4.508s] [01m[K/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/src/multi_thread_pub.cpp:[m[K In member function ‘[01m[Kvoid AgentNode::topic_callback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.508s] [01m[K/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/src/multi_thread_pub.cpp:44:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.508s]    44 |     void topic_callback([01;35m[Kconst std_msgs::msg::Int8::SharedPtr msg[m[K) const {
+[4.509s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[9.793s] [ 88%] [32m[1mLinking CXX executable comm[0m
+[9.993s] [ 90%] [32m[1mLinking CXX executable multi_thread1[0m
+[10.127s] [ 93%] [32m[1mLinking CXX executable comm_qos[0m
+[10.129s] [ 95%] [32m[1mLinking CXX executable self_loop[0m
+[10.133s] [ 97%] [32m[1mLinking CXX executable multi_pub[0m
+[10.163s] [100%] [32m[1mLinking CXX executable count[0m
+[10.384s] [100%] Built target comm
+[10.533s] [100%] Built target multi_thread1
+[10.669s] [100%] Built target comm_qos
+[10.685s] [100%] Built target multi_pub
+[10.689s] [100%] Built target self_loop
+[10.727s] [100%] Built target count
+[10.739s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm -- -j16 -l16
+[10.812s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm
+[10.819s] -- Install configuration: ""
+[10.819s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/rosidl_interfaces/multi_agent_comm
+[10.819s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm
+[10.819s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg
+[10.819s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/agent_message.h
+[10.820s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail
+[10.820s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__functions.h
+[10.820s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.h
+[10.820s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__struct.h
+[10.820s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__functions.c
+[10.820s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_generator_c__visibility_control.h
+[10.820s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/library_path.sh
+[10.820s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/library_path.dsv
+[10.821s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_c.so
+[10.821s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_c.so" to ""
+[10.821s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm
+[10.821s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg
+[10.821s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail
+[10.821s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_c.h
+[10.821s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.822s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so
+[10.822s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so" to ""
+[10.822s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm
+[10.822s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg
+[10.822s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/agent_message.hpp
+[10.822s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail
+[10.822s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__struct.hpp
+[10.822s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__traits.hpp
+[10.823s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__builder.hpp
+[10.823s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm
+[10.823s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg
+[10.823s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail
+[10.823s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_cpp.hpp
+[10.823s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/dds_fastrtps
+[10.823s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.823s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so
+[10.824s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.824s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm
+[10.824s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg
+[10.824s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail
+[10.824s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.c
+[10.824s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_introspection_c.h
+[10.824s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.824s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_c.so
+[10.825s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_c.so" to ""
+[10.825s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_c.so
+[10.825s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_c.so" to ""
+[10.825s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm
+[10.825s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg
+[10.826s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail
+[10.826s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.cpp
+[10.826s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_introspection_cpp.hpp
+[10.826s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so
+[10.826s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so" to ""
+[10.826s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_cpp.so
+[10.827s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_cpp.so" to ""
+[10.827s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/pythonpath.sh
+[10.827s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/pythonpath.dsv
+[10.827s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info
+[10.827s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/SOURCES.txt
+[10.827s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/dependency_links.txt
+[10.827s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/PKG-INFO
+[10.828s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/top_level.txt
+[10.828s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm
+[10.828s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so
+[10.828s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c
+[10.828s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.828s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.828s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.829s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/__init__.py
+[10.829s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg
+[10.829s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message_s.c
+[10.829s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message.py
+[10.829s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/__init__.py
+[10.829s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c
+[10.829s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.857s] Listing '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm'...
+[10.857s] Compiling '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/__init__.py'...
+[10.857s] Listing '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg'...
+[10.857s] Compiling '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/__init__.py'...
+[10.857s] Compiling '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message.py'...
+[10.861s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.861s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.861s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.862s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.862s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.862s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.862s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_py.so
+[10.863s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_py.so" to ""
+[10.863s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/msg/AgentMessage.idl
+[10.863s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/msg/AgentMessage.msg
+[10.863s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm
+[10.869s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm" to ""
+[10.869s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm_qos
+[10.874s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm_qos" to ""
+[10.875s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/count
+[10.880s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/count" to ""
+[10.880s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_thread1
+[10.886s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_thread1" to ""
+[10.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/self_loop
+[10.892s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/self_loop" to ""
+[10.892s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_pub
+[10.897s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_pub" to ""
+[10.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/package_run_dependencies/multi_agent_comm
+[10.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/parent_prefix_path/multi_agent_comm
+[10.897s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/ament_prefix_path.sh
+[10.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/ament_prefix_path.dsv
+[10.897s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/path.sh
+[10.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/path.dsv
+[10.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.bash
+[10.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.sh
+[10.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.zsh
+[10.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.dsv
+[10.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.dsv
+[10.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/packages/multi_agent_comm
+[10.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cExport.cmake
+[10.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cExport-noconfig.cmake
+[10.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cExport.cmake
+[10.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cppExport.cmake
+[10.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cExport.cmake
+[10.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cExport.cmake
+[10.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cExport-noconfig.cmake
+[10.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cppExport.cmake
+[10.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cppExport.cmake
+[10.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cppExport-noconfig.cmake
+[10.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_pyExport.cmake
+[10.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_pyExport-noconfig.cmake
+[10.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake-extras.cmake
+[10.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_libraries-extras.cmake
+[10.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_targets-extras.cmake
+[10.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.903s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.903s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_commConfig.cmake
+[10.903s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_commConfig-version.cmake
+[10.903s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.xml
+[10.905s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm

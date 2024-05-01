@@ -32,6 +32,7 @@ add_executable(comm_qos src/comm_qos.cpp)
 add_executable(count src/count.cpp)
 add_executable(multi_thread1 src/multi_thread1.cpp)
 add_executable(self_loop src/self_loop.cpp)
+add_executable(multi_pub src/multi_thread_pub.cpp)
 
 # 실행 파일 빌드 전 메시지 헤더 생성이 완료되었는지 확인
 ament_target_dependencies(comm
@@ -59,6 +60,11 @@ ament_target_dependencies(self_loop
   std_msgs
 )
 
+ament_target_dependencies(multi_pub
+  rclcpp
+  std_msgs
+)
+
 add_dependencies(comm
   ${PROJECT_NAME}__rosidl_generator_cpp
 )
@@ -79,6 +85,10 @@ add_dependencies(self_loop
   ${PROJECT_NAME}__rosidl_generator_cpp
 )
 
+add_dependencies(multi_pub
+  ${PROJECT_NAME}__rosidl_generator_cpp
+)
+
 # 타입 서포트와 연결
 target_link_libraries(comm
   ${PROJECT_NAME}__rosidl_typesupport_cpp
@@ -96,6 +106,10 @@ target_link_libraries(multi_thread1
   ${PROJECT_NAME}__rosidl_typesupport_cpp
 )
 target_link_libraries(self_loop
+  ${PROJECT_NAME}__rosidl_typesupport_cpp
+)
+
+target_link_libraries(multi_pub
   ${PROJECT_NAME}__rosidl_typesupport_cpp
 )
 
@@ -122,6 +136,11 @@ install(TARGETS
 
 install(TARGETS
   self_loop
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  multi_pub
   DESTINATION lib/${PROJECT_NAME}
 )
 

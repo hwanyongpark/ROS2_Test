@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yong/ws_kari/src/cbba
+CMAKE_SOURCE_DIR = /home/yong/ws_kari/ROS2_Test/src/cbba
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yong/ws_kari/build/cbba
+CMAKE_BINARY_DIR = /home/yong/ws_kari/ROS2_Test/build/cbba
 
 # Utility rule file for cbba_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cbba_uninstall.dir/compiler_depend.make
 include CMakeFiles/cbba_uninstall.dir/progress.make
 
 CMakeFiles/cbba_uninstall:
-	/usr/bin/cmake -P /home/yong/ws_kari/build/cbba/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/yong/ws_kari/ROS2_Test/build/cbba/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cbba_uninstall: CMakeFiles/cbba_uninstall
 cbba_uninstall: CMakeFiles/cbba_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cbba_uninstall.dir/clean:
 .PHONY : CMakeFiles/cbba_uninstall.dir/clean
 
 CMakeFiles/cbba_uninstall.dir/depend:
-	cd /home/yong/ws_kari/build/cbba && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yong/ws_kari/src/cbba /home/yong/ws_kari/src/cbba /home/yong/ws_kari/build/cbba /home/yong/ws_kari/build/cbba /home/yong/ws_kari/build/cbba/CMakeFiles/cbba_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yong/ws_kari/ROS2_Test/build/cbba && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yong/ws_kari/ROS2_Test/src/cbba /home/yong/ws_kari/ROS2_Test/src/cbba /home/yong/ws_kari/ROS2_Test/build/cbba /home/yong/ws_kari/ROS2_Test/build/cbba /home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/cbba_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cbba_uninstall.dir/depend
 
