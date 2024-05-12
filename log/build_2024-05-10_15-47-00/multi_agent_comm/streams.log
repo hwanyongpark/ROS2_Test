@@ -1,0 +1,102 @@
+[0.050s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yong/ws_kari/ROS2_Test/src/multi_agent_comm -DCMAKE_INSTALL_PREFIX=/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm
+[0.061s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.189s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.215s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.217s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.222s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.232s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.245s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.295s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.296s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.420s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.555s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.781s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.042s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.167s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.188s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.188s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.188s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.212s] -- Configuring done
+[1.260s] -- Generating done
+[1.265s] -- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm
+[1.274s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yong/ws_kari/ROS2_Test/src/multi_agent_comm -DCMAKE_INSTALL_PREFIX=/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm
+[1.275s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm -- -j16 -l16
+[1.313s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.322s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.331s] [  4%] Built target ament_cmake_python_symlink_multi_agent_comm
+[1.511s] running egg_info
+[1.512s] creating multi_agent_comm.egg-info
+[1.526s] writing multi_agent_comm.egg-info/PKG-INFO
+[1.527s] writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt
+[1.527s] writing top-level names to multi_agent_comm.egg-info/top_level.txt
+[1.527s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[1.551s] [  4%] Built target multi_agent_comm__cpp
+[1.551s] [  6%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_c.dir/rosidl_generator_c/multi_agent_comm/msg/detail/agent_message__functions.c.o[0m
+[1.563s] [ 11%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.563s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.563s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.572s] reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[1.572s] writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'
+[1.610s] [ 16%] [32m[1mLinking C shared library libmulti_agent_comm__rosidl_generator_c.so[0m
+[1.638s] [ 16%] Built target ament_cmake_python_build_multi_agent_comm_egg
+[1.670s] [ 16%] Built target multi_agent_comm__rosidl_generator_c
+[1.681s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.682s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.684s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.833s] [ 25%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp.o[0m
+[1.847s] [ 27%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp.o[0m
+[1.853s] [ 30%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp.o[0m
+[1.994s] [ 32%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_c.dir/rosidl_typesupport_c/multi_agent_comm/msg/agent_message__type_support.cpp.o[0m
+[2.031s] [ 34%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/multi_agent_comm/msg/detail/agent_message__type_support.c.o[0m
+[2.038s] [ 37%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_c.so[0m
+[2.044s] [ 39%] [32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_agent_comm/msg/detail/agent_message__type_support_c.cpp.o[0m
+[2.080s] [ 41%] [32m[1mLinking C shared library libmulti_agent_comm__rosidl_typesupport_introspection_c.so[0m
+[2.109s] [ 41%] Built target multi_agent_comm__rosidl_typesupport_c
+[2.122s] [ 41%] Built target multi_agent_comm__rosidl_typesupport_introspection_c
+[2.171s] [ 44%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_cpp.so[0m
+[2.214s] [ 44%] Built target multi_agent_comm__rosidl_typesupport_cpp
+[2.240s] [ 46%] [32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o[0m
+[2.242s] [ 48%] [32mBuilding CXX object CMakeFiles/comm_qos.dir/src/comm_qos.cpp.o[0m
+[2.243s] [ 51%] [32mBuilding CXX object CMakeFiles/multi_thread1.dir/src/multi_thread1.cpp.o[0m
+[2.243s] [ 53%] [32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_thread_pub.cpp.o[0m
+[2.245s] [ 55%] [32mBuilding CXX object CMakeFiles/count.dir/src/count.cpp.o[0m
+[2.248s] [ 58%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.250s] [ 60%] [32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o[0m
+[2.306s] [ 62%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so[0m
+[2.399s] [ 65%] [32m[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so[0m
+[2.399s] [ 65%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp
+[2.424s] [ 65%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp
+[2.502s] [ 65%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c
+[2.523s] [ 65%] Built target multi_agent_comm
+[2.544s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.841s] [ 67%] Built target multi_agent_comm__py
+[2.865s] [ 69%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_py.dir/rosidl_generator_py/multi_agent_comm/msg/_agent_message_s.c.o[0m
+[2.990s] [ 72%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so[0m
+[3.041s] [ 72%] Built target multi_agent_comm__rosidl_generator_py
+[3.065s] [ 76%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.065s] [ 76%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.074s] [ 79%] [32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c.o[0m
+[3.179s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.187s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.230s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.233s] [ 86%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext
+[3.237s] [ 86%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext
+[3.277s] [ 86%] Built target multi_agent_comm__rosidl_typesupport_c__pyext
+[4.819s] [01m[K/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/src/multi_thread_pub.cpp:[m[K In member function ‘[01m[Kvoid AgentNode::topic_callback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr) const[m[K’:
+[4.819s] [01m[K/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/src/multi_thread_pub.cpp:44:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.819s]    44 |     void topic_callback([01;35m[Kconst std_msgs::msg::Int8::SharedPtr msg[m[K) const {
+[4.819s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[10.134s] [ 88%] [32m[1mLinking CXX executable self_loop[0m
+[10.328s] [ 90%] [32m[1mLinking CXX executable multi_pub[0m
+[10.436s] [ 93%] [32m[1mLinking CXX executable comm[0m
+[10.480s] [ 95%] [32m[1mLinking CXX executable multi_thread1[0m
+[10.485s] [ 97%] [32m[1mLinking CXX executable comm_qos[0m
+[10.531s] [100%] [32m[1mLinking CXX executable count[0m
+[10.696s] [100%] Built target self_loop
+[10.875s] [100%] Built target multi_pub
+[10.981s] [100%] Built target comm
+[11.020s] [100%] Built target multi_thread1
+[11.028s] [100%] Built target comm_qos
+[11.060s] [100%] Built target count

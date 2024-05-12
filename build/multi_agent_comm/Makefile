@@ -315,17 +315,17 @@ multi_agent_comm__rosidl_typesupport_cpp/fast:
 .PHONY : multi_agent_comm__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_multi_agent_comm
+# Target rules for targets named ament_cmake_python_symlink_multi_agent_comm
 
 # Build rule for target.
-ament_cmake_python_copy_multi_agent_comm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_multi_agent_comm
-.PHONY : ament_cmake_python_copy_multi_agent_comm
+ament_cmake_python_symlink_multi_agent_comm: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_multi_agent_comm
+.PHONY : ament_cmake_python_symlink_multi_agent_comm
 
 # fast build rule for target.
-ament_cmake_python_copy_multi_agent_comm/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_multi_agent_comm.dir/build.make CMakeFiles/ament_cmake_python_copy_multi_agent_comm.dir/build
-.PHONY : ament_cmake_python_copy_multi_agent_comm/fast
+ament_cmake_python_symlink_multi_agent_comm/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_multi_agent_comm.dir/build.make CMakeFiles/ament_cmake_python_symlink_multi_agent_comm.dir/build
+.PHONY : ament_cmake_python_symlink_multi_agent_comm/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_multi_agent_comm_egg
@@ -905,7 +905,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_multi_agent_comm_egg"
-	@echo "... ament_cmake_python_copy_multi_agent_comm"
+	@echo "... ament_cmake_python_symlink_multi_agent_comm"
 	@echo "... multi_agent_comm"
 	@echo "... multi_agent_comm__cpp"
 	@echo "... multi_agent_comm__py"

@@ -1,0 +1,17 @@
+/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
+/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server_node
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.dsv
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.sh
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.dsv
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.bash
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.sh
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.zsh
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.dsv
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/packages/srv_test
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig.cmake
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig-version.cmake
+/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.xml

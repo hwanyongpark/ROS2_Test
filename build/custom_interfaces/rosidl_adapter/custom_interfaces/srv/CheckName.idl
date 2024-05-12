@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_interfaces/srv/CheckName.srv
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module srv {
+    struct CheckName_Request {
+      string name;
+    };
+    struct CheckName_Response {
+      string response;
+    };
+  };
+};

@@ -1,0 +1,84 @@
+[0.124s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[0.175s] [ 50%] Built target service_node
+[0.182s] [ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[2.009s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.009s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.009s]                  from [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:1[m[K:
+[2.009s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::try_send_request()[m[K’:
+[2.009s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:43:45:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[2.009s]    43 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"Waiting for the service to be available or response..."[m[K,
+[2.009s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.011s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::handle_service_response(rclcpp::Client<custom_interfaces::srv::CheckName>::SharedFuture)[m[K’:
+[2.011s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:70:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.011s]    70 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"[INFO] [%ld] [%s]: Response from server: %s"[m[K,
+[2.011s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.012s]    71 |                     [32m[Kthis->now().seconds()[m[K, this->get_name(), response->response.c_str());
+[2.012s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.012s]       |                                        [32m[K|[m[K
+[2.012s]       |                                        [32m[Kdouble[m[K
+[2.012s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:70:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.012s]    70 |         RCLCPP_INFO(this->get_logger(), "[INFO] [[01;36m[K%ld[m[K] [%s]: Response from server: %s",
+[2.012s]       |                                                  [01;36m[K~~^[m[K
+[2.012s]       |                                                    [01;36m[K|[m[K
+[2.012s]       |                                                    [01;36m[Klong int[m[K
+[2.012s]       |                                                  [32m[K%f[m[K
+[2.014s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.014s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.014s]                  from [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:1[m[K:
+[2.014s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::uav_status_callback(custom_interfaces::msg::Status_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.014s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:77:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.014s]    77 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"[INFO] [%ld] [%s]: Received UAV status: %ld"[m[K,
+[2.014s]       |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.014s]    78 |                     [32m[Kthis->now().seconds()[m[K, this->get_name(), msg->num);
+[2.014s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.014s]       |                                        [32m[K|[m[K
+[2.015s]       |                                        [32m[Kdouble[m[K
+[2.015s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:77:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.015s]    77 |         RCLCPP_INFO(this->get_logger(), "[INFO] [[01;36m[K%ld[m[K] [%s]: Received UAV status: %ld",
+[2.015s]       |                                                  [01;36m[K~~^[m[K
+[2.015s]       |                                                    [01;36m[K|[m[K
+[2.015s]       |                                                    [01;36m[Klong int[m[K
+[2.015s]       |                                                  [32m[K%f[m[K
+[7.048s] [100%] [32m[1mLinking CXX executable client_node[0m
+[7.449s] [100%] Built target client_node
+[7.460s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[7.489s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/srv_test
+[7.496s] -- Install configuration: ""
+[7.496s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
+[7.503s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node" to ""
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/service_node
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.dsv
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.sh
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.dsv
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.bash
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.sh
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.zsh
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.dsv
+[7.503s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv
+[7.503s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/packages/srv_test
+[7.504s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig.cmake
+[7.504s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig-version.cmake
+[7.504s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.xml
+[7.505s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/srv_test

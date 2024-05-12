@@ -1,0 +1,1 @@
+/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm/rosidl_generator_py/multi_agent_comm/__init__.py

@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[35m[1mConsolidate compiler generated dependencies of target service_node[0m
+[ 50%] Built target service_node
+[ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kcustom_interfaces/msg/Status.hpp: No such file or directory
+    3 | #include [01;31m[K"custom_interfaces/msg/Status.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/client_node.dir/build.make:76: CMakeFiles/client_node.dir/src/client_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/client_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

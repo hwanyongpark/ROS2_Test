@@ -1,0 +1,4 @@
+source;share/srv_test/local_setup.bash
+source;share/srv_test/local_setup.dsv
+source;share/srv_test/local_setup.sh
+source;share/srv_test/local_setup.zsh

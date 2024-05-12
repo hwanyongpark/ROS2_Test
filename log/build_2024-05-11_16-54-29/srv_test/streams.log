@@ -1,0 +1,32 @@
+[0.134s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[0.172s] [35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[0.184s] [ 50%] Built target service_node
+[0.192s] [ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[2.120s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.120s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.120s]                  from [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:1[m[K:
+[2.120s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::try_send_request()[m[K’:
+[2.121s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:44:65:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((ClientNode*)this)->ClientNode::<anonymous>.rclcpp::Node::get_name()[m[K’, which is of non-class type ‘[01m[Kconst char*[m[K’
+[2.121s]    44 |                         this->now().seconds(), this->get_name().[01;31m[Kc_str[m[K());
+[2.121s]       |                                                                 [01;31m[K^~~~~[m[K
+[2.123s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::handle_service_response(rclcpp::Client<custom_interfaces::srv::CheckName>::SharedFuture)[m[K’:
+[2.123s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:71:61:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((ClientNode*)this)->ClientNode::<anonymous>.rclcpp::Node::get_name()[m[K’, which is of non-class type ‘[01m[Kconst char*[m[K’
+[2.123s]    71 |                     this->now().seconds(), this->get_name().[01;31m[Kc_str[m[K(), response->response.c_str());
+[2.123s]       |                                                             [01;31m[K^~~~~[m[K
+[2.125s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:[m[K In member function ‘[01m[Kvoid ClientNode::uav_status_callback(custom_interfaces::msg::Status_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.125s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client_node.cpp:78:61:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((ClientNode*)this)->ClientNode::<anonymous>.rclcpp::Node::get_name()[m[K’, which is of non-class type ‘[01m[Kconst char*[m[K’
+[2.125s]    78 |                     this->now().seconds(), this->get_name().[01;31m[Kc_str[m[K(), msg->num);
+[2.125s]       |                                                             [01;31m[K^~~~~[m[K
+[4.196s] gmake[2]: *** [CMakeFiles/client_node.dir/build.make:76: CMakeFiles/client_node.dir/src/client_node.cpp.o] Error 1
+[4.196s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/client_node.dir/all] Error 2
+[4.196s] gmake: *** [Makefile:146: all] Error 2
+[4.198s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '2': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16

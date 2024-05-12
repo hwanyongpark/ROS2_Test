@@ -1,0 +1,28 @@
+[0.060s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[0.111s] [ 50%] Built target service_node
+[0.118s] [ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[7.024s] [100%] [32m[1mLinking CXX executable client_node[0m
+[7.431s] [100%] Built target client_node
+[7.442s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[7.469s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/srv_test
+[7.476s] -- Install configuration: ""
+[7.476s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
+[7.482s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node" to ""
+[7.482s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/service_node
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.dsv
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.sh
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.dsv
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.bash
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.sh
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.zsh
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.dsv
+[7.483s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/packages/srv_test
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig.cmake
+[7.483s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig-version.cmake
+[7.484s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.xml
+[7.486s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/srv_test

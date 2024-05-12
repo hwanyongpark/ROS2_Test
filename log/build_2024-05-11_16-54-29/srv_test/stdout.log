@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[ 50%] Built target service_node
+[ 75%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m

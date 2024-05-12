@@ -1,0 +1,341 @@
+[0.820s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.820s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7b5744509600>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7b5744508c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7b5744508c70>>)
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.866s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yong/ws_kari/ROS2_Test'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extensions ['ignore', 'ignore_ament_install']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'ignore'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'ignore_ament_install'
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extensions ['colcon_pkg']
+[0.877s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'colcon_pkg'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extensions ['colcon_meta']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'colcon_meta'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extensions ['ros']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'ros'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extensions ['cmake', 'python']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'cmake'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'python'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extensions ['python_setup_py']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(ROS2_Test) by extension 'python_setup_py'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extensions ['ignore', 'ignore_ament_install']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extension 'ignore'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extension 'colcon_meta'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extensions ['ros']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(src/cbba) by extension 'ros'
+[0.881s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cbba' with type 'ros.ament_cmake' and name 'cbba'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[0.881s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[0.882s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extensions ['ignore', 'ignore_ament_install']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extension 'ignore'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extension 'ignore_ament_install'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extensions ['colcon_pkg']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extension 'colcon_pkg'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extensions ['colcon_meta']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extension 'colcon_meta'
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extensions ['ros']
+[0.882s] Level 1:colcon.colcon_core.package_identification:_identify(src/multi_agent_comm) by extension 'ros'
+[0.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/multi_agent_comm' with type 'ros.ament_cmake' and name 'multi_agent_comm'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extension 'ignore_ament_install'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extensions ['colcon_pkg']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extension 'colcon_pkg'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extensions ['colcon_meta']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extension 'colcon_meta'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extensions ['ros']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(src/srv_test) by extension 'ros'
+[0.883s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srv_test' with type 'ros.ament_cmake' and name 'srv_test'
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.883s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.884s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.960s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.986s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/yong/ws_kari/ROS2_Test/install
+[0.999s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 291 installed packages in /opt/ros/humble
+[1.000s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'cmake_args' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'cmake_target' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'cmake_clean_cache' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'cmake_clean_first' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'cmake_force_configure' from command line to 'False'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'ament_cmake_args' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'catkin_cmake_args' from command line to 'None'
+[1.076s] Level 5:colcon.colcon_core.verb:set package 'cbba' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.076s] DEBUG:colcon.colcon_core.verb:Building package 'cbba' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yong/ws_kari/ROS2_Test/build/cbba', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yong/ws_kari/ROS2_Test/install/cbba', 'merge_install': False, 'path': '/home/yong/ws_kari/ROS2_Test/src/cbba', 'symlink_install': False, 'test_result_base': None}
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.089s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.089s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces', 'merge_install': False, 'path': '/home/yong/ws_kari/ROS2_Test/src/custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'cmake_target' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'cmake_clean_cache' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'cmake_clean_first' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'cmake_force_configure' from command line to 'False'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'ament_cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'catkin_cmake_args' from command line to 'None'
+[1.101s] Level 5:colcon.colcon_core.verb:set package 'multi_agent_comm' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.101s] DEBUG:colcon.colcon_core.verb:Building package 'multi_agent_comm' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm', 'merge_install': False, 'path': '/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm', 'symlink_install': False, 'test_result_base': None}
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'cmake_target' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'cmake_clean_cache' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'cmake_clean_first' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'cmake_force_configure' from command line to 'False'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'ament_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'catkin_cmake_args' from command line to 'None'
+[1.125s] Level 5:colcon.colcon_core.verb:set package 'srv_test' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.125s] DEBUG:colcon.colcon_core.verb:Building package 'srv_test' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yong/ws_kari/ROS2_Test/build/srv_test', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yong/ws_kari/ROS2_Test/install/srv_test', 'merge_install': False, 'path': '/home/yong/ws_kari/ROS2_Test/src/srv_test', 'symlink_install': False, 'test_result_base': None}
+[1.138s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.151s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.151s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yong/ws_kari/ROS2_Test/src/custom_interfaces' with build type 'ament_cmake'
+[1.151s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yong/ws_kari/ROS2_Test/src/custom_interfaces'
+[1.168s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.168s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.168s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yong/ws_kari/ROS2_Test/src/cbba' with build type 'ament_cmake'
+[1.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yong/ws_kari/ROS2_Test/src/cbba'
+[1.223s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.223s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm' with build type 'ament_cmake'
+[1.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm'
+[1.281s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.281s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+[1.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/cbba': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/cbba -- -j16 -l16
+[1.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm -- -j16 -l16
+[1.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/cbba' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/cbba -- -j16 -l16
+[1.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/cbba': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/cbba
+[1.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cbba)
+[1.436s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/cbba' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/cbba
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba' for CMake module files
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba' for CMake config files
+[1.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('cbba', 'cmake_prefix_path')
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/hook/cmake_prefix_path.ps1'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/hook/cmake_prefix_path.dsv'
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/hook/cmake_prefix_path.sh'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/bin'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/lib/pkgconfig/cbba.pc'
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/lib/python3.10/site-packages'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/bin'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.ps1'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.sh'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.zsh'
+[1.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/cbba/share/colcon-core/packages/cbba)
+[1.547s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cbba)
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba' for CMake module files
+[1.562s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba' for CMake config files
+[1.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('cbba', 'cmake_prefix_path')
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/hook/cmake_prefix_path.ps1'
+[1.575s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/hook/cmake_prefix_path.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/hook/cmake_prefix_path.sh'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/bin'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/lib/pkgconfig/cbba.pc'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/lib/python3.10/site-packages'
+[1.576s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/cbba/bin'
+[1.589s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.ps1'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.sh'
+[1.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.bash'
+[1.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/cbba/share/cbba/package.zsh'
+[1.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/cbba/share/colcon-core/packages/cbba)
+[1.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm -- -j16 -l16
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/custom_interfaces
+[1.838s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_agent_comm)
+[1.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/multi_agent_comm
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm' for CMake module files
+[1.856s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm' for CMake config files
+[1.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_agent_comm', 'cmake_prefix_path')
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/cmake_prefix_path.ps1'
+[1.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/cmake_prefix_path.dsv'
+[1.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/cmake_prefix_path.sh'
+[1.870s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib'
+[1.870s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_agent_comm', 'ld_library_path_lib')
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/ld_library_path_lib.ps1'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/ld_library_path_lib.dsv'
+[1.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/ld_library_path_lib.sh'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/bin'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/pkgconfig/multi_agent_comm.pc'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/python3.10/site-packages'
+[1.884s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/bin'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.ps1'
+[1.897s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.dsv'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.bash'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.zsh'
+[1.899s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/colcon-core/packages/multi_agent_comm)
+[1.900s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[1.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/custom_interfaces
+[1.913s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces' for CMake module files
+[1.914s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces' for CMake config files
+[1.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[1.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[1.928s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib'
+[1.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/bin'
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/python3.10/site-packages'
+[1.942s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/bin'
+[1.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.sh'
+[1.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.bash'
+[1.957s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[1.957s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[1.986s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multi_agent_comm)
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm' for CMake module files
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm' for CMake config files
+[2.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_agent_comm', 'cmake_prefix_path')
+[2.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/cmake_prefix_path.ps1'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/cmake_prefix_path.dsv'
+[2.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/cmake_prefix_path.sh'
+[2.013s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib'
+[2.013s] Level 1:colcon.colcon_core.shell:create_environment_hook('multi_agent_comm', 'ld_library_path_lib')
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/ld_library_path_lib.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/ld_library_path_lib.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/hook/ld_library_path_lib.sh'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/bin'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/pkgconfig/multi_agent_comm.pc'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/python3.10/site-packages'
+[2.027s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/bin'
+[2.040s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.ps1'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.dsv'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.sh'
+[2.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.bash'
+[2.042s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.zsh'
+[2.042s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/colcon-core/packages/multi_agent_comm)
+[2.056s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[2.068s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces' for CMake module files
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces' for CMake config files
+[2.070s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[2.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[2.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[2.083s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib'
+[2.083s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[2.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/bin'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/python3.10/site-packages'
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/bin'
+[2.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[2.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.sh'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.bash'
+[2.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[2.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[2.111s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yong/ws_kari/ROS2_Test/src/srv_test' with build type 'ament_cmake'
+[2.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yong/ws_kari/ROS2_Test/src/srv_test'
+[2.125s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.125s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[2.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '2': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[2.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(srv_test)
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test' for CMake module files
+[2.861s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test' for CMake config files
+[2.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('srv_test', 'cmake_prefix_path')
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/hook/cmake_prefix_path.ps1'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/hook/cmake_prefix_path.dsv'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/hook/cmake_prefix_path.sh'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test/lib'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test/bin'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/pkgconfig/srv_test.pc'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/python3.10/site-packages'
+[2.875s] Level 1:colcon.colcon_core.environment:checking '/home/yong/ws_kari/ROS2_Test/install/srv_test/bin'
+[2.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.ps1'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.sh'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.bash'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.zsh'
+[2.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yong/ws_kari/ROS2_Test/install/srv_test/share/colcon-core/packages/srv_test)
+[2.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.899s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.900s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.916s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.916s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.916s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.925s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.937s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yong/ws_kari/ROS2_Test/install/local_setup.ps1'
+[2.938s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yong/ws_kari/ROS2_Test/install/_local_setup_util_ps1.py'
+[2.939s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yong/ws_kari/ROS2_Test/install/setup.ps1'
+[2.952s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yong/ws_kari/ROS2_Test/install/local_setup.sh'
+[2.952s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yong/ws_kari/ROS2_Test/install/_local_setup_util_sh.py'
+[2.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yong/ws_kari/ROS2_Test/install/setup.sh'
+[2.965s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yong/ws_kari/ROS2_Test/install/local_setup.bash'
+[2.965s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yong/ws_kari/ROS2_Test/install/setup.bash'
+[2.979s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yong/ws_kari/ROS2_Test/install/local_setup.zsh'
+[2.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yong/ws_kari/ROS2_Test/install/setup.zsh'

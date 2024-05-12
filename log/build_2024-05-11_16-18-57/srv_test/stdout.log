@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target client_node[0m
+[ 50%] Built target service_node
+[100%] Built target client_node
+-- Install configuration: ""
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/service_node
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.sh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.dsv
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.bash
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.sh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.zsh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.dsv
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/packages/srv_test
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig.cmake
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig-version.cmake
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.xml
