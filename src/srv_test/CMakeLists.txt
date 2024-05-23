@@ -13,6 +13,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(custom_interfaces REQUIRED)  # Find the custom_interfaces package
+find_package(std_msgs)
 
 include_directories(
   include
@@ -28,6 +29,7 @@ add_executable(server_node src/server_node.cpp)
 ament_target_dependencies(server_node
   rclcpp
   custom_interfaces  # Link against custom_interfaces
+  std_msgs
 )
 
 install(TARGETS

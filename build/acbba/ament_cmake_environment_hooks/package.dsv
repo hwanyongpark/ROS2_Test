@@ -1,0 +1,4 @@
+source;share/acbba/local_setup.bash
+source;share/acbba/local_setup.dsv
+source;share/acbba/local_setup.sh
+source;share/acbba/local_setup.zsh

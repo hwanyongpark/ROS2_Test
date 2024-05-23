@@ -606,4 +606,8 @@ CMakeFiles/server_node.dir/src/server_node.cpp.o: \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/status.hpp \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/status__struct.hpp \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/status__builder.hpp \
- /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/status__traits.hpp
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp/custom_interfaces/msg/detail/status__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp

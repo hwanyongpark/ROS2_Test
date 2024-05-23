@@ -1,7 +1,9 @@
 #include "rclcpp/rclcpp.hpp"
 #include "custom_interfaces/srv/check_name.hpp"
-#include "custom_interfaces/msg/status.hpp" // 이 경로는 Status.msg가 포함된 패키지의 경로에 맞춰 설정해야 합니다.
+#include "custom_interfaces/msg/status.hpp" 
+#include "std_msgs/msg/string.hpp"
 #include <vector>
+#include <string>
 
 using std::placeholders::_1;
 using std::placeholders::_2;
@@ -15,11 +17,17 @@ public:
     {
         service_ = this->create_service<custom_interfaces::srv::CheckName>(
             "check_name_service", std::bind(&ServerNode::handle_request, this, _1, _2));
+
+        subscriber_list_publisher_ = this->create_publisher<std_msgs::msg::String>("subscriber_list", 10);
+        publish_list_timer_ = this->create_wall_timer(
+            1s, [this]() { this->publish_subscriber_list(); });
     }
 
 private:
     rclcpp::Service<custom_interfaces::srv::CheckName>::SharedPtr service_;
     std::vector<rclcpp::Subscription<Status>::SharedPtr> subscribers_;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr subscriber_list_publisher_;
+    rclcpp::TimerBase::SharedPtr publish_list_timer_;
 
     void handle_request(
         const std::shared_ptr<custom_interfaces::srv::CheckName::Request> request,
@@ -42,6 +50,17 @@ private:
     void handle_status(const std::string &topic_name, const Status::SharedPtr msg)
     {
         RCLCPP_INFO(this->get_logger(), "Received status from %s: %ld", topic_name.c_str(), msg->num);
+    }
+
+    void publish_subscriber_list()
+    {
+        std_msgs::msg::String message;
+        message.data = "Subscribed topics: ";
+        for (auto &subscriber : subscribers_) {
+            message.data += std::string(subscriber->get_topic_name()) + ", ";
+        }
+        subscriber_list_publisher_->publish(message);
+        RCLCPP_INFO(this->get_logger(), "Published subscriber list: %s", message.data.c_str());
     }
 };
 
