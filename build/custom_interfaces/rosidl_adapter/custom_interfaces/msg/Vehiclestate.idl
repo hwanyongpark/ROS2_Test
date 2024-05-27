@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/Vehiclestate.msg
+// generated code does not contain a copyright notice
+
+
+module custom_interfaces {
+  module msg {
+    struct Vehiclestate {
+      string name;
+
+      double position_x;
+
+      double position_y;
+
+      double position_z;
+    };
+  };
+};

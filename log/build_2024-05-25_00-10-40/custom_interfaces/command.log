@@ -1,0 +1,4 @@
+Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/custom_interfaces
+Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/custom_interfaces

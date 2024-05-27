@@ -1,7 +1,9 @@
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/uninstall.dir
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/srv_test_uninstall.dir
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/client_node.dir
+/home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/client.dir
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/server_node.dir
+/home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/server.dir
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/test.dir
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/edit_cache.dir
 /home/yong/ws_kari/ROS2_Test/build/srv_test/CMakeFiles/rebuild_cache.dir

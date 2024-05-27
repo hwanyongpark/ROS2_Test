@@ -1,5 +1,7 @@
 msg/Status.idl
 msg/Status.msg
+msg/Vehiclestate.idl
+msg/Vehiclestate.msg
 srv/CheckName.idl
 srv/CheckName.srv
 srv/CheckName_Request.msg

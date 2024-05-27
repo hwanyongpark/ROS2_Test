@@ -1,5 +1,7 @@
 /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
 /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server_node
+/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client
+/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server
 /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
 /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
 /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh

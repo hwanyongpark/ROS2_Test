@@ -74,6 +74,10 @@ CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/st
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/status__builder.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/status__struct.hpp
 CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/status__traits.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/vehiclestate.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__builder.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__struct.hpp
+CMakeFiles/custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__traits.hpp
 
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -92,6 +96,7 @@ rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: rosidl_adapter/custom_interfaces/srv/CheckName.idl
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: rosidl_adapter/custom_interfaces/msg/Status.idl
+rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: rosidl_adapter/custom_interfaces/msg/Vehiclestate.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -116,11 +121,27 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/status__struct.hpp: rosidl_gen
 rosidl_generator_cpp/custom_interfaces/msg/detail/status__traits.hpp: rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/status__traits.hpp
 
+rosidl_generator_cpp/custom_interfaces/msg/vehiclestate.hpp: rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/vehiclestate.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__builder.hpp: rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__builder.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__struct.hpp: rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__struct.hpp
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__traits.hpp: rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__traits.hpp
+
 custom_interfaces__cpp: CMakeFiles/custom_interfaces__cpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/status__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/status__struct.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/status__traits.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__builder.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__struct.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__traits.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/status.hpp
+custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/msg/vehiclestate.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/check_name__builder.hpp
 custom_interfaces__cpp: rosidl_generator_cpp/custom_interfaces/srv/detail/check_name__struct.hpp

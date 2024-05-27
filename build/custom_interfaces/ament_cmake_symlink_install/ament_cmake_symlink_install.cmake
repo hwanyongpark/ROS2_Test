@@ -364,6 +364,9 @@ ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_inter
 # install(FILES "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Status.idl" "DESTINATION" "share/custom_interfaces/msg")
 ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_interfaces" FILES "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Status.idl" "DESTINATION" "share/custom_interfaces/msg")
 
+# install(FILES "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Vehiclestate.idl" "DESTINATION" "share/custom_interfaces/msg")
+ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_interfaces" FILES "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Vehiclestate.idl" "DESTINATION" "share/custom_interfaces/msg")
+
 # install(FILES "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/srv/CheckName.srv" "DESTINATION" "share/custom_interfaces/srv")
 ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_interfaces" FILES "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/srv/CheckName.srv" "DESTINATION" "share/custom_interfaces/srv")
 
@@ -375,6 +378,9 @@ ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_inter
 
 # install(FILES "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Status.msg" "DESTINATION" "share/custom_interfaces/msg")
 ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_interfaces" FILES "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Status.msg" "DESTINATION" "share/custom_interfaces/msg")
+
+# install(FILES "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Vehiclestate.msg" "DESTINATION" "share/custom_interfaces/msg")
+ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_interfaces" FILES "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Vehiclestate.msg" "DESTINATION" "share/custom_interfaces/msg")
 
 # install(FILES "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/yong/ws_kari/ROS2_Test/src/custom_interfaces" FILES "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/custom_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

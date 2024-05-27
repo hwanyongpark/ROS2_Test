@@ -246,18 +246,23 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
   rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/custom_interfaces/msg/detail/status__struct.h \
   rosidl_generator_c/custom_interfaces/msg/detail/status__functions.h \
-  rosidl_generator_c/custom_interfaces/srv/detail/check_name__type_support.h \
-  rosidl_generator_c/custom_interfaces/srv/detail/check_name__struct.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__type_support.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.h \
+  rosidl_generator_c/custom_interfaces/srv/detail/check_name__type_support.h \
+  rosidl_generator_c/custom_interfaces/srv/detail/check_name__struct.h \
   rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.h
 
 
 rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.h:
 
+rosidl_generator_c/custom_interfaces/srv/detail/check_name__struct.h:
+
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
-rosidl_generator_c/custom_interfaces/srv/detail/check_name__struct.h:
+rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__struct.h:
 
 rosidl_generator_c/custom_interfaces/msg/detail/status__struct.h:
 
@@ -440,6 +445,8 @@ rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -648,6 +655,8 @@ rosidl_generator_c/custom_interfaces/srv/detail/check_name__type_support.h:
 /usr/include/alloca.h:
 
 /usr/include/python3.10/pyport.h:
+
+rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__type_support.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 

@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__type_support_c.cpp" "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__type_support_c.cpp.o" "gcc" "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__type_support_c.cpp.o.d"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__type_support_c.cpp" "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__type_support_c.cpp.o" "gcc" "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__type_support_c.cpp.o.d"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__type_support_c.cpp" "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__type_support_c.cpp.o" "gcc" "CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__type_support_c.cpp.o.d"
   )
 
@@ -16,6 +17,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__type_support_c.cpp" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_fastrtps_c.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__type_support_c.cpp" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__type_support_c.cpp" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h"
   )
 

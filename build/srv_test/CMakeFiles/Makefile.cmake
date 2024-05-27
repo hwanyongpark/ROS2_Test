@@ -633,5 +633,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/srv_test_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/client_node.dir/DependInfo.cmake"
+  "CMakeFiles/client.dir/DependInfo.cmake"
   "CMakeFiles/server_node.dir/DependInfo.cmake"
+  "CMakeFiles/server.dir/DependInfo.cmake"
   )

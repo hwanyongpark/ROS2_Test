@@ -70,6 +70,7 @@ CMakeFiles/custom_interfaces: /home/yong/ws_kari/ROS2_Test/src/custom_interfaces
 CMakeFiles/custom_interfaces: rosidl_cmake/srv/CheckName_Request.msg
 CMakeFiles/custom_interfaces: rosidl_cmake/srv/CheckName_Response.msg
 CMakeFiles/custom_interfaces: /home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Status.msg
+CMakeFiles/custom_interfaces: /home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Vehiclestate.msg
 
 custom_interfaces: CMakeFiles/custom_interfaces
 custom_interfaces: CMakeFiles/custom_interfaces.dir/build.make

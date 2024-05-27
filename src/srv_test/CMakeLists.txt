@@ -13,7 +13,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(custom_interfaces REQUIRED)  # Find the custom_interfaces package
-find_package(std_msgs)
+find_package(std_msgs REQUIRED)
 
 include_directories(
   include
@@ -25,8 +25,21 @@ ament_target_dependencies(client_node
   custom_interfaces  # Link against custom_interfaces
 )
 
+add_executable(client src/client.cpp)
+ament_target_dependencies(client
+  rclcpp
+  custom_interfaces  # Link against custom_interfaces
+)
+
 add_executable(server_node src/server_node.cpp)
 ament_target_dependencies(server_node
+  rclcpp
+  custom_interfaces  # Link against custom_interfaces
+  std_msgs
+)
+
+add_executable(server src/server.cpp)
+ament_target_dependencies(server
   rclcpp
   custom_interfaces  # Link against custom_interfaces
   std_msgs
@@ -39,6 +52,16 @@ install(TARGETS
 
 install(TARGETS
   server_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  client
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+  server
   DESTINATION lib/${PROJECT_NAME}
 )
 

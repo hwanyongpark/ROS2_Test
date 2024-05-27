@@ -4,7 +4,8 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
     "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/CheckName.idl",
-    "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Status.idl"
+    "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Status.idl",
+    "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/Vehiclestate.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
@@ -14,6 +15,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/srv/CheckName.idl",
-    "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Status.idl"
+    "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Status.idl",
+    "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Vehiclestate.idl"
   ]
 }

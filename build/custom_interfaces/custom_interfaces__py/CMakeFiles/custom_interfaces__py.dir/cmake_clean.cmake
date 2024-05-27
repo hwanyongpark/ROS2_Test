@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/custom_interfaces/msg/__init__.py"
   "../rosidl_generator_py/custom_interfaces/msg/_status.py"
   "../rosidl_generator_py/custom_interfaces/msg/_status_s.c"
+  "../rosidl_generator_py/custom_interfaces/msg/_vehiclestate.py"
+  "../rosidl_generator_py/custom_interfaces/msg/_vehiclestate_s.c"
   "../rosidl_generator_py/custom_interfaces/srv/__init__.py"
   "../rosidl_generator_py/custom_interfaces/srv/_check_name.py"
   "../rosidl_generator_py/custom_interfaces/srv/_check_name_s.c"

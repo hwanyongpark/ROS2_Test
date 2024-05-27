@@ -1,0 +1,27 @@
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:38:10:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kbool ClientNode::service_ready_[m[K’
+   38 |     bool [01;31m[Kservice_ready_[m[K;
+      |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:16:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool ClientNode::service_ready_[m[K’
+   16 |     bool [01;36m[Kservice_ready_[m[K;
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:40:14:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ClientNode::x_[m[K’
+   40 |     double x_[01;31m[K,[m[K y_, z_;
+      |              [01;31m[K^[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:15:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ClientNode::x_[m[K’
+   15 |     double [01;36m[Kx_[m[K, y_, z_;
+      |            [01;36m[K^~[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:40:18:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ClientNode::y_[m[K’
+   40 |     double x_, y_[01;31m[K,[m[K z_;
+      |                  [01;31m[K^[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:15:16:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ClientNode::y_[m[K’
+   15 |     double x_, [01;36m[Ky_[m[K, z_;
+      |                [01;36m[K^~[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:40:20:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kdouble ClientNode::z_[m[K’
+   40 |     double x_, y_, [01;31m[Kz_[m[K;
+      |                    [01;31m[K^~[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:15:20:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kdouble ClientNode::z_[m[K’
+   15 |     double x_, y_, [01;36m[Kz_[m[K;
+      |                    [01;36m[K^~[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

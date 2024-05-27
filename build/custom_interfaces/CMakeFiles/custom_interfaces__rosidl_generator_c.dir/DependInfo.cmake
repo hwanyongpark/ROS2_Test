@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/status__functions.c" "CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/status__functions.c.o" "gcc" "CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/status__functions.c.o.d"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.c" "CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.c.o" "gcc" "CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.c.o.d"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.c" "CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.c.o" "gcc" "CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.c.o.d"
   )
 
@@ -18,7 +19,12 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/status__functions.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/status__struct.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/status__type_support.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.c" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__struct.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__type_support.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/status.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
+  "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/vehiclestate.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.c" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
   "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__struct.h" "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/check_name.h"
