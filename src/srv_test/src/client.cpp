@@ -41,6 +41,7 @@ private:
         std::lock_guard<std::mutex> lock(mutex_);
         if (!client_->service_is_ready()) {
             RCLCPP_INFO(this->get_logger(), "[%s] Waiting for the service to be available...", this->get_name());
+            service_ready_ = false;
             return;
         }
 
@@ -65,9 +66,9 @@ private:
         publisher_->publish(message);
 
         // Update positions
-        x_ += 0.1;
-        y_ += 0.1;
-        z_ += 0.1;
+        x_ += 1;
+        y_ += 1;
+        z_ += 1;
     }
 
     void handle_service_response(rclcpp::Client<CheckName>::SharedFuture future)

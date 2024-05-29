@@ -1,0 +1,20 @@
+[0.073s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/home/yong/ws_kari/ROS2_Test/install/acbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/install/project_dma_2024/lib:/home/yong/ws_kari/install/multi_agent_comm/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[0.114s] [35m[1mConsolidate compiler generated dependencies of target server[0m
+[0.126s] [ 75%] Built target client_node
+[0.126s] [ 75%] Built target server_node
+[0.126s] [ 75%] Built target client
+[0.134s] [ 87%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[1.974s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/server.cpp:[m[K In constructor ‘[01m[KServerNode::ServerNode()[m[K’:
+[1.974s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/server.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvehicle_states_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kstates_publisher_[m[K’?
+[1.974s]    22 |         [01;31m[Kvehicle_states_publisher_[m[K = this->create_publisher<std_msgs::msg::String>("vehicle_states", 10);
+[1.974s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.974s]       |         [32m[Kstates_publisher_[m[K
+[2.024s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/server.cpp:[m[K In member function ‘[01m[Kvoid ServerNode::handle_request(std::shared_ptr<custom_interfaces::srv::CheckName_Request_<std::allocator<void> > >, std::shared_ptr<custom_interfaces::srv::CheckName_Response_<std::allocator<void> > >)[m[K’:
+[2.024s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/server.cpp:49:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscribers_[m[K’ was not declared in this scope; did you mean ‘[01m[Ksubscriber[m[K’?
+[2.024s]    49 |         [01;31m[Ksubscribers_[m[K.push_back(subscriber);
+[2.024s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[2.024s]       |         [32m[Ksubscriber[m[K
+[4.091s] gmake[2]: *** [CMakeFiles/server.dir/build.make:76: CMakeFiles/server.dir/src/server.cpp.o] Error 1
+[4.092s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/server.dir/all] Error 2
+[4.092s] gmake: *** [Makefile:146: all] Error 2
+[4.094s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '2': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/home/yong/ws_kari/install/multi_agent_comm:/home/yong/ws_kari/install/cbba:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/home/yong/ws_kari/ROS2_Test/install/cbba:/home/yong/ws_kari/ROS2_Test/install/acbba:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/install/project_dma_2024/lib:/home/yong/ws_kari/install/multi_agent_comm/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
