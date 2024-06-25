@@ -1,5 +1,11 @@
+msg/Auctioninfo.idl
+msg/Auctioninfo.msg
 msg/Status.idl
 msg/Status.msg
+msg/Task.idl
+msg/Task.msg
+msg/Tasklist.idl
+msg/Tasklist.msg
 msg/Vehiclestate.idl
 msg/Vehiclestate.msg
 srv/CheckName.idl

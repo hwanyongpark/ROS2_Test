@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>auction_node</name>
+  <version>0.0.0</version>
+  <description>Auction Node</description>
+  <maintainer email="user@domain.com">User</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <build_depend>custom_interfaces</build_depend>
+  <exec_depend>custom_interfaces</exec_depend>
+  <depend>geometry_msgs</depend>
+</package>

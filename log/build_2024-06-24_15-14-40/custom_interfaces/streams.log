@@ -1,0 +1,26 @@
+[0.213s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+[0.239s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.426s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.453s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.456s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.462s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.471s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.536s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.537s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.805s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.811s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.849s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.849s]   rosidl_generate_interfaces() the passed file 'msg/auction_info.msg' doesn't
+[0.849s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.849s]   '/home/yong/ws_kari/ROS2_Test/src/custom_interfaces'
+[0.849s] Call Stack (most recent call first):
+[0.849s]   CMakeLists.txt:18 (rosidl_generate_interfaces)
+[0.849s] 
+[0.849s] [0m
+[0.849s] -- Configuring incomplete, errors occurred!
+[0.849s] See also "/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[0.856s] gmake: *** [Makefile:1179: cmake_check_build_system] Error 1
+[0.858s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16

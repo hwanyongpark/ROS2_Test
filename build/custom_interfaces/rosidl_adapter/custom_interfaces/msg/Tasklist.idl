@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/Tasklist.msg
+// generated code does not contain a copyright notice
+
+#include "custom_interfaces/msg/Task.idl"
+
+module custom_interfaces {
+  module msg {
+    struct Tasklist {
+      sequence<custom_interfaces::msg::Task> tasks;
+    };
+  };
+};

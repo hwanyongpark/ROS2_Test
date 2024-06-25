@@ -210,6 +210,16 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_ge
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__type_support.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/tasklist__type_support.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/tasklist__struct.h \
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/tasklist__functions.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__type_support.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__struct.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.h

@@ -3,6 +3,9 @@
   "non_idl_tuples": [
     "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:srv/CheckName.srv",
     "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:msg/Status.msg",
-    "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:msg/Vehiclestate.msg"
+    "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:msg/Vehiclestate.msg",
+    "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:msg/Auctioninfo.msg",
+    "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:msg/Task.msg",
+    "/home/yong/ws_kari/ROS2_Test/src/custom_interfaces:msg/Tasklist.msg"
   ]
 }
