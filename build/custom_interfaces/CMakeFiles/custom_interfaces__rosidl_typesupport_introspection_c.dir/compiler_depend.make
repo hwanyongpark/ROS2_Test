@@ -65,7 +65,15 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_type
   rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
   rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+  rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
+  rosidl_generator_c/custom_interfaces/msg/task.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h \
+  rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
 CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/status__type_support.c.o: rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/status__type_support.c \
   /usr/include/stdc-predef.h \
@@ -275,7 +283,8 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_type
   rosidl_generator_c/custom_interfaces/msg/task.h \
   rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h \
   rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h \
-  rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h
+  rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h
 
 CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/vehiclestate__type_support.c.o: rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/vehiclestate__type_support.c \
   /usr/include/stdc-predef.h \
@@ -426,8 +435,6 @@ rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__struct.h:
 
 rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/vehiclestate__type_support.c:
 
-rosidl_generator_c/custom_interfaces/msg/task.h:
-
 rosidl_generator_c/custom_interfaces/msg/detail/tasklist__struct.h:
 
 rosidl_generator_c/custom_interfaces/msg/detail/tasklist__functions.h:
@@ -438,10 +445,6 @@ rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/tasklist__rosidl
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__functions.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.h:
 
 rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__type_support.c:
@@ -451,6 +454,12 @@ rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.h:
 rosidl_generator_c/custom_interfaces/msg/detail/status__struct.h:
 
 rosidl_generator_c/custom_interfaces/msg/detail/status__functions.h:
+
+rosidl_generator_c/custom_interfaces/msg/task.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
 
 rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h:
 

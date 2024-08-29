@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found custom_interfaces: 0.1.0 (/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/auction_node
+[ 50%] [32mBuilding CXX object CMakeFiles/auction_node.dir/src/auction.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/task_publisher.dir/src/task_publisher.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable task_publisher[0m
+[ 75%] Built target task_publisher
+[100%] [32m[1mLinking CXX executable auction_node[0m
+[100%] Built target auction_node
+-- Install configuration: ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node
+-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node" to ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher
+-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher" to ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/package_run_dependencies/auction_node
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/parent_prefix_path/auction_node
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.sh
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.dsv
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.sh
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.dsv
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.bash
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.sh
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.zsh
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.dsv
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.dsv
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/packages/auction_node
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig.cmake
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig-version.cmake
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.xml

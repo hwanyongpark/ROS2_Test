@@ -35,7 +35,7 @@ AMENT_CMAKE_UNINSTALL_TARGET:BOOL=ON
 AMENT_TEST_RESULTS_DIR:PATH=/home/yong/ws_kari/ROS2_Test/build/srv_test/test_results
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=ON
+BUILD_TESTING:BOOL=OFF
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
@@ -261,9 +261,6 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
-
-//Name of the computer/site where compile is being run
-SITE:STRING=yong-desktop
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND

@@ -14,6 +14,10 @@
 #include "custom_interfaces/msg/detail/auctioninfo__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'task_list'
+#include "custom_interfaces/msg/detail/task__traits.hpp"
+
 namespace custom_interfaces
 {
 
@@ -83,6 +87,31 @@ inline void to_flow_style_yaml(
       }
       out << "]";
     }
+    out << ", ";
+  }
+
+  // member: task_list
+  {
+    if (msg.task_list.size() == 0) {
+      out << "task_list: []";
+    } else {
+      out << "task_list: [";
+      size_t pending_items = msg.task_list.size();
+      for (auto item : msg.task_list) {
+        to_flow_style_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+    out << ", ";
+  }
+
+  // member: timestamp
+  {
+    out << "timestamp: ";
+    rosidl_generator_traits::value_to_yaml(msg.timestamp, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -159,6 +188,35 @@ inline void to_block_style_yaml(
         out << "\n";
       }
     }
+  }
+
+  // member: task_list
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.task_list.size() == 0) {
+      out << "task_list: []\n";
+    } else {
+      out << "task_list:\n";
+      for (auto item : msg.task_list) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "-\n";
+        to_block_style_yaml(item, out, indentation + 2);
+      }
+    }
+  }
+
+  // member: timestamp
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "timestamp: ";
+    rosidl_generator_traits::value_to_yaml(msg.timestamp, out);
+    out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 

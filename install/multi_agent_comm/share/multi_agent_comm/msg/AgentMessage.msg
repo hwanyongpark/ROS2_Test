@@ -1,1 +1,4 @@
-/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/msg/AgentMessage.msg
+int32 agent_id
+string status
+builtin_interfaces/Time timestamp
+string formatted_time

@@ -1,1 +1,5 @@
-/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Vehiclestate.msg
+string name
+float64 position_x
+float64 position_y
+float64 position_z
+

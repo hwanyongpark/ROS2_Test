@@ -103,6 +103,8 @@ CMakeFiles/custom_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3.id
 CMakeFiles/custom_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/custom_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/custom_interfaces: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
+CMakeFiles/custom_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+CMakeFiles/custom_interfaces: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 
 custom_interfaces: CMakeFiles/custom_interfaces
 custom_interfaces: CMakeFiles/custom_interfaces.dir/build.make

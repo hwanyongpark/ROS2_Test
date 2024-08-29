@@ -1,9 +1,0 @@
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/uninstall.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/cbba_uninstall.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/test.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/edit_cache.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/rebuild_cache.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/list_install_components.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/install.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/install/local.dir
-/home/yong/ws_kari/ROS2_Test/build/cbba/CMakeFiles/install/strip.dir

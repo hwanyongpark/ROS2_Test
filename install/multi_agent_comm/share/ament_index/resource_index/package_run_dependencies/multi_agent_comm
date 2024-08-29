@@ -1,1 +1,1 @@
-/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/multi_agent_comm
+rclcpp;std_msgs;builtin_interfaces;rosidl_default_runtime

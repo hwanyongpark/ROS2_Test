@@ -1,0 +1,36 @@
+[ 37%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/server_node.dir/src/server_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable client[0m
+[ 62%] Built target client
+[ 75%] [32m[1mLinking CXX executable client_node[0m
+[ 87%] [32m[1mLinking CXX executable server_node[0m
+[100%] [32m[1mLinking CXX executable server[0m
+[100%] Built target server_node
+[100%] Built target client_node
+[100%] Built target server
+-- Install configuration: ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
+-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node" to ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server_node
+-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server_node" to ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client
+-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client" to ""
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server
+-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server" to ""
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.sh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.dsv
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.bash
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.sh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.zsh
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.dsv
+-- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/packages/srv_test
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig.cmake
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig-version.cmake
+-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.xml

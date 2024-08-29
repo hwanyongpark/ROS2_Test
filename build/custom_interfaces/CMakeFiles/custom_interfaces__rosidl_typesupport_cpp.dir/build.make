@@ -140,6 +140,8 @@ rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp: /opt/
 rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ type support dispatch for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp --generator-arguments-file /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_cpp__arguments.json --typesupports rosidl_typesupport_fastrtps_cpp rosidl_typesupport_introspection_cpp
 

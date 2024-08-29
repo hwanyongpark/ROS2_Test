@@ -1,0 +1,928 @@
+[0.000000] (-) TimerEvent: {}
+[0.000221] (acbba) JobQueued: {'identifier': 'acbba', 'dependencies': OrderedDict()}
+[0.000451] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000561] (multi_agent_comm) JobQueued: {'identifier': 'multi_agent_comm', 'dependencies': OrderedDict()}
+[0.000629] (auction_node) JobQueued: {'identifier': 'auction_node', 'dependencies': OrderedDict([('custom_interfaces', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces')])}
+[0.000672] (srv_test) JobQueued: {'identifier': 'srv_test', 'dependencies': OrderedDict([('custom_interfaces', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces')])}
+[0.000748] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.055662] (acbba) JobStarted: {'identifier': 'acbba'}
+[0.099848] (-) TimerEvent: {}
+[0.110443] (multi_agent_comm) JobStarted: {'identifier': 'multi_agent_comm'}
+[0.165804] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.166060] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/yong/ws_kari/ROS2_Test/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[0.168325] (acbba) JobProgress: {'identifier': 'acbba', 'progress': 'cmake'}
+[0.169938] (acbba) JobProgress: {'identifier': 'acbba', 'progress': 'build'}
+[0.170433] (acbba) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/ROS2_Test/build/acbba', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/acbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/acbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[0.173795] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'cmake'}
+[0.177122] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'build'}
+[0.177334] (multi_agent_comm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[0.199965] (-) TimerEvent: {}
+[0.213432] (acbba) CommandEnded: {'returncode': 0}
+[0.219489] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.235414] (multi_agent_comm) StdoutLine: {'line': b'[  6%] Built target multi_agent_comm__rosidl_generator_c\n'}
+[0.235594] (multi_agent_comm) StdoutLine: {'line': b'[  9%] Built target multi_agent_comm__cpp\n'}
+[0.237489] (acbba) JobProgress: {'identifier': 'acbba', 'progress': 'install'}
+[0.246349] (multi_agent_comm) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_multi_agent_comm\n'}
+[0.248063] (acbba) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/ROS2_Test/build/acbba'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/acbba', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/acbba'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[0.258573] (acbba) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.258927] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/ament_index/resource_index/package_run_dependencies/acbba\n'}
+[0.259123] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/ament_index/resource_index/parent_prefix_path/acbba\n'}
+[0.259293] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/environment/ament_prefix_path.sh\n'}
+[0.259380] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/environment/ament_prefix_path.dsv\n'}
+[0.259460] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/environment/path.sh\n'}
+[0.259538] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/environment/path.dsv\n'}
+[0.259624] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/local_setup.bash\n'}
+[0.259758] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/local_setup.sh\n'}
+[0.259864] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/local_setup.zsh\n'}
+[0.259941] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/local_setup.dsv\n'}
+[0.260045] (acbba) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/package.dsv\n'}
+[0.260123] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/ament_index/resource_index/packages/acbba\n'}
+[0.260211] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/cmake/acbbaConfig.cmake\n'}
+[0.260287] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/cmake/acbbaConfig-version.cmake\n'}
+[0.260363] (acbba) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/acbba/share/acbba/package.xml\n'}
+[0.261199] (multi_agent_comm) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/multi_agent_comm/msg/detail/agent_message__type_support_c.cpp.o\x1b[0m\n'}
+[0.261388] (multi_agent_comm) StdoutLine: {'line': b'[ 18%] Built target multi_agent_comm__rosidl_typesupport_introspection_c\n'}
+[0.262826] (acbba) CommandEnded: {'returncode': 0}
+[0.263708] (multi_agent_comm) StdoutLine: {'line': b'[ 25%] Built target multi_agent_comm__rosidl_typesupport_c\n'}
+[0.266649] (multi_agent_comm) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/multi_agent_comm/msg/detail/agent_message__type_support.cpp.o\x1b[0m\n'}
+[0.272589] (multi_agent_comm) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/multi_agent_comm/msg/detail/dds_fastrtps/agent_message__type_support.cpp.o\x1b[0m\n'}
+[0.274299] (multi_agent_comm) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/multi_agent_comm__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/multi_agent_comm/msg/agent_message__type_support.cpp.o\x1b[0m\n'}
+[0.284866] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.294344] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300060] (-) TimerEvent: {}
+[0.384290] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.394806] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.395676] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.395958] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.401272] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.401915] (-) TimerEvent: {}
+[0.432907] (acbba) JobEnded: {'identifier': 'acbba', 'rc': 0}
+[0.456598] (multi_agent_comm) StdoutLine: {'line': b'running egg_info\n'}
+[0.471664] (multi_agent_comm) StdoutLine: {'line': b'writing multi_agent_comm.egg-info/PKG-INFO\n'}
+[0.472220] (multi_agent_comm) StdoutLine: {'line': b'writing dependency_links to multi_agent_comm.egg-info/dependency_links.txt\n'}
+[0.472490] (multi_agent_comm) StdoutLine: {'line': b'writing top-level names to multi_agent_comm.egg-info/top_level.txt\n'}
+[0.491921] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.499036] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.499336] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.499698] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.502047] (-) TimerEvent: {}
+[0.502559] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.520233] (multi_agent_comm) StdoutLine: {'line': b"reading manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[0.521080] (multi_agent_comm) StdoutLine: {'line': b"writing manifest file 'multi_agent_comm.egg-info/SOURCES.txt'\n"}
+[0.540697] (multi_agent_comm) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[0.563016] (multi_agent_comm) StdoutLine: {'line': b'[ 34%] Built target ament_cmake_python_build_multi_agent_comm_egg\n'}
+[0.575652] (multi_agent_comm) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[0.585696] (multi_agent_comm) StdoutLine: {'line': b'[ 39%] Built target multi_agent_comm__rosidl_typesupport_cpp\n'}
+[0.602182] (-) TimerEvent: {}
+[0.617905] (multi_agent_comm) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/count.dir/src/count.cpp.o\x1b[0m\n'}
+[0.618498] (multi_agent_comm) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/comm.dir/src/comm.cpp.o\x1b[0m\n'}
+[0.618810] (multi_agent_comm) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/comm_qos.dir/src/comm_qos.cpp.o\x1b[0m\n'}
+[0.620135] (multi_agent_comm) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/multi_thread1.dir/src/multi_thread1.cpp.o\x1b[0m\n'}
+[0.624331] (multi_agent_comm) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/self_loop.dir/src/self_loop.cpp.o\x1b[0m\n'}
+[0.624764] (multi_agent_comm) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/multi_pub.dir/src/multi_thread_pub.cpp.o\x1b[0m\n'}
+[0.628282] (multi_agent_comm) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[0.646374] (multi_agent_comm) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[0.702490] (-) TimerEvent: {}
+[0.718501] (multi_agent_comm) StdoutLine: {'line': b'[ 60%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c\n'}
+[0.742782] (multi_agent_comm) StdoutLine: {'line': b'[ 62%] Built target multi_agent_comm__rosidl_typesupport_introspection_cpp\n'}
+[0.767526] (multi_agent_comm) StdoutLine: {'line': b'[ 65%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_cpp\n'}
+[0.791902] (multi_agent_comm) StdoutLine: {'line': b'[ 65%] Built target multi_agent_comm\n'}
+[0.802568] (-) TimerEvent: {}
+[0.814674] (multi_agent_comm) StdoutLine: {'line': b'[ 67%] Built target multi_agent_comm__py\n'}
+[0.842287] (multi_agent_comm) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_generator_py.dir/rosidl_generator_py/multi_agent_comm/msg/_agent_message_s.c.o\x1b[0m\n'}
+[0.902684] (-) TimerEvent: {}
+[0.916230] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.946276] (multi_agent_comm) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so\x1b[0m\n'}
+[1.002816] (-) TimerEvent: {}
+[1.019917] (multi_agent_comm) StdoutLine: {'line': b'[ 72%] Built target multi_agent_comm__rosidl_generator_py\n'}
+[1.044237] (custom_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.047421] (multi_agent_comm) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.052223] (multi_agent_comm) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.056079] (multi_agent_comm) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/multi_agent_comm__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.102964] (-) TimerEvent: {}
+[1.112093] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.119551] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.133683] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.155474] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.162015] (multi_agent_comm) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.187508] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.196099] (multi_agent_comm) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.202761] (multi_agent_comm) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.203850] (-) TimerEvent: {}
+[1.211942] (multi_agent_comm) StdoutLine: {'line': b'[ 86%] Built target multi_agent_comm__rosidl_typesupport_introspection_c__pyext\n'}
+[1.251575] (multi_agent_comm) StdoutLine: {'line': b'[ 86%] Built target multi_agent_comm__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.255464] (multi_agent_comm) StdoutLine: {'line': b'[ 86%] Built target multi_agent_comm__rosidl_typesupport_c__pyext\n'}
+[1.296808] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.300576] (custom_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.303972] (-) TimerEvent: {}
+[1.404331] (-) TimerEvent: {}
+[1.459565] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.503224] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.504463] (-) TimerEvent: {}
+[1.579338] (custom_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.593886] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.604577] (-) TimerEvent: {}
+[1.689567] (custom_interfaces) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.690288] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.704701] (-) TimerEvent: {}
+[1.805126] (-) TimerEvent: {}
+[1.814290] (custom_interfaces) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.815881] (custom_interfaces) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.905253] (-) TimerEvent: {}
+[2.005620] (-) TimerEvent: {}
+[2.065112] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.079488] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.105748] (-) TimerEvent: {}
+[2.206134] (-) TimerEvent: {}
+[2.306495] (-) TimerEvent: {}
+[2.406833] (-) TimerEvent: {}
+[2.507214] (-) TimerEvent: {}
+[2.548372] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.607333] (-) TimerEvent: {}
+[2.707679] (-) TimerEvent: {}
+[2.807975] (-) TimerEvent: {}
+[2.908268] (-) TimerEvent: {}
+[3.008612] (-) TimerEvent: {}
+[3.016941] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.108737] (-) TimerEvent: {}
+[3.186411] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.208861] (-) TimerEvent: {}
+[3.209279] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.210773] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.238714] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.238905] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.238965] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.239020] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.262138] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.308962] (-) TimerEvent: {}
+[3.329536] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.379832] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.383565] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/custom_interfaces\n'}
+[3.400615] (custom_interfaces) CommandEnded: {'returncode': 0}
+[3.401533] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[3.402045] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[3.409066] (-) TimerEvent: {}
+[3.451774] (custom_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.464292] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.483889] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_custom_interfaces\n'}
+[3.490272] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/src/multi_thread_pub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid AgentNode::topic_callback(std_msgs::msg::Int8_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.490564] (multi_agent_comm) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/multi_agent_comm/src/multi_thread_pub.cpp:44:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.490676] (multi_agent_comm) StderrLine: {'line': b'   44 |     void topic_callback(\x1b[01;35m\x1b[Kconst std_msgs::msg::Int8::SharedPtr msg\x1b[m\x1b[K) const {\n'}
+[3.490760] (multi_agent_comm) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[3.509172] (-) TimerEvent: {}
+[3.609551] (-) TimerEvent: {}
+[3.709905] (-) TimerEvent: {}
+[3.791382] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[3.792863] (custom_interfaces) StdoutLine: {'line': b'creating custom_interfaces.egg-info\n'}
+[3.810047] (-) TimerEvent: {}
+[3.814108] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[3.814700] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[3.815108] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[3.815348] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[3.873062] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[3.873694] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[3.910193] (-) TimerEvent: {}
+[3.920102] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[4.007805] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__cpp\n'}
+[4.010331] (-) TimerEvent: {}
+[4.023502] (custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.023773] (custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.023937] (custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.047967] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.c.o\x1b[0m\n'}
+[4.048276] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.c.o\x1b[0m\n'}
+[4.048619] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.c.o\x1b[0m\n'}
+[4.049706] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/status__functions.c.o\x1b[0m\n'}
+[4.052243] (custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/tasklist__functions.c.o\x1b[0m\n'}
+[4.052601] (custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/task__functions.c.o\x1b[0m\n'}
+[4.110485] (-) TimerEvent: {}
+[4.143276] (custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.210579] (-) TimerEvent: {}
+[4.214550] (custom_interfaces) StdoutLine: {'line': b'[ 16%] Built target custom_interfaces__rosidl_generator_c\n'}
+[4.231066] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.231483] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.232761] (custom_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.310702] (-) TimerEvent: {}
+[4.411128] (-) TimerEvent: {}
+[4.501040] (custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp.o\x1b[0m\n'}
+[4.506698] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/vehiclestate__type_support.cpp.o\x1b[0m\n'}
+[4.508467] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/status__type_support.cpp.o\x1b[0m\n'}
+[4.510555] (custom_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/auctioninfo__type_support.cpp.o\x1b[0m\n'}
+[4.511361] (-) TimerEvent: {}
+[4.517594] (custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/task__type_support.cpp.o\x1b[0m\n'}
+[4.526491] (custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/tasklist__type_support.cpp.o\x1b[0m\n'}
+[4.611487] (-) TimerEvent: {}
+[4.712494] (-) TimerEvent: {}
+[4.814043] (-) TimerEvent: {}
+[4.873371] (custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/check_name__type_support.cpp.o\x1b[0m\n'}
+[4.895266] (custom_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/vehiclestate__type_support.cpp.o\x1b[0m\n'}
+[4.905364] (custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/auctioninfo__type_support.cpp.o\x1b[0m\n'}
+[4.914186] (-) TimerEvent: {}
+[4.916526] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/status__type_support.cpp.o\x1b[0m\n'}
+[4.921162] (custom_interfaces) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/vehiclestate__type_support.cpp.o\x1b[0m\n'}
+[4.924947] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/status__type_support.cpp.o\x1b[0m\n'}
+[4.926417] (custom_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp.o\x1b[0m\n'}
+[4.961139] (custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/check_name__type_support.cpp.o\x1b[0m\n'}
+[4.971585] (custom_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/status__type_support.cpp.o\x1b[0m\n'}
+[5.005028] (custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/vehiclestate__type_support.cpp.o\x1b[0m\n'}
+[5.007895] (custom_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/auctioninfo__type_support.cpp.o\x1b[0m\n'}
+[5.014339] (-) TimerEvent: {}
+[5.019398] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/task__type_support.cpp.o\x1b[0m\n'}
+[5.028297] (custom_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/task__type_support.cpp.o\x1b[0m\n'}
+[5.044218] (custom_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.048576] (custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/tasklist__type_support.cpp.o\x1b[0m\n'}
+[5.053893] (custom_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/tasklist__type_support.cpp.o\x1b[0m\n'}
+[5.114472] (-) TimerEvent: {}
+[5.122673] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/auctioninfo__type_support.cpp.o\x1b[0m\n'}
+[5.149118] (custom_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.161587] (custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o\x1b[0m\n'}
+[5.179452] (custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/tasklist__type_support.cpp.o\x1b[0m\n'}
+[5.214616] (-) TimerEvent: {}
+[5.226048] (custom_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__type_support.c.o\x1b[0m\n'}
+[5.241442] (custom_interfaces) StdoutLine: {'line': b'[ 59%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[5.295834] (custom_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/status__type_support.c.o\x1b[0m\n'}
+[5.314762] (-) TimerEvent: {}
+[5.353360] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__type_support_c.cpp.o\x1b[0m\n'}
+[5.414900] (-) TimerEvent: {}
+[5.420518] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[5.487156] (custom_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__type_support_c.cpp.o\x1b[0m\n'}
+[5.489744] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/vehiclestate__type_support.c.o\x1b[0m\n'}
+[5.495900] (custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/auctioninfo__type_support.c.o\x1b[0m\n'}
+[5.515034] (-) TimerEvent: {}
+[5.560797] (custom_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__type_support.c.o\x1b[0m\n'}
+[5.598530] (custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/tasklist__type_support.c.o\x1b[0m\n'}
+[5.615171] (-) TimerEvent: {}
+[5.670741] (custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__type_support_c.cpp.o\x1b[0m\n'}
+[5.672388] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/auctioninfo__type_support_c.cpp.o\x1b[0m\n'}
+[5.715313] (-) TimerEvent: {}
+[5.739960] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/task__type_support_c.cpp.o\x1b[0m\n'}
+[5.741553] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.815441] (-) TimerEvent: {}
+[5.834396] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/tasklist__type_support_c.cpp.o\x1b[0m\n'}
+[5.915707] (-) TimerEvent: {}
+[5.923905] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[6.015866] (-) TimerEvent: {}
+[6.116326] (-) TimerEvent: {}
+[6.167890] (custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.216503] (-) TimerEvent: {}
+[6.265935] (custom_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.315623] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.316566] (-) TimerEvent: {}
+[6.343903] (custom_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.391497] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[6.416690] (-) TimerEvent: {}
+[6.457787] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[6.480947] (custom_interfaces) StdoutLine: {'line': b'[ 80%] Built target custom_interfaces\n'}
+[6.504448] (custom_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.516787] (-) TimerEvent: {}
+[6.617123] (-) TimerEvent: {}
+[6.717465] (-) TimerEvent: {}
+[6.817777] (-) TimerEvent: {}
+[6.918090] (-) TimerEvent: {}
+[7.018421] (-) TimerEvent: {}
+[7.118723] (-) TimerEvent: {}
+[7.213818] (custom_interfaces) StdoutLine: {'line': b'[ 81%] Built target custom_interfaces__py\n'}
+[7.218861] (-) TimerEvent: {}
+[7.239334] (custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_vehiclestate_s.c.o\x1b[0m\n'}
+[7.239568] (custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_check_name_s.c.o\x1b[0m\n'}
+[7.239716] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_task_s.c.o\x1b[0m\n'}
+[7.239798] (custom_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_status_s.c.o\x1b[0m\n'}
+[7.239890] (custom_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_auctioninfo_s.c.o\x1b[0m\n'}
+[7.241570] (custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_tasklist_s.c.o\x1b[0m\n'}
+[7.319016] (-) TimerEvent: {}
+[7.419452] (custom_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[7.419677] (-) TimerEvent: {}
+[7.479104] (custom_interfaces) StdoutLine: {'line': b'[ 91%] Built target custom_interfaces__rosidl_generator_py\n'}
+[7.503404] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.503670] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.513363] (custom_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.519830] (-) TimerEvent: {}
+[7.620202] (-) TimerEvent: {}
+[7.639175] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.644348] (custom_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.679662] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.697981] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.716035] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.720327] (-) TimerEvent: {}
+[7.728681] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.749993] (custom_interfaces) CommandEnded: {'returncode': 0}
+[7.820407] (-) TimerEvent: {}
+[7.920873] (-) TimerEvent: {}
+[7.954139] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[7.954568] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[7.964816] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.965093] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[7.965255] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.965393] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.965504] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/check_name.h\n'}
+[7.965633] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.965737] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__functions.c\n'}
+[7.965885] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__functions.h\n'}
+[7.966025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__type_support.h\n'}
+[7.966155] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__struct.h\n'}
+[7.966260] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.966366] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/task.h\n'}
+[7.966472] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tasklist.h\n'}
+[7.966599] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.966703] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__functions.c\n'}
+[7.966836] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__struct.h\n'}
+[7.966956] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__struct.h\n'}
+[7.967074] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__functions.c\n'}
+[7.967210] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__functions.c\n'}
+[7.967322] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__type_support.h\n'}
+[7.967449] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__type_support.h\n'}
+[7.967566] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__functions.c\n'}
+[7.967699] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__functions.h\n'}
+[7.967829] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__type_support.h\n'}
+[7.967951] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__struct.h\n'}
+[7.968084] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__struct.h\n'}
+[7.968189] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__struct.h\n'}
+[7.968490] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__functions.h\n'}
+[7.968670] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__type_support.h\n'}
+[7.968789] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__type_support.h\n'}
+[7.968897] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__functions.h\n'}
+[7.968999] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__functions.h\n'}
+[7.969139] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__functions.c\n'}
+[7.969257] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__functions.h\n'}
+[7.969398] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/auctioninfo.h\n'}
+[7.969531] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.969646] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/status.h\n'}
+[7.969786] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/vehiclestate.h\n'}
+[7.970082] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[7.970821] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[7.971110] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[7.971767] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.972161] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.972424] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.972693] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.972782] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h\n'}
+[7.972929] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.973009] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.973131] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_fastrtps_c.h\n'}
+[7.973244] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_fastrtps_c.h\n'}
+[7.973355] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_fastrtps_c.h\n'}
+[7.973441] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_c.h\n'}
+[7.973522] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[7.973689] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.973776] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.974380] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.974932] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.975115] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.975183] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/check_name.hpp\n'}
+[7.975303] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.975396] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__builder.hpp\n'}
+[7.975449] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__traits.hpp\n'}
+[7.975555] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__struct.hpp\n'}
+[7.975629] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.975687] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/status.hpp\n'}
+[7.975757] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tasklist.hpp\n'}
+[7.975812] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.975907] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__traits.hpp\n'}
+[7.975963] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__builder.hpp\n'}
+[7.976034] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__struct.hpp\n'}
+[7.976184] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__builder.hpp\n'}
+[7.976355] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__builder.hpp\n'}
+[7.976553] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__builder.hpp\n'}
+[7.976716] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__traits.hpp\n'}
+[7.976846] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__struct.hpp\n'}
+[7.977028] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__struct.hpp\n'}
+[7.977185] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__traits.hpp\n'}
+[7.977360] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__builder.hpp\n'}
+[7.977520] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__struct.hpp\n'}
+[7.977691] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__traits.hpp\n'}
+[7.977845] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__traits.hpp\n'}
+[7.978021] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__struct.hpp\n'}
+[7.978189] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/task.hpp\n'}
+[7.978345] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/vehiclestate.hpp\n'}
+[7.978496] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/auctioninfo.hpp\n'}
+[7.978773] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.978951] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.979015] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.979097] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps\n'}
+[7.979154] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.979259] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.979339] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.979417] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.979548] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.979703] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.979859] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.980010] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[7.980159] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.980327] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.981004] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.981830] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.982043] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.982105] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.982166] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.982220] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__type_support.c\n'}
+[7.982300] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h\n'}
+[7.982381] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.982454] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.982523] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h\n'}
+[7.982691] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__type_support.c\n'}
+[7.982851] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__type_support.c\n'}
+[7.983025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__type_support.c\n'}
+[7.983194] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_introspection_c.h\n'}
+[7.983351] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_introspection_c.h\n'}
+[7.983504] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__type_support.c\n'}
+[7.983688] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[7.983849] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__type_support.c\n'}
+[7.984006] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_introspection_c.h\n'}
+[7.984166] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.984456] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.985033] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.985165] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[7.985635] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.985796] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces\n'}
+[7.985898] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv\n'}
+[7.985953] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail\n'}
+[7.986004] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.986098] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__type_support.cpp\n'}
+[7.986213] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg\n'}
+[7.986287] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail\n'}
+[7.986356] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__type_support.cpp\n'}
+[7.986523] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.986680] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__type_support.cpp\n'}
+[7.986866] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.987029] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.987206] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__type_support.cpp\n'}
+[7.987392] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.987555] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__type_support.cpp\n'}
+[7.987735] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.987917] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__type_support.cpp\n'}
+[7.988205] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.989097] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.989259] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.989749] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.989923] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[7.990089] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[7.990279] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info\n'}
+[7.990543] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.990694] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.990839] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[7.990981] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[7.991223] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces\n'}
+[7.991361] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[7.991848] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.992066] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.992264] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv\n'}
+[7.992402] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_check_name.py\n'}
+[7.992611] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_check_name_s.c\n'}
+[7.992759] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[7.992917] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.993135] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.993340] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[7.993478] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.993697] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg\n'}
+[7.993816] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vehiclestate_s.c\n'}
+[7.994003] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_status_s.c\n'}
+[7.994140] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tasklist.py\n'}
+[7.994306] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[7.994463] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_task.py\n'}
+[7.994629] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tasklist_s.c\n'}
+[7.994785] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_status.py\n'}
+[7.994948] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_auctioninfo_s.c\n'}
+[7.995135] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vehiclestate.py\n'}
+[7.995294] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_task_s.c\n'}
+[7.995479] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_auctioninfo.py\n'}
+[7.995662] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[8.020973] (-) TimerEvent: {}
+[8.043142] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[8.043388] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...\n"}
+[8.043511] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[8.043598] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...\n"}
+[8.043669] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_auctioninfo.py'...\n"}
+[8.043742] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_status.py'...\n"}
+[8.043829] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_task.py'...\n"}
+[8.043908] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tasklist.py'...\n"}
+[8.043980] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vehiclestate.py'...\n"}
+[8.044053] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[8.044125] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...\n"}
+[8.044197] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_check_name.py'...\n"}
+[8.051735] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.052204] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.052519] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.053081] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.053412] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.053894] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[8.054116] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[8.054639] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""\n'}
+[8.054856] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName.idl\n'}
+[8.055001] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Status.idl\n'}
+[8.055305] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Vehiclestate.idl\n'}
+[8.055543] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Auctioninfo.idl\n'}
+[8.055746] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Task.idl\n'}
+[8.055989] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Tasklist.idl\n'}
+[8.056205] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName.srv\n'}
+[8.056827] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName_Request.msg\n'}
+[8.057088] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName_Response.msg\n'}
+[8.057306] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Status.msg\n'}
+[8.057947] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Vehiclestate.msg\n'}
+[8.058515] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Auctioninfo.msg\n'}
+[8.058707] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Task.msg\n'}
+[8.059319] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Tasklist.msg\n'}
+[8.059608] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[8.059772] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[8.059949] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[8.060522] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[8.060769] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[8.061299] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[8.061623] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[8.061797] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[8.061918] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[8.062024] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[8.062161] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[8.062381] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[8.062601] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[8.062784] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.062963] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.063147] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.063329] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[8.063488] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.063664] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.063876] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.064062] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.064265] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[8.064483] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.064679] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.064870] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.065025] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[8.065197] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.065459] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[8.065577] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.065729] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[8.065898] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.066072] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.066249] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.066430] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.066586] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.066732] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.066883] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[8.067008] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[8.067178] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[8.070153] (custom_interfaces) CommandEnded: {'returncode': 0}
+[8.121205] (-) TimerEvent: {}
+[8.223593] (-) TimerEvent: {}
+[8.323966] (-) TimerEvent: {}
+[8.424373] (-) TimerEvent: {}
+[8.521340] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[8.522443] (auction_node) JobStarted: {'identifier': 'auction_node'}
+[8.524560] (-) TimerEvent: {}
+[8.586295] (srv_test) JobStarted: {'identifier': 'srv_test'}
+[8.624705] (-) TimerEvent: {}
+[8.651754] (auction_node) JobProgress: {'identifier': 'auction_node', 'progress': 'cmake'}
+[8.655167] (auction_node) JobProgress: {'identifier': 'auction_node', 'progress': 'build'}
+[8.655568] (auction_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/ROS2_Test/build/auction_node', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/auction_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/auction_node'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[8.659678] (srv_test) JobProgress: {'identifier': 'srv_test', 'progress': 'cmake'}
+[8.663913] (srv_test) JobProgress: {'identifier': 'srv_test', 'progress': 'build'}
+[8.664345] (srv_test) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yong/ws_kari/ROS2_Test/build/srv_test', '--', '-j16', '-l16'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/srv_test', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/srv_test'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[8.698373] (auction_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.698621] (srv_test) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[8.724838] (-) TimerEvent: {}
+[8.825229] (-) TimerEvent: {}
+[8.914508] (srv_test) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.921001] (auction_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[8.925362] (-) TimerEvent: {}
+[8.968185] (auction_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.968388] (srv_test) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[8.972591] (srv_test) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.972822] (auction_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.984064] (auction_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[8.984272] (srv_test) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.000286] (srv_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.000548] (auction_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.021649] (srv_test) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.021938] (auction_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.025467] (-) TimerEvent: {}
+[9.100605] (auction_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.100839] (srv_test) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.103995] (auction_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.104233] (srv_test) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.125586] (-) TimerEvent: {}
+[9.225898] (-) TimerEvent: {}
+[9.284609] (auction_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.306284] (srv_test) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.326029] (-) TimerEvent: {}
+[9.426397] (-) TimerEvent: {}
+[9.468205] (auction_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[9.469084] (srv_test) StdoutLine: {'line': b'-- Found custom_interfaces: 0.1.0 (/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[9.516488] (auction_node) StdoutLine: {'line': b'-- Found custom_interfaces: 0.1.0 (/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake)\n'}
+[9.526521] (-) TimerEvent: {}
+[9.626878] (-) TimerEvent: {}
+[9.702240] (srv_test) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.702499] (auction_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.727016] (-) TimerEvent: {}
+[9.727682] (srv_test) StdoutLine: {'line': b'-- Generating done\n'}
+[9.729073] (auction_node) StdoutLine: {'line': b'-- Generating done\n'}
+[9.730628] (srv_test) StdoutLine: {'line': b'-- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/srv_test\n'}
+[9.731808] (auction_node) StdoutLine: {'line': b'-- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/auction_node\n'}
+[9.772455] (srv_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_node\x1b[0m\n'}
+[9.775678] (srv_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[9.776746] (srv_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server\x1b[0m\n'}
+[9.777652] (srv_test) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target server_node\x1b[0m\n'}
+[9.778239] (auction_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target auction_node\x1b[0m\n'}
+[9.778756] (auction_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task_publisher\x1b[0m\n'}
+[9.803204] (srv_test) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[9.803978] (srv_test) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o\x1b[0m\n'}
+[9.810411] (srv_test) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o\x1b[0m\n'}
+[9.811038] (auction_node) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/auction_node.dir/src/auction.cpp.o\x1b[0m\n'}
+[9.812359] (srv_test) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/server_node.dir/src/server_node.cpp.o\x1b[0m\n'}
+[9.813737] (auction_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/task_publisher.dir/src/task_publisher.cpp.o\x1b[0m\n'}
+[9.827160] (-) TimerEvent: {}
+[9.927557] (-) TimerEvent: {}
+[10.027999] (-) TimerEvent: {}
+[10.128743] (-) TimerEvent: {}
+[10.229076] (-) TimerEvent: {}
+[10.329369] (-) TimerEvent: {}
+[10.429668] (-) TimerEvent: {}
+[10.530005] (-) TimerEvent: {}
+[10.630376] (-) TimerEvent: {}
+[10.730758] (-) TimerEvent: {}
+[10.831225] (-) TimerEvent: {}
+[10.931770] (-) TimerEvent: {}
+[11.032292] (-) TimerEvent: {}
+[11.134014] (-) TimerEvent: {}
+[11.147601] (multi_agent_comm) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable self_loop\x1b[0m\n'}
+[11.151615] (multi_agent_comm) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable multi_pub\x1b[0m\n'}
+[11.205138] (multi_agent_comm) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable comm_qos\x1b[0m\n'}
+[11.212654] (multi_agent_comm) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable count\x1b[0m\n'}
+[11.229146] (multi_agent_comm) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable comm\x1b[0m\n'}
+[11.234149] (-) TimerEvent: {}
+[11.277104] (multi_agent_comm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable multi_thread1\x1b[0m\n'}
+[11.334310] (-) TimerEvent: {}
+[11.434800] (-) TimerEvent: {}
+[11.535802] (-) TimerEvent: {}
+[11.636672] (-) TimerEvent: {}
+[11.737708] (-) TimerEvent: {}
+[11.838095] (-) TimerEvent: {}
+[11.938708] (-) TimerEvent: {}
+[11.988399] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target multi_pub\n'}
+[12.038837] (-) TimerEvent: {}
+[12.066480] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target comm\n'}
+[12.075156] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target self_loop\n'}
+[12.102851] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target comm_qos\n'}
+[12.138970] (-) TimerEvent: {}
+[12.151487] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target count\n'}
+[12.204967] (multi_agent_comm) StdoutLine: {'line': b'[100%] Built target multi_thread1\n'}
+[12.221561] (multi_agent_comm) CommandEnded: {'returncode': 0}
+[12.239153] (-) TimerEvent: {}
+[12.316780] (multi_agent_comm) JobProgress: {'identifier': 'multi_agent_comm', 'progress': 'install'}
+[12.317215] (multi_agent_comm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm'], 'cwd': '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'yong'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/yong/ws_kari/install/project_dma_2024/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yong'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/yong/ws_kari'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('SYSTEMD_EXEC_PID', '2351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yong/ws_kari/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'yong'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yong'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/yong/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yong-desktop:@/tmp/.ICE-unix/2000,unix/yong-desktop:/tmp/.ICE-unix/2000'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/52a3ee6b_0552_4b66_a69b_ba1eb43647d1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OQVVQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-7d26bc75b6.sock'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm'), ('LC_ALL', 'ko_KR.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yong/ws_kari/install/project_dma_2024/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble')]), 'shell': False}
+[12.327583] (multi_agent_comm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.328114] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/rosidl_interfaces/multi_agent_comm\n'}
+[12.328335] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[12.328637] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[12.328782] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/agent_message.h\n'}
+[12.328943] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[12.329095] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__functions.h\n'}
+[12.329204] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.h\n'}
+[12.329362] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__struct.h\n'}
+[12.329516] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__functions.c\n'}
+[12.329616] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.329760] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/library_path.sh\n'}
+[12.329854] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/library_path.dsv\n'}
+[12.329987] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_c.so\n'}
+[12.330069] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[12.330174] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[12.330255] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[12.330338] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_c.h\n'}
+[12.330422] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.330507] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so\n'}
+[12.330826] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.331071] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[12.331243] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[12.331416] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/agent_message.hpp\n'}
+[12.331521] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[12.331701] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__struct.hpp\n'}
+[12.331821] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__traits.hpp\n'}
+[12.331928] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__builder.hpp\n'}
+[12.332052] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[12.332145] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[12.332290] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[12.332537] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.332752] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/dds_fastrtps\n'}
+[12.333039] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.333343] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.334162] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.334434] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[12.334624] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[12.334778] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[12.335018] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.c\n'}
+[12.335259] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_introspection_c.h\n'}
+[12.335417] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.335514] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_c.so\n'}
+[12.335753] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_c.so\n'}
+[12.335970] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm\n'}
+[12.336242] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg\n'}
+[12.336480] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail\n'}
+[12.336717] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__type_support.cpp\n'}
+[12.336852] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/include/multi_agent_comm/multi_agent_comm/msg/detail/agent_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.337038] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so\n'}
+[12.337741] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.337997] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_cpp.so\n'}
+[12.338551] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_typesupport_cpp.so" to ""\n'}
+[12.338815] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/pythonpath.sh\n'}
+[12.338921] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/pythonpath.dsv\n'}
+[12.339056] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info\n'}
+[12.339143] (-) TimerEvent: {}
+[12.339284] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[12.339693] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[12.339921] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[12.340134] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[12.340458] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm\n'}
+[12.340718] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/libmulti_agent_comm__rosidl_generator_py.so\n'}
+[12.341304] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_c.c\n'}
+[12.341533] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.341710] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.341812] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.341951] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/__init__.py\n'}
+[12.342047] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg\n'}
+[12.342238] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message_s.c\n'}
+[12.342444] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/_agent_message.py\n'}
+[12.342548] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg/__init__.py\n'}
+[12.342634] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/_multi_agent_comm_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.342715] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.394866] (multi_agent_comm) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm'...\n"}
+[12.395137] (multi_agent_comm) StdoutLine: {'line': b"Listing '/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/msg'...\n"}
+[12.401177] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.401770] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.402092] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.402733] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.403007] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[12.403603] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/local/lib/python3.10/dist-packages/multi_agent_comm/multi_agent_comm_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[12.403884] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_py.so\n'}
+[12.404484] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/libmulti_agent_comm__rosidl_generator_py.so" to ""\n'}
+[12.404727] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/msg/AgentMessage.idl\n'}
+[12.404844] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/msg/AgentMessage.msg\n'}
+[12.405812] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm\n'}
+[12.413311] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm" to ""\n'}
+[12.414540] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm_qos\n'}
+[12.421931] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/comm_qos" to ""\n'}
+[12.423190] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/count\n'}
+[12.430378] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/count" to ""\n'}
+[12.431467] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_thread1\n'}
+[12.438504] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_thread1" to ""\n'}
+[12.439219] (-) TimerEvent: {}
+[12.439474] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/self_loop\n'}
+[12.446676] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/self_loop" to ""\n'}
+[12.447750] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_pub\n'}
+[12.454527] (multi_agent_comm) StdoutLine: {'line': b'-- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib/multi_agent_comm/multi_pub" to ""\n'}
+[12.454752] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/package_run_dependencies/multi_agent_comm\n'}
+[12.454864] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/parent_prefix_path/multi_agent_comm\n'}
+[12.454966] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/ament_prefix_path.sh\n'}
+[12.455060] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/ament_prefix_path.dsv\n'}
+[12.455141] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/path.sh\n'}
+[12.455196] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/environment/path.dsv\n'}
+[12.455251] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.bash\n'}
+[12.455303] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.sh\n'}
+[12.455355] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.zsh\n'}
+[12.455406] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/local_setup.dsv\n'}
+[12.455459] (multi_agent_comm) StdoutLine: {'line': b'-- Installing: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.dsv\n'}
+[12.455762] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/ament_index/resource_index/packages/multi_agent_comm\n'}
+[12.455896] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cExport.cmake\n'}
+[12.455985] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.456062] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.456126] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.456215] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_cppExport.cmake\n'}
+[12.456312] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.456404] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.456529] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.456609] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.456718] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cExport.cmake\n'}
+[12.456796] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.456939] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.457019] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.457145] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cppExport.cmake\n'}
+[12.457229] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_comm__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.457334] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_pyExport.cmake\n'}
+[12.457407] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/export_multi_agent_comm__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.457482] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake-extras.cmake\n'}
+[12.457552] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.457640] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.457711] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.457797] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.457872] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.457960] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.458014] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_commConfig.cmake\n'}
+[12.458066] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/cmake/multi_agent_commConfig-version.cmake\n'}
+[12.458118] (multi_agent_comm) StdoutLine: {'line': b'-- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/share/multi_agent_comm/package.xml\n'}
+[12.461472] (multi_agent_comm) CommandEnded: {'returncode': 0}
+[12.539342] (-) TimerEvent: {}
+[12.639697] (-) TimerEvent: {}
+[12.707812] (multi_agent_comm) JobEnded: {'identifier': 'multi_agent_comm', 'rc': 0}
+[12.739813] (-) TimerEvent: {}
+[12.840131] (-) TimerEvent: {}
+[12.940512] (-) TimerEvent: {}
+[13.040831] (-) TimerEvent: {}
+[13.141155] (-) TimerEvent: {}
+[13.152679] (srv_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KClientNode::ClientNode(int, double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.152906] (srv_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:37:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KClientNode::z_\x1b[m\x1b[K\xe2\x80\x99 will be initialized after [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.152968] (srv_test) StderrLine: {'line': b'   37 |     double x_, y_, \x1b[01;35m\x1b[Kz_\x1b[m\x1b[K;\n'}
+[13.153021] (srv_test) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[13.153073] (srv_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:35:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbool ClientNode::service_ready_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.153125] (srv_test) StderrLine: {'line': b'   35 |     bool \x1b[01;35m\x1b[Kservice_ready_\x1b[m\x1b[K;\n'}
+[13.153175] (srv_test) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.153225] (srv_test) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:15:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K  when initialized here [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder\x07-Wreorder\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.153277] (srv_test) StderrLine: {'line': b'   15 |     \x1b[01;35m\x1b[KClientNode\x1b[m\x1b[K(int instance, double x, double y, double z)\n'}
+[13.153328] (srv_test) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.241268] (-) TimerEvent: {}
+[13.320696] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAuction::Auction(int, geometry_msgs::msg::Point)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.320908] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_task_list_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktask_list_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.320968] (auction_node) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[Ksub_task_list_\x1b[m\x1b[K = this->create_subscription<Tasklist>("task_list", 10, std::bind(&Auction::task_list_callback, this, std::placeholders::_1));\n'}
+[13.321021] (auction_node) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.321071] (auction_node) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktask_list_\x1b[m\x1b[K\n'}
+[13.321123] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:25:99:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktask_list_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[KAuction\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.321183] (auction_node) StderrLine: {'line': b'   25 | "task_list", 10, std::bind(&Auction::\x1b[01;31m\x1b[Ktask_list_callback\x1b[m\x1b[K, this, std::placeholders::_1));\n'}
+[13.321253] (auction_node) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.321318] (auction_node) StderrLine: {'line': b'\n'}
+[13.333904] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Auction::update()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.334103] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:61:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = struct custom_interfaces::msg::Auctioninfo_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct custom_interfaces::msg::Auctioninfo_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktasks\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.334161] (auction_node) StderrLine: {'line': b'   61 |             task_list_ = msg->\x1b[01;31m\x1b[Ktasks\x1b[m\x1b[K;\n'}
+[13.334213] (auction_node) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.335995] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Auction::broadcast()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.336120] (auction_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:164:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct custom_interfaces::msg::Auctioninfo_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ktasks\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.336174] (auction_node) StderrLine: {'line': b'  164 |         msg.\x1b[01;31m\x1b[Ktasks\x1b[m\x1b[K = task_list_;\n'}
+[13.336224] (auction_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[13.341338] (-) TimerEvent: {}
+[13.441669] (-) TimerEvent: {}
+[13.542004] (-) TimerEvent: {}
+[13.642339] (-) TimerEvent: {}
+[13.742667] (-) TimerEvent: {}
+[13.843007] (-) TimerEvent: {}
+[13.943326] (-) TimerEvent: {}
+[14.043625] (-) TimerEvent: {}
+[14.143962] (-) TimerEvent: {}
+[14.244340] (-) TimerEvent: {}
+[14.344709] (-) TimerEvent: {}
+[14.445033] (-) TimerEvent: {}
+[14.545341] (-) TimerEvent: {}
+[14.645648] (-) TimerEvent: {}
+[14.745954] (-) TimerEvent: {}
+[14.846254] (-) TimerEvent: {}
+[14.946565] (-) TimerEvent: {}
+[15.046892] (-) TimerEvent: {}
+[15.123056] (auction_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable task_publisher\x1b[0m\n'}
+[15.147010] (-) TimerEvent: {}
+[15.247348] (-) TimerEvent: {}
+[15.347670] (-) TimerEvent: {}
+[15.378984] (auction_node) StdoutLine: {'line': b'[ 75%] Built target task_publisher\n'}
+[15.447772] (-) TimerEvent: {}
+[15.548064] (-) TimerEvent: {}
+[15.648350] (-) TimerEvent: {}
+[15.748662] (-) TimerEvent: {}
+[15.849010] (-) TimerEvent: {}
+[15.914847] (auction_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/auction_node.dir/build.make:76: CMakeFiles/auction_node.dir/src/auction.cpp.o] Error 1\n'}
+[15.915162] (auction_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/auction_node.dir/all] Error 2\n'}
+[15.915461] (auction_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[15.918331] (auction_node) CommandEnded: {'returncode': 2}
+[15.944873] (srv_test) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[15.949098] (-) TimerEvent: {}
+[16.016566] (auction_node) JobEnded: {'identifier': 'auction_node', 'rc': 2}
+[16.049210] (-) TimerEvent: {}
+[16.149506] (-) TimerEvent: {}
+[16.219674] (srv_test) StdoutLine: {'line': b'[ 62%] Built target client\n'}
+[16.249593] (-) TimerEvent: {}
+[16.349855] (-) TimerEvent: {}
+[16.450119] (-) TimerEvent: {}
+[16.550388] (-) TimerEvent: {}
+[16.650645] (-) TimerEvent: {}
+[16.751035] (-) TimerEvent: {}
+[16.851322] (-) TimerEvent: {}
+[16.951583] (-) TimerEvent: {}
+[17.051889] (-) TimerEvent: {}
+[17.152175] (-) TimerEvent: {}
+[17.252450] (-) TimerEvent: {}
+[17.352713] (-) TimerEvent: {}
+[17.452970] (-) TimerEvent: {}
+[17.553233] (-) TimerEvent: {}
+[17.653507] (-) TimerEvent: {}
+[17.753773] (-) TimerEvent: {}
+[17.854029] (-) TimerEvent: {}
+[17.954296] (-) TimerEvent: {}
+[18.054562] (-) TimerEvent: {}
+[18.154843] (-) TimerEvent: {}
+[18.255099] (-) TimerEvent: {}
+[18.355354] (-) TimerEvent: {}
+[18.455611] (-) TimerEvent: {}
+[18.555871] (-) TimerEvent: {}
+[18.656131] (-) TimerEvent: {}
+[18.756385] (-) TimerEvent: {}
+[18.856678] (-) TimerEvent: {}
+[18.956969] (-) TimerEvent: {}
+[19.057246] (-) TimerEvent: {}
+[19.157547] (-) TimerEvent: {}
+[19.235365] (srv_test) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable client_node\x1b[0m\n'}
+[19.257665] (-) TimerEvent: {}
+[19.287363] (srv_test) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable server_node\x1b[0m\n'}
+[19.357802] (-) TimerEvent: {}
+[19.458189] (-) TimerEvent: {}
+[19.497040] (srv_test) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable server\x1b[0m\n'}
+[19.558292] (-) TimerEvent: {}
+[19.658600] (-) TimerEvent: {}
+[19.758902] (-) TimerEvent: {}
+[19.808063] (srv_test) StdoutLine: {'line': b'[100%] Built target client_node\n'}
+[19.821546] (srv_test) StdoutLine: {'line': b'[100%] Built target server_node\n'}
+[19.858994] (-) TimerEvent: {}
+[19.959265] (-) TimerEvent: {}
+[19.997052] (srv_test) StdoutLine: {'line': b'[100%] Built target server\n'}
+[20.008725] (srv_test) JobEnded: {'identifier': 'srv_test', 'rc': 'SIGINT'}
+[20.019228] (-) EventReactorShutdown: {}

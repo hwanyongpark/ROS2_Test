@@ -1,1 +1,23 @@
-/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_adapter/custom_interfaces/msg/Auctioninfo.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_interfaces/msg/Auctioninfo.msg
+// generated code does not contain a copyright notice
+
+#include "custom_interfaces/msg/Task.idl"
+
+module custom_interfaces {
+  module msg {
+    struct Auctioninfo {
+      int32 agent_id;
+
+      sequence<float> price;
+
+      sequence<int32> bidder;
+
+      sequence<boolean> isdone;
+
+      sequence<custom_interfaces::msg::Task> task_list;
+
+      string timestamp;
+    };
+  };
+};

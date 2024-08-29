@@ -22,6 +22,10 @@ extern "C"
 // Member 'bidder'
 // Member 'isdone'
 #include "rosidl_runtime_c/primitives_sequence.h"
+// Member 'task_list'
+#include "custom_interfaces/msg/detail/task__struct.h"
+// Member 'timestamp'
+#include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/Auctioninfo in the package custom_interfaces.
 typedef struct custom_interfaces__msg__Auctioninfo
@@ -30,6 +34,8 @@ typedef struct custom_interfaces__msg__Auctioninfo
   rosidl_runtime_c__float__Sequence price;
   rosidl_runtime_c__int32__Sequence bidder;
   rosidl_runtime_c__boolean__Sequence isdone;
+  custom_interfaces__msg__Task__Sequence task_list;
+  rosidl_runtime_c__String timestamp;
 } custom_interfaces__msg__Auctioninfo;
 
 // Struct for a sequence of custom_interfaces__msg__Auctioninfo.

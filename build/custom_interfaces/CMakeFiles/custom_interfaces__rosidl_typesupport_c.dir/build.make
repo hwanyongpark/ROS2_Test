@@ -140,6 +140,8 @@ rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp: /opt/ro
 rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
@@ -264,10 +266,10 @@ libcustom_interfaces__rosidl_typesupport_c.so: CMakeFiles/custom_interfaces__ros
 libcustom_interfaces__rosidl_typesupport_c.so: libcustom_interfaces__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcustom_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librcutils.so

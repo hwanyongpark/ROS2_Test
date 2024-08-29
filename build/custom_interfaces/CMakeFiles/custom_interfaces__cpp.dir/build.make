@@ -171,6 +171,8 @@ rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/custom_interfaces/srv/check_name.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_cpp__arguments.json
 

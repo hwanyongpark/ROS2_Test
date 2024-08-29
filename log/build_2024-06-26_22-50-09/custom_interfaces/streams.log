@@ -1,0 +1,379 @@
+[0.163s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/acbba /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+[0.187s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.348s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.373s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.375s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.380s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.389s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.451s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.452s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.576s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.710s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.716s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.009s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.527s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.546s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.546s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.546s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.585s] -- Configuring done
+[1.624s] -- Generating done
+[1.627s] -- Build files have been written to: /home/yong/ws_kari/ROS2_Test/build/custom_interfaces
+[1.655s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.665s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.676s] [  2%] Built target ament_cmake_python_copy_custom_interfaces
+[1.847s] running egg_info
+[1.865s] writing custom_interfaces.egg-info/PKG-INFO
+[1.865s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[1.866s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[1.911s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.912s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[1.942s] [  2%] Built target ament_cmake_python_build_custom_interfaces_egg
+[2.088s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[2.098s] [  2%] Built target custom_interfaces__cpp
+[2.104s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/status__functions.c.o[0m
+[2.104s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.c.o[0m
+[2.104s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.c.o[0m
+[2.104s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/task__functions.c.o[0m
+[2.104s] [  9%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/srv/detail/check_name__functions.c.o[0m
+[2.104s] [ 11%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/tasklist__functions.c.o[0m
+[2.110s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.110s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.112s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.164s] [ 16%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[2.201s] [ 16%] Built target custom_interfaces__rosidl_generator_c
+[2.211s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.211s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.211s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.400s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[2.420s] [ 22%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/tasklist__type_support.cpp.o[0m
+[2.420s] [ 23%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/auctioninfo__type_support.cpp.o[0m
+[2.421s] [ 26%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/vehiclestate__type_support.cpp.o[0m
+[2.421s] [ 26%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/status__type_support.cpp.o[0m
+[2.421s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/srv/check_name__type_support.cpp.o[0m
+[2.421s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/task__type_support.cpp.o[0m
+[2.484s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[2.514s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/vehiclestate__type_support.cpp.o[0m
+[2.514s] [ 32%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/check_name__type_support.cpp.o[0m
+[2.515s] [ 33%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/status__type_support.cpp.o[0m
+[2.517s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/auctioninfo__type_support.cpp.o[0m
+[2.520s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/task__type_support.cpp.o[0m
+[2.522s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[2.530s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/tasklist__type_support.cpp.o[0m
+[2.597s] [ 39%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/srv/check_name__type_support.cpp.o[0m
+[2.697s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/status__type_support.cpp.o[0m
+[2.755s] [ 42%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/vehiclestate__type_support.cpp.o[0m
+[2.769s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[2.802s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/auctioninfo__type_support.cpp.o[0m
+[2.802s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/dds_fastrtps/check_name__type_support.cpp.o[0m
+[2.805s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[2.818s] [ 47%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/task__type_support.cpp.o[0m
+[2.825s] [ 49%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/tasklist__type_support.cpp.o[0m
+[2.828s] [ 50%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/vehiclestate__type_support.cpp.o[0m
+[2.838s] [ 52%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[2.843s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/auctioninfo__type_support.cpp.o[0m
+[2.852s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.859s] [ 54%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[2.860s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[2.884s] [ 56%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/tasklist__type_support.cpp.o[0m
+[2.885s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/srv/detail/check_name__type_support_c.cpp.o[0m
+[2.885s] [ 59%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__type_support.c.o[0m
+[2.899s] [ 60%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[2.933s] [ 60%] Built target custom_interfaces__rosidl_typesupport_cpp
+[2.986s] [ 61%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/vehiclestate__type_support.c.o[0m
+[2.989s] [ 63%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/status__type_support.c.o[0m
+[3.039s] [ 63%] Built target custom_interfaces__rosidl_typesupport_c
+[3.065s] [ 64%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/auctioninfo__type_support.c.o[0m
+[3.072s] [ 66%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/status__type_support_c.cpp.o[0m
+[3.085s] [ 67%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/vehiclestate__type_support_c.cpp.o[0m
+[3.089s] [ 69%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__type_support.c.o[0m
+[3.100s] [ 70%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/task__type_support_c.cpp.o[0m
+[3.106s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/auctioninfo__type_support_c.cpp.o[0m
+[3.154s] [ 73%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/tasklist__type_support.c.o[0m
+[3.160s] [ 74%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/tasklist__type_support_c.cpp.o[0m
+[3.215s] [ 76%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.278s] [ 76%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[3.373s] [ 77%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.534s] [ 78%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.536s] [ 78%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[3.572s] [ 80%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.629s] [ 80%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.666s] [ 80%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[3.685s] [ 80%] Built target custom_interfaces
+[3.705s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.334s] [ 81%] Built target custom_interfaces__py
+[4.346s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[4.367s] [ 84%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_status_s.c.o[0m
+[4.367s] [ 84%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/srv/_check_name_s.c.o[0m
+[4.367s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_auctioninfo_s.c.o[0m
+[4.367s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_vehiclestate_s.c.o[0m
+[4.368s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_task_s.c.o[0m
+[4.368s] [ 90%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_tasklist_s.c.o[0m
+[4.482s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so[0m
+[4.528s] [ 91%] Built target custom_interfaces__rosidl_generator_py
+[4.539s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[4.539s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.539s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.553s] [ 94%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.554s] [ 94%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.555s] [ 95%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.666s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.666s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.667s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.709s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.709s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.709s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[4.722s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/acbba /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/custom_interfaces -- -j16 -l16
+[4.877s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/acbba /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/custom_interfaces
+[4.884s] -- Install configuration: ""
+[4.884s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[4.885s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.885s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/check_name.h
+[4.885s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__functions.c
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__functions.h
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__type_support.h
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__struct.h
+[4.885s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/task.h
+[4.885s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tasklist.h
+[4.886s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__functions.c
+[4.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__struct.h
+[4.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__struct.h
+[4.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__functions.c
+[4.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__functions.c
+[4.886s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__type_support.h
+[4.887s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__type_support.h
+[4.887s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__functions.c
+[4.887s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__functions.h
+[4.887s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__type_support.h
+[4.887s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__struct.h
+[4.887s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__struct.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__struct.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__functions.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__type_support.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__type_support.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__functions.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__functions.h
+[4.888s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__functions.c
+[4.889s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__functions.h
+[4.889s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/auctioninfo.h
+[4.889s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.889s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/status.h
+[4.889s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/vehiclestate.h
+[4.889s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[4.889s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[4.890s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[4.890s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[4.890s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.890s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.890s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.890s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_c.h
+[4.890s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.890s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.891s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_fastrtps_c.h
+[4.891s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_fastrtps_c.h
+[4.891s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_fastrtps_c.h
+[4.891s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_c.h
+[4.891s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[4.891s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.891s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.892s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.892s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.892s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.892s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/check_name.hpp
+[4.892s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.892s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__builder.hpp
+[4.892s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__traits.hpp
+[4.892s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__struct.hpp
+[4.893s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/status.hpp
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tasklist.hpp
+[4.893s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__traits.hpp
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__builder.hpp
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__struct.hpp
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__builder.hpp
+[4.893s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__builder.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__builder.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__traits.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__struct.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__struct.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__traits.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__builder.hpp
+[4.894s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__struct.hpp
+[4.895s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__traits.hpp
+[4.895s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__traits.hpp
+[4.895s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__struct.hpp
+[4.895s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/task.hpp
+[4.895s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/vehiclestate.hpp
+[4.895s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/auctioninfo.hpp
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/dds_fastrtps
+[4.896s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_cpp.hpp
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.896s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_fastrtps_cpp.hpp
+[4.896s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[4.896s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_fastrtps_cpp.hpp
+[4.896s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.896s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/dds_fastrtps
+[4.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_fastrtps_cpp.hpp
+[4.897s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.897s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.898s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.898s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.898s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.898s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__type_support.c
+[4.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h
+[4.898s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.898s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h
+[4.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__type_support.c
+[4.898s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__type_support.c
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__type_support.c
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_introspection_c.h
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_introspection_c.h
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__type_support.c
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_introspection_c.h
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__type_support.c
+[4.899s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_introspection_c.h
+[4.900s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[4.900s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.900s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[4.901s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[4.901s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces
+[4.901s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv
+[4.901s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail
+[4.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_cpp.hpp
+[4.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/check_name__type_support.cpp
+[4.901s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg
+[4.901s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail
+[4.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__type_support.cpp
+[4.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[4.901s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__type_support.cpp
+[4.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[4.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__rosidl_typesupport_introspection_cpp.hpp
+[4.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/auctioninfo__type_support.cpp
+[4.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__rosidl_typesupport_introspection_cpp.hpp
+[4.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__type_support.cpp
+[4.902s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/vehiclestate__rosidl_typesupport_introspection_cpp.hpp
+[4.903s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tasklist__type_support.cpp
+[4.903s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.903s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.904s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[4.904s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.904s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[4.904s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[4.904s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info
+[4.904s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/SOURCES.txt
+[4.904s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/dependency_links.txt
+[4.905s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/PKG-INFO
+[4.905s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.1.0-py3.10.egg-info/top_level.txt
+[4.905s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces
+[4.905s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[4.905s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.905s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.906s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_check_name.py
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_check_name_s.c
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[4.906s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.907s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg
+[4.907s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vehiclestate_s.c
+[4.907s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_status_s.c
+[4.907s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tasklist.py
+[4.907s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[4.907s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_task.py
+[4.907s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tasklist_s.c
+[4.908s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_status.py
+[4.908s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_auctioninfo_s.c
+[4.908s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vehiclestate.py
+[4.908s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_task_s.c
+[4.908s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_auctioninfo.py
+[4.908s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[4.942s] Listing '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[4.942s] Listing '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_auctioninfo.py'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_status.py'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_task.py'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tasklist.py'...
+[4.942s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_vehiclestate.py'...
+[4.942s] Listing '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[4.943s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py'...
+[4.943s] Compiling '/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_check_name.py'...
+[4.946s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.947s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.947s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.947s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.947s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.948s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.948s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[4.948s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so" to ""
+[4.948s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName.idl
+[4.948s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Status.idl
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Vehiclestate.idl
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Auctioninfo.idl
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Task.idl
+[4.949s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Tasklist.idl
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName.srv
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName_Request.msg
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/srv/CheckName_Response.msg
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Status.msg
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Vehiclestate.msg
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Auctioninfo.msg
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Task.msg
+[4.949s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/msg/Tasklist.msg
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[4.949s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[4.950s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[4.950s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[4.950s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[4.950s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.dsv
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.950s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.951s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[4.952s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/custom_interfaces/share/custom_interfaces/package.xml
+[4.954s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/acbba /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/custom_interfaces

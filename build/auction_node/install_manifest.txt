@@ -1,0 +1,17 @@
+/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node
+/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/package_run_dependencies/auction_node
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/parent_prefix_path/auction_node
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.sh
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.dsv
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.sh
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.dsv
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.bash
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.sh
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.zsh
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.dsv
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.dsv
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/packages/auction_node
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig.cmake
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig-version.cmake
+/home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.xml

@@ -15,6 +15,10 @@
 #include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
+// Include directives for member types
+// Member 'task_list'
+#include "custom_interfaces/msg/detail/task__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__custom_interfaces__msg__Auctioninfo __attribute__((deprecated))
 #else
@@ -39,16 +43,18 @@ struct Auctioninfo_
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->agent_id = 0l;
+      this->timestamp = "";
     }
   }
 
   explicit Auctioninfo_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : timestamp(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
       this->agent_id = 0l;
+      this->timestamp = "";
     }
   }
 
@@ -65,6 +71,12 @@ struct Auctioninfo_
   using _isdone_type =
     std::vector<bool, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<bool>>;
   _isdone_type isdone;
+  using _task_list_type =
+    std::vector<custom_interfaces::msg::Task_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<custom_interfaces::msg::Task_<ContainerAllocator>>>;
+  _task_list_type task_list;
+  using _timestamp_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _timestamp_type timestamp;
 
   // setters for named parameter idiom
   Type & set__agent_id(
@@ -89,6 +101,18 @@ struct Auctioninfo_
     const std::vector<bool, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<bool>> & _arg)
   {
     this->isdone = _arg;
+    return *this;
+  }
+  Type & set__task_list(
+    const std::vector<custom_interfaces::msg::Task_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<custom_interfaces::msg::Task_<ContainerAllocator>>> & _arg)
+  {
+    this->task_list = _arg;
+    return *this;
+  }
+  Type & set__timestamp(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->timestamp = _arg;
     return *this;
   }
 
@@ -144,6 +168,12 @@ struct Auctioninfo_
       return false;
     }
     if (this->isdone != other.isdone) {
+      return false;
+    }
+    if (this->task_list != other.task_list) {
+      return false;
+    }
+    if (this->timestamp != other.timestamp) {
       return false;
     }
     return true;

@@ -44,6 +44,13 @@ inline void to_flow_style_yaml(
       }
       out << "]";
     }
+    out << ", ";
+  }
+
+  // member: timestamp
+  {
+    out << "timestamp: ";
+    rosidl_generator_traits::value_to_yaml(msg.timestamp, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -69,6 +76,16 @@ inline void to_block_style_yaml(
         to_block_style_yaml(item, out, indentation + 2);
       }
     }
+  }
+
+  // member: timestamp
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "timestamp: ";
+    rosidl_generator_traits::value_to_yaml(msg.timestamp, out);
+    out << "\n";
   }
 }  // NOLINT(readability/fn_size)
 

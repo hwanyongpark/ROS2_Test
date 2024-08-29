@@ -250,9 +250,14 @@ CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
   rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
   rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h \
   rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h
 
 CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_status_s.c.o: rosidl_generator_py/custom_interfaces/msg/_status_s.c \
   /usr/include/stdc-predef.h \
@@ -1015,6 +1020,7 @@ CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom
   rosidl_generator_c/custom_interfaces/msg/detail/tasklist__functions.h \
   rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence_functions.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h \
   rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h
 
 CMakeFiles/custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/custom_interfaces/msg/_vehiclestate_s.c.o: rosidl_generator_py/custom_interfaces/msg/_vehiclestate_s.c \
@@ -1538,7 +1544,7 @@ rosidl_generator_c/custom_interfaces/msg/detail/tasklist__struct.h:
 
 rosidl_generator_py/custom_interfaces/msg/_tasklist_s.c:
 
-rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h:
+rosidl_generator_c/custom_interfaces/msg/detail/status__struct.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -1600,10 +1606,6 @@ rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
 /usr/include/linux/limits.h:
 
 /usr/include/python3.10/ceval.h:
@@ -1615,12 +1617,6 @@ rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.
 /usr/include/linux/close_range.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
-
-/usr/include/python3.10/cpython/dictobject.h:
-
-/usr/include/python3.10/numpy/ndarrayobject.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -1730,6 +1726,10 @@ rosidl_generator_py/custom_interfaces/msg/_vehiclestate_s.c:
 
 /usr/include/x86_64-linux-gnu/bits/long-double.h:
 
+rosidl_generator_py/custom_interfaces/msg/_status_s.c:
+
+/usr/include/python3.10/genobject.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/python3.10/cpython/traceback.h:
@@ -1767,6 +1767,12 @@ rosidl_generator_py/custom_interfaces/msg/_auctioninfo_s.c:
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/include/python3.10/namespaceobject.h:
+
+rosidl_generator_py/custom_interfaces/msg/_task_s.c:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
 
@@ -1842,6 +1848,10 @@ rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h:
 
 /usr/include/python3.10/bltinmodule.h:
 
+rosidl_generator_c/custom_interfaces/msg/detail/status__functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
@@ -1894,12 +1904,6 @@ rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h:
 
 /usr/include/python3.10/bytesobject.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
-
-/usr/include/python3.10/cpython/methodobject.h:
-
-/usr/include/python3.10/pylifecycle.h:
-
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/python3.10/unicodeobject.h:
@@ -1933,10 +1937,6 @@ rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h:
 /usr/include/python3.10/cpython/pydebug.h:
 
 /usr/include/python3.10/cpython/fileobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-rosidl_generator_c/custom_interfaces/msg/detail/status__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -2036,12 +2036,6 @@ rosidl_generator_c/custom_interfaces/msg/detail/status__functions.h:
 
 /usr/include/python3.10/fileutils.h:
 
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-rosidl_generator_py/custom_interfaces/msg/_task_s.c:
-
 /usr/include/python3.10/moduleobject.h:
 
 /usr/include/python3.10/numpy/npy_common.h:
@@ -2056,12 +2050,24 @@ rosidl_generator_py/custom_interfaces/msg/_task_s.c:
 
 /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h:
 
+rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h:
+
+/usr/include/python3.10/cpython/dictobject.h:
+
+/usr/include/python3.10/numpy/ndarrayobject.h:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
+
 rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h:
 
-/usr/include/python3.10/genobject.h:
+/usr/include/python3.10/cpython/methodobject.h:
 
-rosidl_generator_py/custom_interfaces/msg/_status_s.c:
+/usr/include/python3.10/pylifecycle.h:
 
-rosidl_generator_c/custom_interfaces/msg/detail/status__struct.h:
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h:
 
-rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h:
+rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h:

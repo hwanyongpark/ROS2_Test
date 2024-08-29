@@ -1,1 +1,2 @@
-/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/multi_agent_comm
+msg/AgentMessage.idl
+msg/AgentMessage.msg

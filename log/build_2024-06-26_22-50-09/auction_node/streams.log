@@ -1,0 +1,30 @@
+[0.115s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/auction_node': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/auction_node -- -j16 -l16
+[0.169s] [ 50%] [32mBuilding CXX object CMakeFiles/task_publisher.dir/src/task_publisher.cpp.o[0m
+[0.169s] [ 50%] [32mBuilding CXX object CMakeFiles/auction_node.dir/src/auction.cpp.o[0m
+[4.357s] [ 75%] [32m[1mLinking CXX executable task_publisher[0m
+[4.607s] [ 75%] Built target task_publisher
+[10.691s] [100%] [32m[1mLinking CXX executable auction_node[0m
+[11.274s] [100%] Built target auction_node
+[11.327s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/auction_node' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/auction_node -- -j16 -l16
+[11.356s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/auction_node': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/auction_node
+[11.362s] -- Install configuration: ""
+[11.362s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node
+[11.370s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node" to ""
+[11.370s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher
+[11.372s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher" to ""
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/package_run_dependencies/auction_node
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/parent_prefix_path/auction_node
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.sh
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.dsv
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.sh
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.dsv
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.bash
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.sh
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.zsh
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.dsv
+[11.372s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.dsv
+[11.372s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/packages/auction_node
+[11.373s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig.cmake
+[11.373s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig-version.cmake
+[11.373s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.xml
+[11.374s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/auction_node' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/auction_node

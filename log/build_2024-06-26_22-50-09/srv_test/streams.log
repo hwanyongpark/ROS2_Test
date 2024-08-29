@@ -1,0 +1,50 @@
+[0.060s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/client_node.dir/src/client_node.cpp.o[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/server_node.dir/src/server_node.cpp.o[0m
+[0.115s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m
+[2.429s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:[m[K In constructor ‘[01m[KClientNode::ClientNode(int, double, double, double)[m[K’:
+[2.429s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:37:20:[m[K [01;35m[Kwarning: [m[K‘[01m[KClientNode::z_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.429s]    37 |     double x_, y_, [01;35m[Kz_[m[K;
+[2.429s]       |                    [01;35m[K^~[m[K
+[2.430s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:35:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool ClientNode::service_ready_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.430s]    35 |     bool [01;35m[Kservice_ready_[m[K;
+[2.430s]       |          [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.430s] [01m[K/home/yong/ws_kari/ROS2_Test/src/srv_test/src/client.cpp:15:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[2.430s]    15 |     [01;35m[KClientNode[m[K(int instance, double x, double y, double z)
+[2.430s]       |     [01;35m[K^~~~~~~~~~[m[K
+[5.095s] [ 62%] [32m[1mLinking CXX executable client[0m
+[5.390s] [ 62%] Built target client
+[8.380s] [ 75%] [32m[1mLinking CXX executable client_node[0m
+[8.424s] [ 87%] [32m[1mLinking CXX executable server[0m
+[8.589s] [100%] [32m[1mLinking CXX executable server_node[0m
+[8.976s] [100%] Built target client_node
+[9.026s] [100%] Built target server
+[9.161s] [100%] Built target server_node
+[9.173s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/srv_test -- -j16 -l16
+[9.207s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/srv_test': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/srv_test
+[9.214s] -- Install configuration: ""
+[9.214s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node
+[9.220s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client_node" to ""
+[9.220s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server_node
+[9.226s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server_node" to ""
+[9.226s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client
+[9.228s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/client" to ""
+[9.228s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server
+[9.234s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/srv_test/lib/srv_test/server" to ""
+[9.234s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/package_run_dependencies/srv_test
+[9.234s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/parent_prefix_path/srv_test
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.sh
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/ament_prefix_path.dsv
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.sh
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/environment/path.dsv
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.bash
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.sh
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.zsh
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/local_setup.dsv
+[9.235s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.dsv
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/ament_index/resource_index/packages/srv_test
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig.cmake
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/cmake/srv_testConfig-version.cmake
+[9.235s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/srv_test/share/srv_test/package.xml
+[9.237s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/srv_test' returned '0': CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/ROS2_Test/install/srv_test:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm:/opt/ros/humble:/home/yong/ws_kari/ROS2_Test/install/auction_node:/home/yong/ws_kari/ROS2_Test/install/acbba LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:/home/yong/ws_kari/ROS2_Test/install/multi_agent_comm/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/srv_test

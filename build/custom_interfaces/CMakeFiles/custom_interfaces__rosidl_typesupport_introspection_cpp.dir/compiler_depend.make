@@ -211,6 +211,8 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_ty
   /usr/include/c++/11/stdexcept \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  rosidl_generator_cpp/custom_interfaces/msg/detail/task__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/field_types.hpp \
   /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h \
   /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/identifier.hpp \
@@ -1321,13 +1323,13 @@ rosidl_typesupport_introspection_cpp/custom_interfaces/srv/detail/check_name__ty
 
 rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/tasklist__type_support.cpp:
 
-rosidl_generator_cpp/custom_interfaces/msg/detail/task__struct.hpp:
-
 rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/status__type_support.cpp:
 
 /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h:
 
 /opt/ros/humble/include/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c/field_types.h:
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/task__struct.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
 

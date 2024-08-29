@@ -1,1 +1,3 @@
-/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Task.msg
+string task_name
+geometry_msgs/Point task_position
+bool task_status

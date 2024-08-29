@@ -189,4 +189,5 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesuppo
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/tasklist__functions.h \
  /usr/include/c++/11/stdlib.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/rosidl_generator_c__visibility_control.h \
- /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

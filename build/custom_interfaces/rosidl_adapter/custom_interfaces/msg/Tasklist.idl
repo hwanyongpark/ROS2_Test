@@ -8,6 +8,8 @@ module custom_interfaces {
   module msg {
     struct Tasklist {
       sequence<custom_interfaces::msg::Task> tasks;
+
+      string timestamp;
     };
   };
 };

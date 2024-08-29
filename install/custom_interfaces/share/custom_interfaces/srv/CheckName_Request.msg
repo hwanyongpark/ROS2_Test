@@ -1,1 +1,1 @@
-/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_cmake/srv/CheckName_Request.msg
+string name

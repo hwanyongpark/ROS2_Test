@@ -253,10 +253,10 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_ge
   rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__functions.h \
   rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__type_support.h \
   rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__struct.h \
-  rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h \
-  rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h \
   rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h \
+  rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h \
   rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h \
   rosidl_generator_c/custom_interfaces/msg/detail/tasklist__type_support.h \
   rosidl_generator_c/custom_interfaces/msg/detail/tasklist__struct.h \
@@ -780,14 +780,14 @@ rosidl_generator_c/custom_interfaces/msg/detail/vehiclestate__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
-rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h:
-
-rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h:
-
 rosidl_generator_c/custom_interfaces/msg/detail/task__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h:
+
+rosidl_generator_c/custom_interfaces/msg/detail/auctioninfo__functions.h:
+
+rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h:
 
 rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h:

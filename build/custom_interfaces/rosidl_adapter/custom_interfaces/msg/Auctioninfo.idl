@@ -2,6 +2,7 @@
 // with input from custom_interfaces/msg/Auctioninfo.msg
 // generated code does not contain a copyright notice
 
+#include "custom_interfaces/msg/Task.idl"
 
 module custom_interfaces {
   module msg {
@@ -13,6 +14,10 @@ module custom_interfaces {
       sequence<int32> bidder;
 
       sequence<boolean> isdone;
+
+      sequence<custom_interfaces::msg::Task> task_list;
+
+      string timestamp;
     };
   };
 };

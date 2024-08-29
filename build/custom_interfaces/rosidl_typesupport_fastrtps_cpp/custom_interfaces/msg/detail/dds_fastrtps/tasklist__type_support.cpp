@@ -66,6 +66,8 @@ cdr_serialize(
         cdr);
     }
   }
+  // Member: timestamp
+  cdr << ros_message.timestamp;
   return true;
 }
 
@@ -86,6 +88,9 @@ cdr_deserialize(
         cdr, ros_message.tasks[i]);
     }
   }
+
+  // Member: timestamp
+  cdr >> ros_message.timestamp;
 
   return true;
 }
@@ -116,6 +121,10 @@ get_serialized_size(
         ros_message.tasks[index], current_alignment);
     }
   }
+  // Member: timestamp
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.timestamp.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -163,6 +172,19 @@ max_serialized_size_Tasklist(
     }
   }
 
+  // Member: timestamp
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -171,7 +193,7 @@ max_serialized_size_Tasklist(
     using DataType = custom_interfaces::msg::Tasklist;
     is_plain =
       (
-      offsetof(DataType, tasks) +
+      offsetof(DataType, timestamp) +
       last_member_size
       ) == ret_val;
   }

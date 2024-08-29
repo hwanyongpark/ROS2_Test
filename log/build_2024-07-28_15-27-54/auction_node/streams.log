@@ -1,0 +1,30 @@
+[0.125s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/auction_node': AMENT_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/auction_node -- -j16 -l16
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target task_publisher[0m
+[0.169s] [35m[1mConsolidate compiler generated dependencies of target auction_node[0m
+[0.193s] [ 75%] [32mBuilding CXX object CMakeFiles/auction_node.dir/src/auction.cpp.o[0m
+[0.193s] [ 75%] Built target task_publisher
+[9.480s] [100%] [32m[1mLinking CXX executable auction_node[0m
+[10.074s] [100%] Built target auction_node
+[10.086s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/auction_node' returned '0': AMENT_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yong/ws_kari/ROS2_Test/build/auction_node -- -j16 -l16
+[10.114s] Invoking command in '/home/yong/ws_kari/ROS2_Test/build/auction_node': AMENT_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/auction_node
+[10.121s] -- Install configuration: ""
+[10.124s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node
+[10.132s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/auction_node" to ""
+[10.133s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher
+[10.135s] -- Set runtime path of "/home/yong/ws_kari/ROS2_Test/install/auction_node/lib/auction_node/task_publisher" to ""
+[10.135s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/package_run_dependencies/auction_node
+[10.135s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/parent_prefix_path/auction_node
+[10.135s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.sh
+[10.135s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/ament_prefix_path.dsv
+[10.135s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.sh
+[10.135s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/environment/path.dsv
+[10.135s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.bash
+[10.135s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.sh
+[10.135s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.zsh
+[10.135s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/local_setup.dsv
+[10.136s] -- Installing: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.dsv
+[10.136s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/ament_index/resource_index/packages/auction_node
+[10.136s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig.cmake
+[10.136s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/cmake/auction_nodeConfig-version.cmake
+[10.136s] -- Up-to-date: /home/yong/ws_kari/ROS2_Test/install/auction_node/share/auction_node/package.xml
+[10.138s] Invoked command in '/home/yong/ws_kari/ROS2_Test/build/auction_node' returned '0': AMENT_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces:/home/yong/ws_kari/install/project_dma_2024:/opt/ros/humble LD_LIBRARY_PATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yong/ws_kari/ROS2_Test/install/custom_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yong/ws_kari/ROS2_Test/build/auction_node

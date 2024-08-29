@@ -1,1 +1,1 @@
-/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm/ament_cmake_environment_hooks/pythonpath.dsv
+prepend-non-duplicate;PYTHONPATH;local/lib/python3.10/dist-packages

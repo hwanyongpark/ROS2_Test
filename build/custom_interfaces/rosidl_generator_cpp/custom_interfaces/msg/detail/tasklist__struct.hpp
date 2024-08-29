@@ -39,25 +39,42 @@ struct Tasklist_
 
   explicit Tasklist_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
   {
-    (void)_init;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->timestamp = "";
+    }
   }
 
   explicit Tasklist_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : timestamp(_alloc)
   {
-    (void)_init;
-    (void)_alloc;
+    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
+      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
+    {
+      this->timestamp = "";
+    }
   }
 
   // field types and members
   using _tasks_type =
     std::vector<custom_interfaces::msg::Task_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<custom_interfaces::msg::Task_<ContainerAllocator>>>;
   _tasks_type tasks;
+  using _timestamp_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _timestamp_type timestamp;
 
   // setters for named parameter idiom
   Type & set__tasks(
     const std::vector<custom_interfaces::msg::Task_<ContainerAllocator>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<custom_interfaces::msg::Task_<ContainerAllocator>>> & _arg)
   {
     this->tasks = _arg;
+    return *this;
+  }
+  Type & set__timestamp(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->timestamp = _arg;
     return *this;
   }
 
@@ -104,6 +121,9 @@ struct Tasklist_
   bool operator==(const Tasklist_ & other) const
   {
     if (this->tasks != other.tasks) {
+      return false;
+    }
+    if (this->timestamp != other.timestamp) {
       return false;
     }
     return true;

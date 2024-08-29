@@ -64,4 +64,5 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_type
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/task.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__functions.h \
  /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_generator_c/custom_interfaces/msg/detail/task__type_support.h \
- /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h
+ /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/task__rosidl_typesupport_introspection_c.h \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

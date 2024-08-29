@@ -1,6 +1,7 @@
 /home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/uninstall.dir
 /home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/auction_node_uninstall.dir
 /home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/auction_node.dir
+/home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/task_publisher.dir
 /home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/test.dir
 /home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/edit_cache.dir
 /home/yong/ws_kari/ROS2_Test/build/auction_node/CMakeFiles/rebuild_cache.dir

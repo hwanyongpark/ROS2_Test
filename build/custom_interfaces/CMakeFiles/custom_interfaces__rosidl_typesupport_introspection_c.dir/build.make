@@ -142,6 +142,8 @@ rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__rosi
 rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
 rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
 rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_name__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yong/ws_kari/ROS2_Test/build/custom_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/yong/ws_kari/ROS2_Test/build/custom_interfaces/rosidl_typesupport_introspection_c__arguments.json
 
@@ -284,10 +286,10 @@ libcustom_interfaces__rosidl_typesupport_introspection_c.so: CMakeFiles/custom_i
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: libcustom_interfaces__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
-libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libcustom_interfaces__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so

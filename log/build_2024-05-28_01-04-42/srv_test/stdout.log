@@ -1,5 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target server[0m
-[ 75%] Built target client_node
-[ 75%] Built target server_node
-[ 75%] Built target client
-[ 87%] [32mBuilding CXX object CMakeFiles/server.dir/src/server.cpp.o[0m

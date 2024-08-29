@@ -1,1 +1,4 @@
-/home/yong/ws_kari/ROS2_Test/build/multi_agent_comm/ament_cmake_environment_hooks/local_setup.dsv
+source;share/multi_agent_comm/environment/ament_prefix_path.sh
+source;share/multi_agent_comm/environment/library_path.sh
+source;share/multi_agent_comm/environment/path.sh
+source;share/multi_agent_comm/environment/pythonpath.sh

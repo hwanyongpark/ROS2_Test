@@ -210,6 +210,19 @@ auction_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auction_node.dir/build.make CMakeFiles/auction_node.dir/build
 .PHONY : auction_node/fast
 
+#=============================================================================
+# Target rules for targets named task_publisher
+
+# Build rule for target.
+task_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 task_publisher
+.PHONY : task_publisher
+
+# fast build rule for target.
+task_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_publisher.dir/build.make CMakeFiles/task_publisher.dir/build
+.PHONY : task_publisher/fast
+
 src/auction.o: src/auction.cpp.o
 .PHONY : src/auction.o
 
@@ -234,6 +247,30 @@ src/auction.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auction_node.dir/build.make CMakeFiles/auction_node.dir/src/auction.cpp.s
 .PHONY : src/auction.cpp.s
 
+src/task_publisher.o: src/task_publisher.cpp.o
+.PHONY : src/task_publisher.o
+
+# target to build an object file
+src/task_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_publisher.dir/build.make CMakeFiles/task_publisher.dir/src/task_publisher.cpp.o
+.PHONY : src/task_publisher.cpp.o
+
+src/task_publisher.i: src/task_publisher.cpp.i
+.PHONY : src/task_publisher.i
+
+# target to preprocess a source file
+src/task_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_publisher.dir/build.make CMakeFiles/task_publisher.dir/src/task_publisher.cpp.i
+.PHONY : src/task_publisher.cpp.i
+
+src/task_publisher.s: src/task_publisher.cpp.s
+.PHONY : src/task_publisher.s
+
+# target to generate assembly for a file
+src/task_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_publisher.dir/build.make CMakeFiles/task_publisher.dir/src/task_publisher.cpp.s
+.PHONY : src/task_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... auction_node_uninstall"
 	@echo "... uninstall"
 	@echo "... auction_node"
+	@echo "... task_publisher"
 	@echo "... src/auction.o"
 	@echo "... src/auction.i"
 	@echo "... src/auction.s"
+	@echo "... src/task_publisher.o"
+	@echo "... src/task_publisher.i"
+	@echo "... src/task_publisher.s"
 .PHONY : help
 
 

@@ -1,1 +1,3 @@
-/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/srv/CheckName.srv
+string name
+---
+string response

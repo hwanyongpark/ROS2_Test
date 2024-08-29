@@ -1,1 +1,23 @@
-/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/package.xml
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_interfaces</name>
+  <version>0.1.0</version>
+  <description>A package for custom ROS 2 interfaces</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rosidl_default_generators</depend>
+  <depend>geometry_msgs</depend>
+  <build_depend>rosidl_default_runtime</build_depend>
+  <build_depend>builtin_interfaces</build_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>builtin_interfaces</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+    
+  </export>
+</package>

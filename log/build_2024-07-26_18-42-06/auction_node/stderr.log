@@ -1,0 +1,20 @@
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:[m[K In constructor ‘[01m[KAuction::Auction(int, geometry_msgs::msg::Point)[m[K’:
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_task_list_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktask_list_[m[K’?
+   25 |         [01;31m[Ksub_task_list_[m[K = this->create_subscription<Tasklist>("task_list", 10, std::bind(&Auction::task_list_callback, this, std::placeholders::_1));
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Ktask_list_[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:25:99:[m[K [01;31m[Kerror: [m[K‘[01m[Ktask_list_callback[m[K’ is not a member of ‘[01m[KAuction[m[K’
+   25 | "task_list", 10, std::bind(&Auction::[01;31m[Ktask_list_callback[m[K, this, std::placeholders::_1));
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:[m[K In member function ‘[01m[Kvoid Auction::update()[m[K’:
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:61:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct custom_interfaces::msg::Auctioninfo_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct custom_interfaces::msg::Auctioninfo_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktasks[m[K’
+   61 |             task_list_ = msg->[01;31m[Ktasks[m[K;
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:[m[K In member function ‘[01m[Kvoid Auction::broadcast()[m[K’:
+[01m[K/home/yong/ws_kari/ROS2_Test/src/auction/src/auction.cpp:164:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct custom_interfaces::msg::Auctioninfo_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktasks[m[K’
+  164 |         msg.[01;31m[Ktasks[m[K = task_list_;
+      |             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/auction_node.dir/build.make:76: CMakeFiles/auction_node.dir/src/auction.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/auction_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

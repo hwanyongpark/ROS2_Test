@@ -16,6 +16,30 @@
 
 
 // forward declaration of message dependencies and their conversion functions
+namespace custom_interfaces
+{
+namespace msg
+{
+namespace typesupport_fastrtps_cpp
+{
+bool cdr_serialize(
+  const custom_interfaces::msg::Task &,
+  eprosima::fastcdr::Cdr &);
+bool cdr_deserialize(
+  eprosima::fastcdr::Cdr &,
+  custom_interfaces::msg::Task &);
+size_t get_serialized_size(
+  const custom_interfaces::msg::Task &,
+  size_t current_alignment);
+size_t
+max_serialized_size_Task(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+}  // namespace typesupport_fastrtps_cpp
+}  // namespace msg
+}  // namespace custom_interfaces
+
 
 namespace custom_interfaces
 {
@@ -46,6 +70,18 @@ cdr_serialize(
   {
     cdr << ros_message.isdone;
   }
+  // Member: task_list
+  {
+    size_t size = ros_message.task_list.size();
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; i++) {
+      custom_interfaces::msg::typesupport_fastrtps_cpp::cdr_serialize(
+        ros_message.task_list[i],
+        cdr);
+    }
+  }
+  // Member: timestamp
+  cdr << ros_message.timestamp;
   return true;
 }
 
@@ -72,6 +108,21 @@ cdr_deserialize(
   {
     cdr >> ros_message.isdone;
   }
+
+  // Member: task_list
+  {
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+    ros_message.task_list.resize(size);
+    for (size_t i = 0; i < size; i++) {
+      custom_interfaces::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+        cdr, ros_message.task_list[i]);
+    }
+  }
+
+  // Member: timestamp
+  cdr >> ros_message.timestamp;
 
   return true;
 }
@@ -125,6 +176,23 @@ get_serialized_size(
     current_alignment += array_size * item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: task_list
+  {
+    size_t array_size = ros_message.task_list.size();
+
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment +=
+        custom_interfaces::msg::typesupport_fastrtps_cpp::get_serialized_size(
+        ros_message.task_list[index], current_alignment);
+    }
+  }
+  // Member: timestamp
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.timestamp.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -196,6 +264,42 @@ max_serialized_size_Auctioninfo(
     current_alignment += array_size * sizeof(uint8_t);
   }
 
+  // Member: task_list
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        custom_interfaces::msg::typesupport_fastrtps_cpp::max_serialized_size_Task(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: timestamp
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -204,7 +308,7 @@ max_serialized_size_Auctioninfo(
     using DataType = custom_interfaces::msg::Auctioninfo;
     is_plain =
       (
-      offsetof(DataType, isdone) +
+      offsetof(DataType, timestamp) +
       last_member_size
       ) == ret_val;
   }

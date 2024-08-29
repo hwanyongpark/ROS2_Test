@@ -1,9 +1,0 @@
-[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
-  rosidl_generate_interfaces() the passed file 'msg/Vehiclestate.msg' doesn't
-  exist relative to the CMAKE_CURRENT_SOURCE_DIR
-  '/home/yong/ws_kari/ROS2_Test/src/custom_interfaces'
-Call Stack (most recent call first):
-  CMakeLists.txt:17 (rosidl_generate_interfaces)
-
-[0m
-gmake: *** [Makefile:963: cmake_check_build_system] Error 1

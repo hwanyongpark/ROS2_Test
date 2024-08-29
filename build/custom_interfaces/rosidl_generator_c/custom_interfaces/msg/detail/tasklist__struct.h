@@ -20,11 +20,14 @@ extern "C"
 // Include directives for member types
 // Member 'tasks'
 #include "custom_interfaces/msg/detail/task__struct.h"
+// Member 'timestamp'
+#include "rosidl_runtime_c/string.h"
 
 /// Struct defined in msg/Tasklist in the package custom_interfaces.
 typedef struct custom_interfaces__msg__Tasklist
 {
   custom_interfaces__msg__Task__Sequence tasks;
+  rosidl_runtime_c__String timestamp;
 } custom_interfaces__msg__Tasklist;
 
 // Struct for a sequence of custom_interfaces__msg__Tasklist.

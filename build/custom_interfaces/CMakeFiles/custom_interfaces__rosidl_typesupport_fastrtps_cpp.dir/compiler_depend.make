@@ -196,6 +196,8 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesup
   /usr/include/c++/11/stdexcept \
   /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  rosidl_generator_cpp/custom_interfaces/msg/detail/task__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/fastcdr/fastcdr/Cdr.h \
   /opt/ros/humble/include/fastcdr/fastcdr/fastcdr_dll.h \
   /opt/ros/humble/include/fastcdr/fastcdr/config.h \
@@ -2017,6 +2019,10 @@ rosidl_generator_cpp/custom_interfaces/msg/detail/tasklist__struct.hpp:
 
 rosidl_typesupport_fastrtps_cpp/custom_interfaces/srv/detail/check_name__rosidl_typesupport_fastrtps_cpp.hpp:
 
+rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__struct.hpp:
+
+rosidl_generator_cpp/custom_interfaces/msg/detail/task__struct.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /opt/ros/humble/include/fastcdr/fastcdr/fastcdr_dll.h:
@@ -2106,10 +2112,6 @@ rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/status
 /usr/include/c++/11/bits/concept_check.h:
 
 rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp:
-
-rosidl_generator_cpp/custom_interfaces/msg/detail/vehiclestate__struct.hpp:
-
-rosidl_generator_cpp/custom_interfaces/msg/detail/task__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 

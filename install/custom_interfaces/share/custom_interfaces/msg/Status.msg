@@ -1,1 +1,1 @@
-/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Status.msg
+int64 num

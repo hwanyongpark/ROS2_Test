@@ -35,7 +35,7 @@ AMENT_CMAKE_UNINSTALL_TARGET:BOOL=ON
 AMENT_TEST_RESULTS_DIR:PATH=/home/yong/ws_kari/ROS2_Test/build/auction_node/test_results
 
 //Build the testing tree.
-BUILD_TESTING:BOOL=ON
+BUILD_TESTING:BOOL=OFF
 
 //No help, variable specified on the command line.
 CATKIN_INSTALL_INTO_PREFIX_ROOT:UNINITIALIZED=0
@@ -264,9 +264,6 @@ PKG_CONFIG_ARGN:STRING=
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
-
-//Name of the computer/site where compile is being run
-SITE:STRING=yong-desktop
 
 //The directory containing a CMake configuration file for TinyXML2.
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND

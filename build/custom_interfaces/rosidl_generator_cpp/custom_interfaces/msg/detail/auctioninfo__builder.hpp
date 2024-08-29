@@ -21,16 +21,48 @@ namespace msg
 namespace builder
 {
 
+class Init_Auctioninfo_timestamp
+{
+public:
+  explicit Init_Auctioninfo_timestamp(::custom_interfaces::msg::Auctioninfo & msg)
+  : msg_(msg)
+  {}
+  ::custom_interfaces::msg::Auctioninfo timestamp(::custom_interfaces::msg::Auctioninfo::_timestamp_type arg)
+  {
+    msg_.timestamp = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::custom_interfaces::msg::Auctioninfo msg_;
+};
+
+class Init_Auctioninfo_task_list
+{
+public:
+  explicit Init_Auctioninfo_task_list(::custom_interfaces::msg::Auctioninfo & msg)
+  : msg_(msg)
+  {}
+  Init_Auctioninfo_timestamp task_list(::custom_interfaces::msg::Auctioninfo::_task_list_type arg)
+  {
+    msg_.task_list = std::move(arg);
+    return Init_Auctioninfo_timestamp(msg_);
+  }
+
+private:
+  ::custom_interfaces::msg::Auctioninfo msg_;
+};
+
 class Init_Auctioninfo_isdone
 {
 public:
   explicit Init_Auctioninfo_isdone(::custom_interfaces::msg::Auctioninfo & msg)
   : msg_(msg)
   {}
-  ::custom_interfaces::msg::Auctioninfo isdone(::custom_interfaces::msg::Auctioninfo::_isdone_type arg)
+  Init_Auctioninfo_task_list isdone(::custom_interfaces::msg::Auctioninfo::_isdone_type arg)
   {
     msg_.isdone = std::move(arg);
-    return std::move(msg_);
+    return Init_Auctioninfo_task_list(msg_);
   }
 
 private:

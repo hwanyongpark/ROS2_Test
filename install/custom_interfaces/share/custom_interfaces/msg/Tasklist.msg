@@ -1,1 +1,2 @@
-/home/yong/ws_kari/ROS2_Test/src/custom_interfaces/msg/Tasklist.msg
+custom_interfaces/Task[] tasks
+string timestamp

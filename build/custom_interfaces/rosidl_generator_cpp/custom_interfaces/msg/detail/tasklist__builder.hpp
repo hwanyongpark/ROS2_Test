@@ -21,16 +21,32 @@ namespace msg
 namespace builder
 {
 
+class Init_Tasklist_timestamp
+{
+public:
+  explicit Init_Tasklist_timestamp(::custom_interfaces::msg::Tasklist & msg)
+  : msg_(msg)
+  {}
+  ::custom_interfaces::msg::Tasklist timestamp(::custom_interfaces::msg::Tasklist::_timestamp_type arg)
+  {
+    msg_.timestamp = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::custom_interfaces::msg::Tasklist msg_;
+};
+
 class Init_Tasklist_tasks
 {
 public:
   Init_Tasklist_tasks()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::custom_interfaces::msg::Tasklist tasks(::custom_interfaces::msg::Tasklist::_tasks_type arg)
+  Init_Tasklist_timestamp tasks(::custom_interfaces::msg::Tasklist::_tasks_type arg)
   {
     msg_.tasks = std::move(arg);
-    return std::move(msg_);
+    return Init_Tasklist_timestamp(msg_);
   }
 
 private:
