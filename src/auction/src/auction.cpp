@@ -23,7 +23,8 @@ public:
         pub_auction_ = this->create_publisher<Auctioninfo>("auction_info", 10);
         sub_auction_ = this->create_subscription<Auctioninfo>("auction_info", 10, std::bind(&Auction::auction_callback, this, std::placeholders::_1));
         sub_task_list_ = this->create_subscription<Tasklist>("task_list", 10, std::bind(&Auction::task_list_callback, this, std::placeholders::_1));
-        
+        sub_UV_State_ = this->create_subscription<UVState>("UV_State", 10, std::bind(&Auction::uv_state_callback, this, std::placeholders::_1));
+
         init_assignments();
 
         timer_ = this->create_wall_timer(
@@ -38,7 +39,8 @@ public:
         }
 
         auto price_previous = price_;
-
+        int alpha_ = 0;
+        
         // 외부 업데이트 (상호작용)
         for (const auto& msg : received_msgs_) {
             int msg_size = msg->price.size();
@@ -70,41 +72,34 @@ public:
                 price_[i] = 0;
                 bidder_[i] = -1;  // 완료
                 
-            } else if (bidder_[i] == agent_id_ && path_ != i) {
+            } else if (bidder_[i] == agent_id_ && alpha_ != i) {
                 bidder_[i] = 0;
             }
         }
         if (all_of(isdone_.begin(), isdone_.end(), [](bool v) { return v; })) {
-            path_ = -1;
+            alpha_ = -1;
         }
 
         // 모든 작업에 대한 가격 값을 계산하여 reward에 반영
-        for (int j = 0; j < m; ++j) {
-            if (!isdone_[j]) {
-                price_[j] = -calculate_distance(task_list_[j].task_position);
-            }
+        benefit = vector<double>(m,0.0);
+        for (int j = 0; j < m; ++j){
+            benefit[j] = reward();
         }
 
-        // 단계 2: vi 및 wi 계산
-        vector<double> vi(m, -INF);
-        vector<double> wi(m, -INF);
-        for (int j = 0; j < m; ++j) {
-            double net_value = price_[j];
-            if (net_value > vi[j]) {
-                vi[j] = net_value;
-            }
-            for (int k = 0; k < m; ++k) {
-                if (k != j && net_value > wi[j]) {
-                    wi[j] = net_value;
-                }
-            }
+        net_value = vector<double>(m,0.0);
+        for (int j = 0; j < m; ++j){
+            net_value[j] = benefit[j] - price_[j];
         }
+        // 최댓값의 반복자 찾기
+        double v = std::max_element(net_value.begin(), net_value.end());
 
-        // 단계 3: gamma 계산
-        vector<double> gamma(m, 0.0);
-        for (int j = 0; j < m; ++j) {
-            gamma[j] = vi[j] - wi[j] + EPSILON;
-        }
+        // 최댓값의 인덱스 계산
+        alpha_ = std::distance(net_value.begin(), v);
+        
+        net_value.erase(net_value.begin()+alpha_);
+        w =  std::max_element(net_value.begin(), net_value.end());
+        
+        double gamma = v - w + EPSILON;
 
         // 단계 4: 할당 업데이트 조건 확인
         for (int j = 0; j < m; ++j) {
@@ -136,14 +131,18 @@ public:
         task_list_ = msg->tasks;
     }
 
+    void uv_state_callback(const UVState::SharedPtr msg) {
+        uv_state_ = msg.battery;
+    }
+
 private:
     void init_assignments() {
         int m = task_list_.size();
         price_ = vector<float>(m, 0.0f);
         bidder_ = vector<int>(m, -1);
         isdone_ = vector<bool>(m, false);
-        path_ = -1;
-
+        alpha_ = 0;
+        
         for (int j = 0; j < m; ++j) {
             if (!task_list_[j].task_status) {
                 price_[j] = -calculate_distance(task_list_[j].task_position);
